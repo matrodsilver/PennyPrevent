@@ -1,0 +1,6 @@
+Códs. IA Ref.
+
+DL BitchCoin (optimização tenébria): https://colab.research.google.com/drive/1wWC-fO3HVOMH3-UHpifavc8bCtzP3Y5M?usp=drive_open
+Curso dados: https://colab.research.google.com/drive/19-27-fWfKofQicR3OKB5d9UCR6zYQXDX
+Curso ML: https://colab.research.google.com/drive/10dtlPzNI6QcBGqnV-NIpwv5aVhG_GSYF
+Curso DL: https://colab.research.google.com/drive/1nvUxtmMgfhqoGgU2UBzmTVxUK1_B4WHp?usp=drive_open
