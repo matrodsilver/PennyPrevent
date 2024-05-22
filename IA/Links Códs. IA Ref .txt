@@ -1,6 +1,6 @@
 Códigos de IA desenvolvidos.
 
-DL Sensoriamento dados poseidon https://colab.research.google.com/drive/1HWflE9BZzIpapgP2--twCMPz0A_geABv#scrollTo=zcNX49IxZ4tw&uniqifier=2
+DL Sensoriamento dados poseidon: https://colab.research.google.com/drive/1HWflE9BZzIpapgP2--twCMPz0A_geABv#scrollTo=q8z6Kkb36TNA&uniqifier=1
 DL BitchCoin (optimização tenébria): https://colab.research.google.com/drive/1wWC-fO3HVOMH3-UHpifavc8bCtzP3Y5M?usp=drive_open
 Curso dados: https://colab.research.google.com/drive/19-27-fWfKofQicR3OKB5d9UCR6zYQXDX
 Curso ML: https://colab.research.google.com/drive/10dtlPzNI6QcBGqnV-NIpwv5aVhG_GSYF
