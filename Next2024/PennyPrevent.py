@@ -1,3 +1,8 @@
+'''
+link do colab:
+https://colab.research.google.com/drive/1HWflE9BZzIpapgP2--twCMPz0A_geABv#scrollTo=q8z6Kkb36TNA&uniqifier=1
+'''
+
 # import streamlit as sl
 
 import streamlit as sl
