@@ -1,15 +1,39 @@
 import streamlit as sl
-
 import tensorflow
 # from tensorflow import keras #? dando erro ao chamar dessa forma (?)
 import keras
-
 import pandas as pd # **Biblioteca para tratar dados**
 
 
 # **Verificar dados**
-caminho_do_arquivo = r".\Next2024\poseidonTratado.csv" # mudar caminho do arquivo
-dados = pd.read_csv(caminho_do_arquivo)
+# caminho_do_arquivo = r".\Next2024\poseidonTratado.csv" # mudar caminho do arquivo
+
+
+# choose file
+if sl.button('Escolher arquivo'):
+  from tkinter import Tk, filedialog
+
+  root = Tk()
+  root.title('Escolha o arquivo')
+
+  caminho_do_arquivo = filedialog.askopenfilename(initialdir='/', title='Selecione o arquivo', filetypes=(('todos os arquivos', '*.*'),))
+
+else:
+  caminho_do_arquivo = r".\Next2024\poseidonTratado.csv"
+  "Rodando arquivo de exemplo (default)"
+
+# json
+if caminho_do_arquivo.split('.')[-1] == 'json':
+  print('json')
+  dados = pd.read_json(caminho_do_arquivo)
+  
+# csv
+else:
+  print('csv')
+  
+  dados = pd.read_csv(caminho_do_arquivo)
+
+
 'Variáveis'
 'Nível de Água:'
 sl.line_chart(dados['nivel_de_agua'])
@@ -312,72 +336,93 @@ if etapa == 3:
     except:
       'digite valores coerentes de teste para cada coluna, separados por ´,´'
 
-  # # ** Notificar usuários em tempo real em caso de problema **
-  # 'pb não importado'
-  # from pushbullet import Pushbullet
-  # 'pb importado'
-  # import pywhatkit as wp
-  # from time import sleep as delay
-  # import requests
+  # ** Notificar usuários em tempo real em caso de problema **
+  # from pushbullet import Pushbullet #? problema pra rodar pushbullet no script com streamlit
+  import pywhatkit as wp
+  from time import sleep as delay
+  import requests
 
-  # def pegarUltimosDados():
-  #   urlTSultimoResultado = f'https://api.thingspeak.com/channels/2127654/feeds.json?api_key=MZB0IDFGQR9AQVBW&results=1'
+  def pegarUltimosDados():
+    urlTSultimoResultado = f'https://api.thingspeak.com/channels/2127654/feeds.json?api_key=MZB0IDFGQR9AQVBW&results=1'
 
-  #   resposta = requests.get(urlTSultimoResultado)
+    resposta = requests.get(urlTSultimoResultado)
 
-  #   if resposta.status_code == 200:
-  #     return resposta.json()
-  #   else:
-  #     f'Erro na requisição'
-  #     return {}
+    if resposta.status_code == 200:
+      return resposta.json()
+    else:
+      f'Erro na requisição'
+      return {}
     
-  # def avisar():
-  #   # esta função retorna o valor mais atual do banco de dados
-  #   ultDados = pegarUltimosDados()['feeds'][0]
+  def avisar():
+    # esta função retorna o valor mais atual do banco de dados
+    ultDados = pegarUltimosDados()['feeds'][0]
 
-  #   # normalização  debug: Tornar dinâmico (com drop de dados etc.)
-  #   dados_prever = [ultDados['field1'], ultDados['field2'], ultDados['field3'], ultDados['field4']]
-  #   dados_prever = [float(v) for v in dados_prever]
+    # normalização  debug: Tornar dinâmico (com drop de dados etc.)
+    dados_prever = [ultDados['field1'], ultDados['field2'], ultDados['field3'], ultDados['field4']]
+    dados_prever = [float(v) for v in dados_prever]
 
-  #   f'{dados_prever}' # debug (retirar no final)
+    f'{dados_prever}' # debug (retirar no final)
 
-  #   for i, coluna in enumerate(inputDados):
-  #     dados_prever[i] = dados_prever[i]/(maximos[i] - minimos[i])
+    for i, coluna in enumerate(inputDados):
+      dados_prever[i] = dados_prever[i]/(maximos[i] - minimos[i])
 
-  #   f'{dados_prever}' # debug (retirar no final)
+    f'{dados_prever}' # debug (retirar no final)
 
-  #   dado_prever = np.array(dados_prever)  # Replace with your some value
-  #   dado_reshape = np.expand_dims(dado_prever, axis=0)  # Add a batch dimension
+    dado_prever = np.array(dados_prever)  # Replace with your some value
+    dado_reshape = np.expand_dims(dado_prever, axis=0)  # Add a batch dimension
 
-  #   predito = modelo.predict(dado_reshape)
+    predito = modelo.predict(dado_reshape)
 
-  #   dados_classe_predita = argmax(predito[0])  # Assuming categorical output #
+    dados_classe_predita = argmax(predito[0])  # Assuming categorical output #
     
-  #   predicao_atual = list(outputStr2Int.keys())[dados_classe_predita]
+    predicao_atual = list(outputStr2Int.keys())[dados_classe_predita]
 
-  #   f"Predição em tempo real: '{predicao_atual}'" # se 2 valores do dicionário são iguais, mostra o primeiro
+    f"Predição em tempo real: '{predicao_atual}'" # se 2 valores do dicionário são iguais, mostra o primeiro
 
 
-  #   # if volume < 30: # 30000:
-  #   if predicao_atual in ['disfuncional', 'problema encontrado']:
-  #     pb_usuarios = ['o.9CYuBlpove3ErChfkLDjcmkNcjquJ1oz']
-  #     wp_usuarios = ['+5511996568160']
+    # if volume < 30: # 30000:
+    
+    # #* Pegar dados do output
+    # for coluna in dados:
+    #   exibir = ''
+    #   vars = []
+
+    #   for var in dados[coluna]:
+    #     if var not in vars:
+    #       vars.append(var)
+
+    #   exibir += f'{coluna}: {len(vars)} variáveis '
       
-  #     # titulo, mensagem = '⚠️Aviso⚠️', f'⚠ O sistema【𝟭】atingiu o limite de volume ⚠\nAtualmente em: {57- volume} cm'
-  #     titulo, mensagem = '⚠️Aviso⚠️', f'Foi previsto que o sistema 【𝟭】 está {predicao_atual}'
+    #   if len(vars) < 11:
+    #     exibir += f'{vars}'
 
-  #     for usuario in pb_usuarios:
-  #       pbt = Pushbullet(usuario)
-  #       pbt.push_note(titulo, mensagem)
+    # f'{exibir}'
+    
+    
+    if predicao_atual in ['placeHolder']:#['disfuncional', 'problema encontrado']:
+      pb_usuarios = ['o.9CYuBlpove3ErChfkLDjcmkNcjquJ1oz']
+      wp_usuarios = ['+5511996568160']
       
-  #     for usuario in wp_usuarios:
-  #       wp.sendwhatmsg_instantly(usuario, titulo+'\n'+mensagem, 15) #True, 15) #type: ignore
+      # titulo, mensagem = '⚠️Aviso⚠️', f'⚠ O sistema【𝟭】atingiu o limite de volume ⚠\nAtualmente em: {57- volume} cm'
+      titulo, mensagem = '⚠️Aviso⚠️', f'Foi previsto que o sistema 【𝟭】 está {predicao_atual}'
+
+      for usuario in pb_usuarios:
+        # pbt = Pushbullet(usuario)
+        # pbt.push_note(titulo, mensagem)
+        pass
+      
+      for usuario in wp_usuarios:
+        wp.sendwhatmsg_instantly(usuario, titulo+'\n'+mensagem, 15) #True, 15) #type: ignore
 
 
-  # while True:
-  #   avisar()
+  with open('relat.txt', 'w') as modelo_config:
+    modelo_config.write(f'{maximos},{minimos}')
 
-  #   delay(16)
+
+  while True:
+    avisar()
+
+    delay(16)
 
 # '\nAnálise do chatbot'
 # import openai
