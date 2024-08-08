@@ -1,6 +1,6 @@
 #include <arduino.h>
 #include <WiFi.h>
-#include <Firebase_ESP_Client.h>
+#include <FirebaseESP32.h>
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
 
@@ -13,6 +13,7 @@
   FirebaseData dados;
   FirebaseConfig config;
   FirebaseAuth auth;
+  String basePath = "/Dados2";
 
 //* variáveis para uso do sensor de temperatura
   const byte sensorTemperatura = A0;
@@ -30,7 +31,7 @@
   byte mudarVibracao;
 
 //* variáveis para inicialização
-  const byte in = {sensorTemperatura, sensorInfra, sensorVibracao};
+  const byte in[] = {sensorTemperatura, sensorInfra, sensorVibracao};
   const byte qntIn = 3;
 
 
@@ -55,7 +56,7 @@ void loop()
   if (Firebase.ready())
   {
     //# Temperatura
-    if (Firebase.RTDB.setFloat(&dados, "/Dados2/Temperatura", graus))
+    if (Firebase.setFloat(dados, basePath+"/Temperatura", graus))
     {
       Serial.println("Temperatura enviada");
       Serial.println(dados.dataPath());
@@ -67,7 +68,13 @@ void loop()
     }
 
     //# Infravermelho
-    if (Firebase.RTDB.setBool(&dados, "/Dados2/Infravermelho", valorInfra))
+    // if (Firebase.setBool(dados, basePath+"/Infravermelho", valorInfra))
+    #pragma GCC diagnostic push
+    #pragma GCC diagnostic ignored "-Wsome-warning"
+
+    if (Firebase.setBool(dados, basePath+ "/Infravermelho", valorInfra))
+
+    #pragma GCC diagnostic pop
     {
       Serial.println("Infravermelho enviado");
       Serial.println(dados.dataPath());
@@ -79,7 +86,7 @@ void loop()
     }
 
     //# Vibração
-    if (Firebase.RTDB.setBool(&dados, "/Dados2/Vibração", valorVibracao))
+    if (Firebase.setBool(dados, basePath+"/Vibracao", valorVibracao))
     {
       Serial.println("Vibração enviado");
       Serial.println(dados.dataPath());
@@ -91,6 +98,7 @@ void loop()
     }
   }
 
+  Serial.println("Iteração concluída");
   delay(500);
 }
 
@@ -120,8 +128,9 @@ void iniciar()
     delay(1000);
 
     // conexão firebase //
-    config.api_key = apiKey;
     config.database_url = url;
+    config.api_key = apiKey;
+    // config.signer.tokens.legacy_token = "<database secret>";
 
     if (Firebase.signUp(&config, &auth, "", ""))
     {
@@ -147,7 +156,7 @@ void temperatura()
 
 void infra()
 {
-  valorInfra = true;//digitalRead(sensorInfra);
+  valorInfra = 1;//digitalRead(sensorInfra);
 
   //. Serial.print("Infra: " + String(valorInfra));
 }
