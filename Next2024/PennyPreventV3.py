@@ -1,5 +1,5 @@
 import streamlit as sl
-import tensorflow
+#import tensorflow
 # from tensorflow import keras #? dando erro ao chamar dessa forma (?)
 import keras
 import pandas as pd # **Biblioteca para tratar dados**
