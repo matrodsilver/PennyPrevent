@@ -1,4 +1,5 @@
 import streamlit as sl
+import tensorflow
 from tensorflow import keras
 import pandas as pd # **Biblioteca para tratar dados**
 
