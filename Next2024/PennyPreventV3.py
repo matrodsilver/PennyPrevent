@@ -1,7 +1,5 @@
 import streamlit as sl
-#import tensorflow
-# from tensorflow import keras #? dando erro ao chamar dessa forma (?)
-import keras
+from tensorflow import keras
 import pandas as pd # **Biblioteca para tratar dados**
 
 
@@ -262,7 +260,7 @@ if etapa == 3:
     if estado_predito != estado_real:
       erros += 1
 
-  f'Acertos do modelo = {100 - erros/100}%'
+  f'Acertos do modelo = {100 - erros/len(guesses)*100}%'
 
 
   # **Testar modelo**
