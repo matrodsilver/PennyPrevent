@@ -1,5 +1,6 @@
 import streamlit as sl
 import tensorflow
+# from tensorflow import keras #? dando erro ao chamar dessa forma (?)
 import keras
 import pandas as pd # **Biblioteca para tratar dados**
 
@@ -18,7 +19,7 @@ if sl.button('Escolher arquivo'):
   caminho_do_arquivo = filedialog.askopenfilename(initialdir='/', title='Selecione o arquivo', filetypes=(('todos os arquivos', '*.*'),))
 
 else:
-  caminho_do_arquivo = r"/poseidonTratado_CSV.csv"
+  caminho_do_arquivo = r".\poseidonTratado.csv"
   "Rodando arquivo de exemplo (default)"
 
 # json
@@ -32,21 +33,21 @@ else:
   
   dados = pd.read_csv(caminho_do_arquivo)
 
-## TORNAR DINÂMICO, SÓ FUNCIONA COM O ARQUIVO EM QUESTÃO
-'Variáveis'
-'Nível de Água:'
-sl.line_chart(dados['nivel_de_agua'])
-'Distância:'
-sl.line_chart(dados['ultrassom'])
-'Infravermelho:'
-sl.line_chart(dados['infravermelho'])
-'Infravermelho2:'
-sl.line_chart(dados['infravermelho2'])
+'Current Columns'
+for dado in dados.columns:
+  f'{dado}'
+  
+  try:
+    dadosGraf = [float(valor) for valor in dados[dado]]
+    sl.line_chart(dadosGraf)
+  except:
+    '10 primeiros valores'
+    sl.line_chart(dados[dado].head(10))
 
 
 # **Reduzir variáveis dos dados**
-## COLOCAR IF PARA CASO NÃO HAJA "unnamed: 0"
-dados = dados.drop('Unnamed: 0', axis = 1) # por padrão tira coluna criada pelo google #? talvez tenha de remover se não estiver pelo colab
+if 'Unnamed: 0' in dados:
+  dados = dados.drop('Unnamed: 0', axis = 1) # por padrão tira coluna criada pelo google #? talvez tenha de remover se não estiver pelo colab
 
 # Remove colunas digitadas
 desconsideradas = []
@@ -196,10 +197,17 @@ if etapa == 3:
 
     f'{coluna}: {min(inputDados[coluna])} ~ {max(inputDados[coluna])}' # valores após normalização
 
-  ## TORNAR DINÂMICO, SÓ FUNCIONA COM O ARQUIVO EM QUESTÃO
+
+  # **resignificar resultados**
   outputStr2Int = {'funcional': 0,
                 'problema encontrado': 1,
-                'disfuncional': 2} # oque predict retorna
+                'disfuncional': 2} # default
+  
+  n = 0
+  for key in outputDados:
+      if key not in outputStr2Int:
+          outputStr2Int[key] = n
+          n += 1
 
   outputDados = outputDados.replace(outputStr2Int)
 
@@ -317,7 +325,7 @@ if etapa == 3:
       #   if estado_predito != estado_real:
       #     erros += 1
 
-      # f'Acertos = {100 - erros/100}%'
+      # f'Acertos = {100 - erros/len(teste_modelo_salvo)*100}%'
 
       # Make prediction
       estado_predito = modelo_salvo.predict(guess_reshape)
