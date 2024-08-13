@@ -312,11 +312,12 @@ if etapa == 3:
       f"Predição do teste: '{predito_teste}'" # se 2 valores do dicionário são iguais, mostra o primeiro
 
       # **Salvar e carregar modelo**
-      modelo.save('modelo.h5')
+      # Debug: Tornar arquivo salvável
+      #modelo.save('modelo.h5')
 
       from tensorflow.keras.models import load_model #type: ignore #? informa erro mas é funcional (?)
 
-      modelo_salvo = load_model(r'.\Next2024\modelo (1).h5')
+      modelo_salvo = load_model(r'.\Next2024\Modelo.h5')
 
       # #** re-testando o modelo salvo **
       # teste_modelo_salvo = modelo_salvo.predict(teste)
