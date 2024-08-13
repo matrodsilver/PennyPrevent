@@ -18,7 +18,7 @@ if sl.button('Escolher arquivo'):
   caminho_do_arquivo = filedialog.askopenfilename(initialdir='/', title='Selecione o arquivo', filetypes=(('todos os arquivos', '*.*'),))
 
 else:
-  caminho_do_arquivo = r".Next2024/poseidonTratado_CSV.csv"
+  caminho_do_arquivo = r"/poseidonTratado_CSV.csv"
   "Rodando arquivo de exemplo (default)"
 
 # json
