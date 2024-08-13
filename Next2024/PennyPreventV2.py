@@ -33,6 +33,12 @@ else:
   
   dados = pd.read_csv(caminho_do_arquivo)
 
+
+# Debug: por padrão tira coluna criada pelo google colab
+if 'Unnamed: 0' in dados:
+  dados = dados.drop('Unnamed: 0', axis = 1)
+
+
 'Current Columns'
 for dado in dados.columns:
   f'{dado}'
@@ -46,9 +52,6 @@ for dado in dados.columns:
 
 
 # **Reduzir variáveis dos dados**
-if 'Unnamed: 0' in dados:
-  dados = dados.drop('Unnamed: 0', axis = 1) # por padrão tira coluna criada pelo google #? talvez tenha de remover se não estiver pelo colab
-
 # Remove colunas digitadas
 desconsideradas = []
 
