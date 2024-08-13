@@ -1,6 +1,6 @@
 import streamlit as sl
-import tensorflow==2.10.0
-import keras
+import tensorflow
+from tensorflow import keras
 import pandas as pd # **Biblioteca para tratar dados**
 
 
