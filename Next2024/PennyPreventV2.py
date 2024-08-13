@@ -350,7 +350,7 @@ if etapa == 3:
 
   # ** Notificar usuários em tempo real em caso de problema **
   # from pushbullet import Pushbullet #? problema pra rodar pushbullet no script com streamlit
-  import pywhatkit as wp
+  #import pywhatkit as wp
   from time import sleep as delay
   import requests
 
@@ -410,8 +410,8 @@ if etapa == 3:
 
     # f'{exibir}'
     
-    
-    if predicao_atual in ['placeHolder']:#['disfuncional', 'problema encontrado']:
+    ## TORNAR DINÂMICO
+    if predicao_atual in ['disfuncional', 'problema encontrado']:
       pb_usuarios = ['o.9CYuBlpove3ErChfkLDjcmkNcjquJ1oz']
       wp_usuarios = ['+5511996568160']
       
@@ -424,10 +424,13 @@ if etapa == 3:
         pass
       
       for usuario in wp_usuarios:
-        wp.sendwhatmsg_instantly(usuario, titulo+'\n'+mensagem, 15) #True, 15) #type: ignore
+        #wp.sendwhatmsg_instantly(usuario, titulo+'\n'+mensagem, 15) #True, 15) #type: ignore
+        pass
+      
+      'problema encontrado'
 
 
-  with open('relat.txt', 'w') as modelo_config:
+  with open('relatorio.txt', 'w') as modelo_config:
     modelo_config.write(f'{maximos},{minimos}')
 
 
