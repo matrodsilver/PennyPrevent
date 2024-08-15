@@ -10,7 +10,7 @@ import pandas as pd # **Biblioteca para tratar dados**
 
 
 # choose file
-if sl.button('Escolher arquivo'):
+if False:#sl.button('Escolher arquivo'): # Tkinter parece não funcionar no Streamlit (? provavelmente por ser web)
   from tkinter import Tk, filedialog
 
   root = Tk()
