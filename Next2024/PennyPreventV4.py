@@ -1,36 +1,23 @@
 import streamlit as sl
-import tensorflow
-# from tensorflow import keras #? dando erro ao chamar dessa forma (?)
-import keras
-import pandas as pd # **Biblioteca para tratar dados**
 
 
-# **Verificar dados**
-# caminho_do_arquivo = r".\Next2024\poseidonTratado.csv" # mudar caminho do arquivo
-
-
-# choose file
+#! choose file
 if sl.button('Escolher arquivo'):
   from tkinter import Tk, filedialog
-
   root = Tk()
   root.title('Escolha o arquivo')
-
   caminho_do_arquivo = filedialog.askopenfilename(initialdir='/', title='Selecione o arquivo', filetypes=(('todos os arquivos', '*.*'),))
 
 else:
-  caminho_do_arquivo = r".\Next2024\poseidonTratado.csv"
+  caminho_do_arquivo = r".\Next2024\poseidonTratado+.csv"
   "Rodando arquivo de exemplo (default)"
 
-# json
-if caminho_do_arquivo.split('.')[-1] == 'json':
-  print('json')
+import pandas as pd
+
+if caminho_do_arquivo.split('.')[-1] == 'json':  #! json
   dados = pd.read_json(caminho_do_arquivo)
   
-# csv
-else:
-  print('csv')
-  
+elif caminho_do_arquivo.split('.')[-1] == 'csv': #! csv
   dados = pd.read_csv(caminho_do_arquivo)
 
 'Current Columns'
@@ -46,17 +33,13 @@ for dado in dados.columns:
 
 
 # **Reduzir variáveis dos dados**
-if 'Unnamed: 0' in dados:
-  dados = dados.drop('Unnamed: 0', axis = 1) # por padrão tira coluna criada pelo google #? talvez tenha de remover se não estiver pelo colab
-
-# Remove colunas digitadas
 desconsideradas = []
 
 resposta = sl.text_input('Adicionar colunas a desconsiderar? (s | n)').lower()
 
-etapa = 0 # declara variável das etapas do processo
+etapa = 0 # variável das etapas do processo (se faz necessário no streamlit)
 
-# Função que verifica input do usuário sobre desconsiderar colunas
+# função que define as colunas a serem desconsideradas por input do usuário
 def desconsiderarColunas():
   global etapa
   
@@ -68,14 +51,14 @@ def desconsiderarColunas():
     etapa = 1 # escolher colunas a desconsiderar
 
 
+# função que exibe colunas atuais
 def exibirColunasAtuais():
-  #
-  # printar colunas atuais
   f'_ Colunas atuais: _' #? esta linha não aparece sem f (f'') na frente (?) 
   for coluna in dados:
     f'| {coluna} |'
 
 
+# função que redefine e exibe os dados após a desconsideração das colunas escolhidas
 def selecionarColunas():
   global dados
   global etapa
@@ -108,16 +91,12 @@ def selecionarColunas():
     exibirColunasAtuais()
 
 
-# Perguntar se usário deseja adicionar colunas a serem desconsideradas
 desconsiderarColunas()
 
 if etapa == 1: # se o usuário quiser desconsiderar mais colunas
   exibirColunasAtuais()
   
   selecionarColunas()
-
-# # DEBUG
-# dados = dados.drop(['Unnamed: 0', 'created_at', 'entry_id'], axis = 1)
 
 
 # **Verificação de variáveis**
@@ -160,17 +139,8 @@ if etapa == 2:
 
   except:
     'Digite uma Coluna existente na base de dados'
-    
-    # 'Coluna não encontrada, usando última coluna como resultado'
-    # input = dados.drop(dados.keys()[len(dados.keys())-1], axis = 1)
-    # output = dados[dados.keys()[len(dados.keys())-1]]
 
-
-# # DEBUG
-# input = dados.drop('Estado', axis = 1)
-# output = dados['Estado']
-
-# ! Armazenar valores antes da normalização para testes manuais com valores reais !
+# !Armazena valores antes da normalização para testes manuais com valores reais!
 if etapa == 3:
   maximos = []
   minimos = []
@@ -199,9 +169,7 @@ if etapa == 3:
 
 
   # **resignificar resultados**
-  outputStr2Int = {'funcional': 0,
-                'problema encontrado': 1,
-                'disfuncional': 2} # default
+  outputStr2Int = {} # definindo dicionário de resultados
   
   n = 0
   for key in outputDados:
@@ -219,6 +187,10 @@ if etapa == 3:
 
   # **Criação, compilação e treino do modelo**
   camadas = 256 # n de neurônios
+
+  import tensorflow
+  # from tensorflow import keras #? dando erro ao chamar dessa forma (?)
+  import keras
 
   modelo = keras.Sequential(
       [
@@ -259,7 +231,7 @@ if etapa == 3:
   import numpy as np
   from numpy import argmax
 
-  # teste do modelo
+  # **Teste do modelo**
   guesses = modelo.predict(teste)
 
   erros = 0
@@ -272,9 +244,7 @@ if etapa == 3:
   f'Acertos do modelo = {100 - erros/len(guesses)*100}%'
 
 
-  # **Testar modelo**
-  # valores_teste = [10, -1, 0, 0] # [nlvDeÁgua, Distância(Cm), 0b, 0b]
-  
+  # **Testar modelo com valores manuais**
   colunas = ''
   
   # exibir dados a serem simulados
@@ -308,38 +278,38 @@ if etapa == 3:
 
       f"Predição do teste: '{predito_teste}'" # se 2 valores do dicionário são iguais, mostra o primeiro
 
-      # **Salvar e carregar modelo**
-      modelo.save('modelo.h5')
+      #. # **Salvar e carregar modelo**
+      #. modelo.save('modelo.h5')
 
-      from tensorflow.keras.models import load_model #type: ignore #? informa erro mas é funcional (?)
+      #. from tensorflow.keras.models import load_model #type: ignore #? informa erro mas é funcional (?)
 
-      modelo_salvo = load_model(r'.\Next2024\modelo (1).h5')
+      #. modelo_salvo = load_model(r'.\Next2024\modelo (1).h5')
 
-      # #** re-testando o modelo salvo **
-      # teste_modelo_salvo = modelo_salvo.predict(teste)
+      #. # #** re-testando o modelo salvo **
+      #. # teste_modelo_salvo = modelo_salvo.predict(teste)
 
-      # erros = 0
-      # for i, valor in enumerate(teste_modelo_salvo):
-      #   estado_predito = argmax(valor)
-      #   estado_real = respostas_teste['Estado'].iloc[i] # get value's index
-      #   if estado_predito != estado_real:
-      #     erros += 1
+      #. # erros = 0
+      #. # for i, valor in enumerate(teste_modelo_salvo):
+      #. #   estado_predito = argmax(valor)
+      #. #   estado_real = respostas_teste['Estado'].iloc[i] # get value's index
+      #. #   if estado_predito != estado_real:
+      #. #     erros += 1
 
-      # f'Acertos = {100 - erros/len(teste_modelo_salvo)*100}%'
+      #. # f'Acertos = {100 - erros/len(teste_modelo_salvo)*100}%'
 
-      # Make prediction
-      estado_predito = modelo_salvo.predict(guess_reshape)
+      #. # Make prediction
+      #. estado_predito = modelo_salvo.predict(guess_reshape)
 
-      # f'{estado_predito}' # debug (retirar no final)  # mostra as probabilidades de cada classe
+      #. # f'{estado_predito}' # debug (retirar no final)  # mostra as probabilidades de cada classe
 
-      # Process the prediction (argmax for categorical output)
-      classe_predita = argmax(estado_predito[0])  # Assuming categorical output
-      # f'{classe_predita}'
+      #. # Process the prediction (argmax for categorical output)
+      #. classe_predita = argmax(estado_predito[0])  # Assuming categorical output
+      #. # f'{classe_predita}'
       
-      predito_modelo = list(outputStr2Int.keys())[classe_predita]
+      #. predito_modelo = list(outputStr2Int.keys())[classe_predita]
 
-      # Print the predicted class based on your dictionary
-      f'Predição do modelo salvo: "{predito_modelo}"' # se 2 valores do dicionário são iguais, mostra o primeiro
+      #. # Print the predicted class based on your dictionary
+      #. f'Predição do modelo salvo: "{predito_modelo}"' # se 2 valores do dicionário são iguais, mostra o primeiro
 
     except:
       'digite valores coerentes de teste para cada coluna, separados por ´,´'
@@ -350,34 +320,40 @@ if etapa == 3:
   from time import sleep as delay
   import requests
 
+  # função que retorna o valor mais atual do banco de dados
   def pegarUltimosDados():
-    urlTSultimoResultado = f'https://api.thingspeak.com/channels/2127654/feeds.json?api_key=MZB0IDFGQR9AQVBW&results=1'
+    ultimoIndex = f'https://predito-85975-default-rtdb.firebaseio.com/Predito/Ultimo/Index/.json'
 
-    resposta = requests.get(urlTSultimoResultado)
+    resposta = requests.get(ultimoIndex)
 
-    if resposta.status_code == 200:
-      return resposta.json()
-    else:
-      f'Erro na requisição'
+    if resposta.status_code != 200:
+      f'Erro na requisição do index'
       return {}
+  
+    ultimosDados = f'https://predito-85975-default-rtdb.firebaseio.com/Dados/{resposta.json()}/.json'
+
+    return requests.get(ultimosDados).json()
     
   def avisar():
-    # esta função retorna o valor mais atual do banco de dados
-    ultDados = pegarUltimosDados()['feeds'][0]
+    dados_prever = pegarUltimosDados()
 
-    # normalização  debug: Tornar dinâmico (com drop de dados etc.)
-    dados_prever = [ultDados['field1'], ultDados['field2'], ultDados['field3'], ultDados['field4']]
-    dados_prever = [float(v) for v in dados_prever]
+    f'{"ULTDADOS: !!!!!!!!!!!!!!!!!!!!\n",dados_prever}'
+    for atributo in dados_prever:
+      dados_prever[atributo] = float(dados_prever[atributo])
 
     f'{dados_prever}' # debug (retirar no final)
+
+    dados_isolados = []
+    for valor in dados_prever:
+      dados_isolados.append(dados_prever[valor])
 
     for i, coluna in enumerate(inputDados):
-      dados_prever[i] = dados_prever[i]/(maximos[i] - minimos[i])
+      dados_isolados[i] = dados_isolados[i]/(maximos[i] - minimos[i])
 
-    f'{dados_prever}' # debug (retirar no final)
+    f'{dados_isolados}' # debug (retirar no final)
 
-    dado_prever = np.array(dados_prever)  # Replace with your some value
-    dado_reshape = np.expand_dims(dado_prever, axis=0)  # Add a batch dimension
+    dados_isolados = np.array(dados_isolados)  # Replace with your some value
+    dado_reshape = np.expand_dims(dados_isolados, axis=0)  # Add a batch dimension
 
     predito = modelo.predict(dado_reshape)
 
