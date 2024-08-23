@@ -1,4 +1,4 @@
-,created_at,entry_id,nivel_de_agua,ultrassom,infravermelho,infravermelho2,Estado
+id,created_at,entry_id,nivel_de_agua,ultrassom,infravermelho,infravermelho2,Estado
 0,2023-04-29T13:42:23-03:00,1,0.0,19.2,0.0,0,problema encontrado
 1,2023-04-29T14:21:07-03:00,2,2.0,19.2,0.0,0,problema encontrado
 2,2023-05-14T01:45:48-03:00,3,1.0,19.2,0.0,0,problema encontrado
