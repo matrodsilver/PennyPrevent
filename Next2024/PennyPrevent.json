@@ -1,0 +1,170 @@
+[
+  {
+    "Cor": 1,
+    "Estado": "Disfuncional",
+    "Infravermelho": 1,
+    "Temperatura": 3,
+    "Vibracao": 0
+  },
+  {
+    "Cor": 2,
+    "Estado": "Funcional",
+    "Infravermelho": 0,
+    "Temperatura": 3,
+    "Vibracao": 1
+  },
+  {
+    "Cor": 3,
+    "Estado": "Disfuncional",
+    "Infravermelho": 1,
+    "Temperatura": 3,
+    "Vibracao": 0
+  },
+  {
+    "Cor": 1,
+    "Estado": "Funcional",
+    "Infravermelho": 0,
+    "Temperatura": 3,
+    "Vibracao": 1
+  },
+  {
+    "Cor": 2,
+    "Estado": "Disfuncional",
+    "Infravermelho": 1,
+    "Temperatura": 3,
+    "Vibracao": 0
+  },
+  {
+    "Cor": 3,
+    "Estado": "Funcional",
+    "Infravermelho": 0,
+    "Temperatura": 3,
+    "Vibracao": 1
+  },
+  {
+    "Cor": 1,
+    "Estado": "Disfuncional",
+    "Infravermelho": 1,
+    "Temperatura": 3,
+    "Vibracao": 0
+  },
+  {
+    "Cor": 2,
+    "Estado": "Funcional",
+    "Infravermelho": 0,
+    "Temperatura": 3,
+    "Vibracao": 1
+  },
+  {
+    "Cor": 3,
+    "Estado": "Disfuncional",
+    "Infravermelho": 1,
+    "Temperatura": 3,
+    "Vibracao": 0
+  },
+  {
+    "Cor": 1,
+    "Estado": "Funcional",
+    "Infravermelho": 0,
+    "Temperatura": 3,
+    "Vibracao": 1
+  },
+  {
+    "Cor": 2,
+    "Estado": "Disfuncional",
+    "Infravermelho": 1,
+    "Temperatura": 3,
+    "Vibracao": 0
+  },
+  {
+    "Cor": 3,
+    "Estado": "Funcional",
+    "Infravermelho": 0,
+    "Temperatura": 3,
+    "Vibracao": 1
+  },
+  {
+    "Cor": 1,
+    "Estado": "Disfuncional",
+    "Infravermelho": 1,
+    "Temperatura": 3,
+    "Vibracao": 0
+  },
+  {
+    "Cor": 2,
+    "Estado": "Funcional",
+    "Infravermelho": 0,
+    "Temperatura": 3,
+    "Vibracao": 1
+  },
+  {
+    "Cor": 3,
+    "Estado": "Disfuncional",
+    "Infravermelho": 1,
+    "Temperatura": 3,
+    "Vibracao": 0
+  },
+  {
+    "Cor": 1,
+    "Estado": "Funcional",
+    "Infravermelho": 0,
+    "Temperatura": 3,
+    "Vibracao": 1
+  },
+  {
+    "Cor": 2,
+    "Estado": "Disfuncional",
+    "Infravermelho": 1,
+    "Temperatura": 3,
+    "Vibracao": 0
+  },
+  {
+    "Cor": 3,
+    "Estado": "Funcional",
+    "Infravermelho": 0,
+    "Temperatura": 3,
+    "Vibracao": 1
+  },
+  {
+    "Cor": 1,
+    "Estado": "Disfuncional",
+    "Infravermelho": 1,
+    "Temperatura": 3,
+    "Vibracao": 0
+  },
+  {
+    "Cor": 2,
+    "Estado": "Funcional",
+    "Infravermelho": 0,
+    "Temperatura": 3,
+    "Vibracao": 1
+  },
+  {
+    "Cor": 3,
+    "Estado": "Disfuncional",
+    "Infravermelho": 1,
+    "Temperatura": 3,
+    "Vibracao": 0
+  },
+  {
+    "Cor": 1,
+    "Estado": "Funcional",
+    "Infravermelho": 0,
+    "Temperatura": 3,
+    "Vibracao": 1
+  },
+  {
+    "Cor": 2,
+    "Estado": "Disfuncional",
+    "Infravermelho": 1,
+    "Temperatura": 3,
+    "Vibracao": 0
+  },
+  {
+    "Cor": 3,
+    "Estado": "Funcional",
+    "Infravermelho": 0,
+    "Temperatura": 3,
+    "Vibracao": 1
+  }
+]
