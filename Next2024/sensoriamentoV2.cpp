@@ -1,31 +1,41 @@
-#include <arduino.h>
+#include <arduino.h> // Necessário no PlatformIO
+
 #include <WiFi.h>
 #include <FirebaseESP32.h>
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
+#include <OneWire.h>
+#include <DallasTemperature.h>
+
 
 //# variáveis da biblioteca de wifi //
-  WiFiClient client;
-  const char* url = "https://predito-85975-default-rtdb.firebaseio.com/Dados2";
-  const char* apiKey = "AIzaSyD0WLSyVWJRM72-6HRfcDe_m3iLpHglY2s";
+WiFiClient client;
+const char* url = "https://<projeto>";
+const char* apiKey = "<api>";
 
 //# Dados Firebase //
-  FirebaseData dados;
-  FirebaseConfig config;
-  FirebaseAuth auth;
-  String basePath = "/Dados2";
+FirebaseData dados;
+FirebaseConfig config;
+FirebaseAuth auth;
+String basePath = "/<Caminho Padrão De Envio>/"; // caminho de envio dos dados
+unsigned int id;
 
 //# variáveis para uso do sensor de temperatura //
-  const byte sensorTemperatura = 14;
-  float graus;
+const byte ONE_WIRE_BUS = 4; // pino do sensor
+// Setup oneWire instance to communicate with any OneWire devices (not just Maxim/Dallas temperature ICs)
+OneWire oneWire(ONE_WIRE_BUS);
+// Pass oneWire reference to Dallas Temperature.
+DallasTemperature sensors(&oneWire);
+
+float graus;
 
 //# variáveis para uso do sensor infravermelho //
-  const byte sensorInfra = 26;
-  bool valorInfra;
+const byte sensorInfra = 26;
+byte valorInfra;
 
 //# variáveis para uso do sensor de vibração //
-  const byte sensorVibracao = 27;
-  bool valorVibracao;
+const byte sensorVibracao = 27;
+byte valorVibracao;
 
 //# variáveis sensor de cor //
 const byte S0 = 35;
@@ -34,19 +44,20 @@ const byte S2 = 33;
 const byte S3 = 32;
 const byte sensorIn = 25;
 
-byte pulsoVermelho = 0;
-byte pulsoVerde = 0;
-byte pulsoAzul = 0;
+byte pulsoVermelho;
+byte pulsoVerde;
+byte pulsoAzul;
+byte maior;
 
-//# variáveis para inicialização
-  const byte in[] = {sensorTemperatura, sensorInfra, sensorVibracao, sensorIn};
+//# variáveis para inicialização //
+  const byte in[] = {sensorInfra, sensorVibracao, sensorIn};
   const byte out[] = {S0, S1, S2, S3};
   
-  const byte qntIn = 4;
+  const byte qntIn = 3;
   const byte qntOut = 4;
 
 
-//# protótipos
+//# protótipos //
 void iniciar();
 void temperatura();
 void infra();
@@ -54,6 +65,8 @@ void vibracao();
 void getRedPW();
 void getGreenPW();
 void getBluePW();
+void cores();
+void enviarDados();
 
 
 void setup()
@@ -66,88 +79,14 @@ void loop()
   temperatura();
   infra();
   vibracao();
-  getRedPW();
-  getGreenPW();
-  getBluePW();
+  cores();
 
-  if (Firebase.ready())
-  {
-    //# Temperatura
-    if (Firebase.setFloat(dados, basePath+"/Temperatura", graus))
-    {
-      Serial.println("Temperatura enviada");
-      Serial.println(dados.dataPath());
-    }
-    else
-    {
-      Serial.println("Erro ao enviar temperatura");
-      Serial.println(dados.errorReason());
-    }
+  enviarDados();
 
-    //# Infravermelho
-    if (Firebase.setBool(dados, basePath+"/Infravermelho", valorInfra))
-    {
-      Serial.println("Infravermelho enviado");
-      Serial.println(dados.dataPath());
-    }
-    else
-    {
-      Serial.println("Erro ao enviar infravermelho");
-      Serial.println(dados.errorReason());
-    }
-
-    //# Vibração
-    if (Firebase.setBool(dados, basePath+"/Vibracao", valorVibracao))
-    {
-      Serial.println("Vibração enviado");
-      Serial.println(dados.dataPath());
-    }
-    else
-    {
-      Serial.println("Erro ao enviar vibração");
-      Serial.println(dados.errorReason());
-    }
-
-    //# Cor
-    //? vermelho ?//
-    if (Firebase.setInt(dados, basePath+"/Cor/Vermelho", pulsoVermelho))
-    {
-      Serial.println("Pulso vermelho enviado");
-      Serial.println(dados.dataPath());
-    }
-    else
-    {
-      Serial.println("Erro ao enviar pulso vermelho");
-      Serial.println(dados.errorReason());
-    }
-
-    //* verde *//
-    if (Firebase.setInt(dados, basePath+"/Cor/Verde", pulsoVerde))
-    {
-      Serial.println("Pulso verde enviado");
-      Serial.println(dados.dataPath());
-    }
-    else
-    {
-      Serial.println("Erro ao enviar pulso verde");
-      Serial.println(dados.errorReason());
-    }
-
-    //! azul !//
-    if (Firebase.setInt(dados, basePath+"/Cor/Azul", pulsoAzul))
-    {
-      Serial.println("Pulso azul enviada");
-      Serial.println(dados.dataPath());
-    }
-    else
-    {
-      Serial.println("Erro ao enviar pulso Azul");
-      Serial.println(dados.errorReason());
-    }
-  }
+  
 
   Serial.println("Iteração concluída");
-  delay(3000);
+  delay(1000);
 }
 
 
@@ -155,7 +94,7 @@ void iniciar()
 {
     Serial.begin(9600);
 
-    //# Pins setup //
+    //# setup pinos //
     for (int i = 0; i < qntIn; i++)
     {
       pinMode(in[i], INPUT);
@@ -170,17 +109,20 @@ void iniciar()
     digitalWrite(S0,HIGH);
     digitalWrite(S1,LOW);
 
+    //# setup sensor de temperatura //
+    sensors.begin();
+
     //# conexão do wifi //
     WiFi.disconnect();
     delay(3000);
     Serial.println("START");
-    WiFi.begin("MatRodNet", "11etrinta");
+    WiFi.begin("<Wifi>", "<Senha>");
     while ((!(WiFi.status() == WL_CONNECTED)))
     {
       delay(300);
       Serial.print(".");
     }
-    Serial.println("Conectado");
+    Serial.println("_—‾C͟o͟n͟e͟c͟t͟a͟d͟o͟‾—_");
 
     delay(1000);
 
@@ -204,67 +146,195 @@ void iniciar()
     Firebase.reconnectWiFi(true);
 }
 
+//# função para coletar a temperatura
 void temperatura()
 {
-  graus = analogRead(sensorTemperatura) * 500 / 1023;
+  graus = -2;
+
+  sensors.requestTemperatures();
+
+  graus = sensors.getTempCByIndex(0);
 
   Serial.println("Temperatura: " + String(graus) + "°C");
 }
 
+// função para coletar o valor do sensor infravermelho
 void infra()
 {
-  valorInfra = digitalRead(sensorInfra);
+  valorInfra = -2;
+
+  valorInfra = !digitalRead(sensorInfra);
 
   Serial.println("Infra: " + String(valorInfra));
 }
 
+//# função para coletar o valor do sensor de vibração
 void vibracao()
 {
-  valorVibracao = digitalRead(sensorVibracao);
+  valorVibracao = -2;
+
+  valorVibracao = !digitalRead(sensorVibracao);
 
   Serial.println("Vibração: " + String(valorVibracao));
 }
 
-// class SensorCor
-// {
-//   public:
-    //? Verificar pulso da cor vermelha ?//
-    void getRedPW()
+
+//# funções para coletar as cores //
+
+//? verificar pulso da cor vermelha
+void getRedPW()
+{
+  pulsoVermelho = -2;
+  
+  // Set sensor to read Red only
+  digitalWrite(S2,LOW);
+  digitalWrite(S3,LOW);
+  // Read the output Pulse Width
+  pulsoVermelho = pulseIn(sensorIn, LOW);
+
+  Serial.println("Vermelho: " + String(pulsoVermelho));
+}
+
+//* verificar pulso da cor verde
+void getGreenPW()
+{
+  pulsoVerde = -2;
+
+  // Set sensor to read Green only
+  digitalWrite(S2,HIGH);
+  digitalWrite(S3,HIGH);
+  // Read the output Pulse Width
+  pulsoVerde = pulseIn(sensorIn, LOW);
+
+  Serial.println("Verde: " + String(pulsoVerde));
+}
+
+//! verificar pulso da cor azul
+void getBluePW()
+{
+  pulsoAzul = -2;
+
+  // Set sensor to read Blue only
+  digitalWrite(S2,LOW);
+  digitalWrite(S3,HIGH);
+  // Read the output Pulse Width
+  pulsoAzul = pulseIn(sensorIn, LOW);
+
+  Serial.println("Azul: " + String(pulsoAzul));
+}
+
+//# Determinar a cor mais evidente (Red = 1, Green = 2, Blue = 3)
+void cores()
+{
+  getRedPW();
+  getGreenPW();
+  getBluePW();
+
+  maior = -2;
+
+  if (pulsoVermelho > pulsoVerde) // R B
+  {
+    if (pulsoVermelho > pulsoAzul)
     {
-      // Set sensor to read Red only
-      digitalWrite(S2,LOW);
-      digitalWrite(S3,LOW);
-      // Read the output Pulse Width
-      pulsoVermelho = pulseIn(sensorIn, LOW);
-      // Return the value
-      Serial.println("Vermelho: " + String(pulsoVermelho));//.return PW;
+      maior = 1; // Red
+    }
+    else
+    {
+      maior = 3; // Blue
+    }
+  }
+  else if (pulsoVerde > pulsoVermelho)// G B
+  {
+    if (pulsoVerde > pulsoAzul)
+    {
+      maior = 2; // Green
+    }
+    else
+    {
+      maior = 3; // Blue
+    }
+  }
+}
+
+//# função para enviar os dados obtidos ao firebase
+void enviarDados()
+{
+  if (Firebase.ready())
+  {
+    //# Get current index
+    if (Firebase.getInt(dados, "/indexAtual"))
+    {
+      id = 1 + dados.intData();
+
+      Serial.println("Index: " + String(id));
+    }
+    else
+    {
+      Serial.println("Erro ao coletar index");
+      Serial.println(dados.errorReason());
     }
 
-    //* Verificar pulso da cor verde *//
-    void getGreenPW()
+    //# Temperatura
+    if (Firebase.setFloat(dados, basePath + String(id) + "/Temperatura", graus))
     {
-      // Set sensor to read Green only
-      digitalWrite(S2,HIGH);
-      digitalWrite(S3,HIGH);
-      // Read the output Pulse Width
-      pulsoVerde = pulseIn(sensorIn, LOW);
-      // Return the value
-      Serial.println("Verde: " + String(pulsoVerde));//.return PW;
+      Serial.println("Temperatura enviada");
+      //. Serial.println(dados.dataPath());
+    }
+    else
+    {
+      Serial.println("Erro ao enviar temperatura");
+      Serial.println(dados.errorReason());
     }
 
-    //! Verificar pulso da cor azul !//
-    void getBluePW()
+    //# Infravermelho
+    if (Firebase.setInt(dados, basePath + String(id) + "/Infravermelho", valorInfra))
     {
-      // Set sensor to read Blue only
-      digitalWrite(S2,LOW);
-      digitalWrite(S3,HIGH);
-      // Read the output Pulse Width
-      pulsoAzul = pulseIn(sensorIn, LOW);
-      // Return the value
-      Serial.println("Azul: " + String(pulsoAzul));//. return PW;
+      Serial.println("Infravermelho enviado");
+      //. Serial.println(dados.dataPath());
     }
-// };
+    else
+    {
+      Serial.println("Erro ao enviar infravermelho");
+      Serial.println(dados.errorReason());
+    }
 
+    //# Vibração
+    if (Firebase.setInt(dados, basePath + String(id) + "/Vibracao", valorVibracao))
+    {
+      Serial.println("Vibração enviada");
+      //. Serial.println(dados.dataPath());
+    }
+    else
+    {
+      Serial.println("Erro ao enviar vibração");
+      Serial.println(dados.errorReason());
+    }
+
+    //# Cor
+    if (Firebase.setInt(dados, basePath + String(id) + "/Cor", maior))
+    {
+      Serial.println("Cor enviada");
+      //. Serial.println(dados.dataPath());
+    }
+    else
+    {
+      Serial.println("Erro ao enviar cor");
+      Serial.println(dados.errorReason());
+    }
+
+    //# Atualizar index
+    if (Firebase.setInt(dados, "/indexAtual", id))
+    {
+      Serial.println("Index atualizado");
+      //. Serial.println(dados.dataPath());
+    }
+    else
+    {
+      Serial.println("Erro ao atualizar index");
+      Serial.println(dados.errorReason());
+    }
+  }
+}
 
 /*
 float mapV2()
