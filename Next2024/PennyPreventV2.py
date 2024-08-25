@@ -23,8 +23,6 @@ tab1, tab2, tab3 = sl.tabs(["Home", "Dashboard/IA", "Sobre"])
 col1, col2  = sl.columns(2)
 
 # **Verificar dados**
-# caminho_do_arquivo = r".\Next2024\poseidonTratado.csv" # mudar caminho do arquivo
-
 with tab2: 
   # choose file
   if False:#sl.button('Escolher arquivo'): # Tkinter parece não funcionar no Streamlit (? provavelmente por ser web)
@@ -36,7 +34,7 @@ with tab2:
     caminho_do_arquivo = filedialog.askopenfilename(initialdir='/', title='Selecione o arquivo', filetypes=(('todos os arquivos', '*.*'),))
 
   else:
-    caminho_do_arquivo = r".\Next2024\poseidonTratado_CSV.csv"
+    caminho_do_arquivo = r".\Next2024\PoseidonTratado+.csv"
     "Rodando arquivo de exemplo (default)"
 
 
