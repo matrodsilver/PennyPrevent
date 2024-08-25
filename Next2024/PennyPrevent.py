@@ -321,7 +321,7 @@ if etapa == 3:
   # import requests
 
   # def pegarUltimosDados():
-  #   urlTSultimoResultado = f'https://api.thingspeak.com/channels/2127654/feeds.json?api_key=MZB0IDFGQR9AQVBW&results=1'
+  #   urlTSultimoResultado = f'api'
 
   #   resposta = requests.get(urlTSultimoResultado)
 
@@ -360,7 +360,7 @@ if etapa == 3:
 
   #   # if volume < 30: # 30000:
   #   if predicao_atual in ['disfuncional', 'problema encontrado']:
-  #     pb_usuarios = ['o.9CYuBlpove3ErChfkLDjcmkNcjquJ1oz']
+  #     pb_usuarios = ['url']
   #     wp_usuarios = ['+5511996568160']
       
   #     # titulo, mensagem = '⚠️Aviso⚠️', f'⚠ O sistema【𝟭】atingiu o limite de volume ⚠\nAtualmente em: {57- volume} cm'
@@ -382,7 +382,7 @@ if etapa == 3:
 # '\nAnálise do chatbot'
 # import openai
 
-# chave_api = "sk-proj-rRLYbZUUdPvgnU6HCGz6T3BlbkFJOb9GRbnSdSZcjX1Cjts1"
+# chave_api = "key"
 
 # openai.api_key = chave_api
 
