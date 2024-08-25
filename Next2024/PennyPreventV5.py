@@ -18,11 +18,10 @@ if uploaded_file is not None:
     dados = pd.read_csv(stringio)
 
 else:
-  dados = pd.read_csv(r".\Next2024\poseidonTratado+.csv")
+  dados = pd.read_csv(r".\Next2024\PennyPrevent.csv")
   "Rodando arquivo de exemplo (default)"
 
-
-'Current Columns'
+'Colunas'
 for dado in dados.columns:
   f'{dado}'
   
@@ -41,7 +40,7 @@ resposta = sl.text_input('Adicionar colunas a desconsiderar? (s | n)').lower()
 
 etapa = 0 # variável das etapas do processo (se faz necessário no streamlit)
 
-# função que define as colunas a serem desconsideradas por input do usuário
+## função que define as colunas a serem desconsideradas por input do usuário
 def desconsiderarColunas():
   global etapa
   
@@ -52,9 +51,9 @@ def desconsiderarColunas():
     etapa = 1 # escolher colunas a desconsiderar
 
 
-# função que exibe colunas atuais
+## função que exibe colunas atuais
 def exibirColunasAtuais():
-  f'_ Colunas atuais: _' #? esta linha não aparece sem f (f'') na frente (?) 
+  f'_ Colunas atuais _' #? esta linha não aparece sem f (f'') na frente (?) 
   cols = ''
   for coluna in dados:
     cols += f'| {coluna} |'
@@ -62,7 +61,7 @@ def exibirColunasAtuais():
   sl.write(cols)
 
 
-# função que redefine e exibe os dados após a desconsideração das colunas escolhidas
+## função que redefine e exibe os dados após a desconsideração das colunas escolhidas
 def selecionarColunas():
   global dados
   global etapa
@@ -109,7 +108,7 @@ if etapa == 1: # se o usuário quiser desconsiderar mais colunas
   selecionarColunas()
 
 
-if etapa == 2:
+if etapa == 2:    
   # **Tratar variáveis dos dados**
   resultados = sl.text_input('Defina a coluna de resultados: ')
 
@@ -124,7 +123,7 @@ if etapa == 2:
   except:
     'Digite uma Coluna existente na base de dados'
 
-# !Armazena valores antes da normalização para testes manuais com valores reais!
+# ! Armazena valores antes da normalização para testes manuais com valores reais !
 if etapa == 3:
   maximos = []
   minimos = []
@@ -139,7 +138,7 @@ if etapa == 3:
   for i, coluna in enumerate(inputDados):
     inputDados[coluna] = [valor/(maximos[i] - minimos[i]) if  maximos[i] - minimos[i] != 0 else maximos[i] for valor in inputDados[coluna]]
 
-  # **resignificar resultados**
+  # **Resignificar resultados**
   outputStr2Int = {} # definindo dicionário de resultados
   
   n = 0
@@ -216,8 +215,8 @@ if etapa == 3:
 
   # **Testar modelo com valores manuais**
   colunas = ''
-  
-  # exibir dados a serem simulados
+
+  # ! Exibir dados a serem simulados !
   'Colunas a simular:'
   for colunaDeDados in inputDados:
     colunas += str(colunaDeDados) + ' | '
@@ -226,7 +225,7 @@ if etapa == 3:
 
   valores_teste = sl.text_input('Testar modelo:').replace(' ', '').split(',')
 
-  if valores_teste != '':
+  if valores_teste != ['']:
     try:
       valores_teste = [float(v) for v in valores_teste]
       
@@ -244,7 +243,7 @@ if etapa == 3:
       predito_teste = list(outputStr2Int.keys())[classe_predita]
 
       f"Predição do teste manual: '{predito_teste}'" # se 2 valores do dicionário são iguais, mostra o primeiro
-
+          
       #. # **Salvar e carregar modelo**
       #. modelo.save('modelo.h5')
 
@@ -281,6 +280,64 @@ if etapa == 3:
 
     except:
       'digite valores coerentes de teste para cada coluna, separados por ´,´'
+      
+    
+    # **Pegar dados do output para chatbot**
+    dados_debug = ''
+    for coluna in dados:
+      vars = []
+
+      for var in dados[coluna]:
+        if var not in vars:
+          vars.append(var)
+
+      dados_debug += f'{coluna}: {len(vars)} variáveis\n'
+      
+      if len(vars) < 11:
+        dados_debug += f'{vars}'
+    
+    '\nAnálise do chatbot:'
+    import openai
+
+    chave_api = "´OpenAI key´"
+
+    openai.api_key = chave_api
+
+    def enviar_conversa(mensagem, lista_mensagens=[]):
+
+        lista_mensagens.append(
+            {"role":"user", "content": mensagem}
+            )
+
+        resposta = openai.chat.completions.create(
+            model = "gpt-3.5-turbo",
+            messages = lista_mensagens,
+        )
+        return resposta.choices[0].message.content
+
+    lista_mensagens = []
+    texto = f'Analise esses dados:\n{dados_debug}\n'
+    texto += f'valores de teste: {valores_teste}\n'
+    texto += f'Predição do teste: {list(outputStr2Int.keys())[classe_predita]}'
+      
+    lista_mensagens.append({'role': 'user', 'content': resposta})
+    resposta = enviar_conversa(texto, lista_mensagens)
+
+    f'{resposta}'
+  
+  # # **Pegar dados do output para chatbot** #? tirar do try
+  # for coluna in dados:
+  #   dados_debug = ''
+  #   vars = []
+
+  #   for var in dados[coluna]:
+  #     if var not in vars:
+  #       vars.append(var)
+
+  #   dados_debug += f'{coluna}: {len(vars)} variáveis '
+    
+  #   if len(vars) < 11:
+  #     dados_debug += f'{vars}'
 
   # ** Notificar usuários em tempo real em caso de problema **
   # from pushbullet import Pushbullet #? problema pra rodar pushbullet no script com streamlit
@@ -293,18 +350,22 @@ if etapa == 3:
     ultimosDados = f'https://predito-85975-default-rtdb.firebaseio.com/Dados/.json'
 
     return requests.get(ultimosDados).json()
-    
+
   def avisar():
     # turn to pandas dataframe
     dados_prever = pd.DataFrame(pegarUltimosDados()).tail(1) # pegar somente ultimo valor
     
     for atributo in dados_prever:
       dados_prever[atributo] = [float(v) for v in dados_prever[atributo]]
-
+    
     dados_isolados = []
-    for valor in dados_prever:
-      dados_isolados.append(dados_prever[valor][0]) # indice zero é o valor, mas firebase manda mais informações como lista
 
+    for valor in dados_prever:
+      for valor_real in dados_prever[valor]: # firebase manda mais informações como lista
+        dados_isolados.append(valor_real)
+      
+    f'Ultimos dados: {dados_isolados}'
+    
     for i, coluna in enumerate(inputDados):
       dados_isolados[i] = dados_isolados[i]/(maximos[i] - minimos[i])
     
@@ -320,31 +381,10 @@ if etapa == 3:
 
     f"Predição em tempo real: '{predicao_atual}'" # se 2 valores do dicionário são iguais, mostra o primeiro
 
-
-    # if volume < 30: # 30000:
-    
-    # #* Pegar dados do output
-    # for coluna in dados:
-    #   exibir = ''
-    #   vars = []
-
-    #   for var in dados[coluna]:
-    #     if var not in vars:
-    #       vars.append(var)
-
-    #   exibir += f'{coluna}: {len(vars)} variáveis '
-      
-    #   if len(vars) < 11:
-    #     exibir += f'{vars}'
-
-    # f'{exibir}'
-    
-    
-    if predicao_atual in ['placeHolder']:#['disfuncional', 'problema encontrado']:
+    if predicao_atual in ['Disfuncional', 'Problema encontrado']:
       pb_usuarios = ['o.9CYuBlpove3ErChfkLDjcmkNcjquJ1oz']
       wp_usuarios = ['+5511996568160']
       
-      # titulo, mensagem = '⚠️Aviso⚠️', f'⚠ O sistema【𝟭】atingiu o limite de volume ⚠\nAtualmente em: {57- volume} cm'
       titulo, mensagem = '⚠️Aviso⚠️', f'Foi previsto que o sistema 【𝟭】 está {predicao_atual}'
 
       for usuario in pb_usuarios:
@@ -355,41 +395,11 @@ if etapa == 3:
       for usuario in wp_usuarios:
         wp.sendwhatmsg_instantly(usuario, titulo+'\n'+mensagem, 15) #True, 15) #type: ignore
 
-
+  #? testar se é necessário
   with open('relat.txt', 'w') as modelo_config:
-    modelo_config.write(f'{maximos},{minimos}')
-
-
+    modelo_config.write(f'{maximos},{minimos}')  
+  
   while True:
     avisar()
 
     delay(16)
-
-# '\nAnálise do chatbot'
-# import openai
-
-# chave_api = "sk-proj-rRLYbZUUdPvgnU6HCGz6T3BlbkFJOb9GRbnSdSZcjX1Cjts1"
-
-# openai.api_key = chave_api
-
-# def enviar_conversa(mensagem, lista_mensagens=[]):
-
-#     lista_mensagens.append(
-#         {"role":"user", "content": mensagem}
-#         )
-
-#     resposta = openai.chat.completions.create(
-#         model = "gpt-3.5-turbo",
-#         messages = lista_mensagens,
-#     )
-#     return resposta.choices[0].message.content
-
-# lista_mensagens = []
-# texto = f'Analise esses dados:\n{debug}\n'
-# texto += f'valores_teste = [10, -1, 0, 0]\n'
-# texto += f'Predição do teste: {list(outputStr2Int.keys())[classe_predita]}'
-# resposta = enviar_conversa(texto, lista_mensagens)
-# lista_mensagens.append({'role': 'user', 'content': resposta})
-
-# print(resposta)
-# f'{resposta}'
