@@ -5,10 +5,10 @@ import keras
 import pandas as pd # **Biblioteca para tratar dados**
 
 #caminho das fotos
-gui = "./Next2024/.streamlit/fotos/gui.jpg" # mudar caminho da foto
-bizon = "./Next2024//.streamlit/fotos/bizon.jpg" # mudar caminho da foto
-couto = "./Next2024/.streamlit/fotos/couto.jpg" # mudar caminho da foto
-mat = "./Next2024/.streamlit/fotos/mat.jpg" # mudar caminho da foto
+gui = "./Next2024/streamlit/fotos/gui.jpg" # mudar caminho da foto
+bizon = "./Next2024//streamlit/fotos/bizon.jpg" # mudar caminho da foto
+couto = "./Next2024/streamlit/fotos/couto.jpg" # mudar caminho da foto
+mat = "./Next2024/streamlit/fotos/mat.jpg" # mudar caminho da foto
 
 in_out = ''
 testes = ''
