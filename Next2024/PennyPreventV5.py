@@ -244,8 +244,8 @@ if etapa == 3:
 
       f"Predição do teste manual: '{predito_teste}'" # se 2 valores do dicionário são iguais, mostra o primeiro
           
-      #. # **Salvar e carregar modelo**
-      #. modelo.save('modelo.h5')
+      # **Salvar e carregar modelo**
+      modelo.save('modelo.h5')
 
       #. from tensorflow.keras.models import load_model #type: ignore #? informa erro mas é funcional (?)
 
@@ -299,7 +299,7 @@ if etapa == 3:
     '\nAnálise do chatbot:'
     import openai
 
-    chave_api = "´OpenAI key´"
+    chave_api = "´OpenAI Key´"
 
     openai.api_key = chave_api
 
