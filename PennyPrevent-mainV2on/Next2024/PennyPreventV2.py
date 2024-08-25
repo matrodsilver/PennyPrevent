@@ -462,7 +462,7 @@ with tab2:
 
 
         import openai
-        chave_api = "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"
+        chave_api = "key"
 
         openai.api_key = chave_api
 
