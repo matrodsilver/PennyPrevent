@@ -34,7 +34,7 @@ with tab2:
     caminho_do_arquivo = filedialog.askopenfilename(initialdir='/', title='Selecione o arquivo', filetypes=(('todos os arquivos', '*.*'),))
 
   else:
-    caminho_do_arquivo = r".\Next2024\poseidonTratado2.csv"
+    caminho_do_arquivo = r"/Next2024/poseidonTratado2.csv"
     "Rodando arquivo de exemplo (default)"
 
 
