@@ -6,8 +6,8 @@
 
 //# variáveis da biblioteca de wifi //
   WiFiClient client;
-  const char* url = "https://predito-85975-default-rtdb.firebaseio.com/Dados2";
-  const char* apiKey = "AIzaSyD0WLSyVWJRM72-6HRfcDe_m3iLpHglY2s";
+  const char* url = "url";
+  const char* apiKey = "chave";
 
 //# Dados Firebase //
   FirebaseData dados;
@@ -174,7 +174,7 @@ void iniciar()
     WiFi.disconnect();
     delay(3000);
     Serial.println("START");
-    WiFi.begin("MatRodNet", "11etrinta");
+    WiFi.begin("wifi", "senha");
     while ((!(WiFi.status() == WL_CONNECTED)))
     {
       delay(300);
