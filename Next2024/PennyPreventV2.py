@@ -372,7 +372,7 @@ with tab2:
       import requests
 
       def pegarUltimosDados():
-        urlTSultimoResultado = f'https://api.thingspeak.com/channels/2127654/feeds.json?api_key=MZB0IDFGQR9AQVBW&results=1'
+        urlTSultimoResultado = f'<api>'
 
         resposta = requests.get(urlTSultimoResultado)
 
@@ -431,8 +431,8 @@ with tab2:
         ## TORNAR DINÂMICO
         
         if predicao_atual in ['disfuncional', 'problema encontrado']:
-          pb_usuarios = ['o.9CYuBlpove3ErChfkLDjcmkNcjquJ1oz']
-          wp_usuarios = ['+5511996568160']
+          pb_usuarios = ['<key>']
+          wp_usuarios = ['<wppNº>']
           
           # titulo, mensagem = '⚠️Aviso⚠️', f'⚠ O sistema【𝟭】atingiu o limite de volume ⚠\nAtualmente em: {57- volume} cm'
           titulo, mensagem = '⚠️Aviso⚠️', f'Foi previsto que o sistema 【𝟭】 está {predicao_atual}'
@@ -459,24 +459,24 @@ with tab2:
         delay(16)
 
 
-        import openai
-        chave_api = "key"
+        # import openai
+        # chave_api = "key"
 
-        openai.api_key = chave_api
+        # openai.api_key = chave_api
 
-        def enviar_conversa(mensagem, lista_mensagens=[]):
+        # def enviar_conversa(mensagem, lista_mensagens=[]):
 
-            lista_mensagens.append(
-                {"role":"user", "content": mensagem}
-                )
+        #     lista_mensagens.append(
+        #         {"role":"user", "content": mensagem}
+        #         )
 
-            resposta = openai.chat.completions.create(
-                model = "gpt-3.5-turbo",
-                messages = lista_mensagens,
-            )
-            return resposta.choices[0].message.content
-        if 'lista_mensagens' not in sl.session_state:
-          sl.session_state.lista_mensagens = []
+        #     resposta = openai.chat.completions.create(
+        #         model = "gpt-3.5-turbo",
+        #         messages = lista_mensagens,
+        #     )
+        #     return resposta.choices[0].message.content
+        # if 'lista_mensagens' not in sl.session_state:
+        #   sl.session_state.lista_mensagens = []
 
         
 
@@ -545,20 +545,20 @@ with tab2:
           except:
             'digite valores coerentes de teste para cada coluna, separados por ´,´'
 
-        lista_mensagens = []
-        texto = f'Analise esses dados:\n{exibir}\n'    
-        texto += f'{in_out}\n'
-        texto += f'{valores_de_teste_inputados}'
-        texto += f'Predição do teste: {valor_predicao}'
-        resposta = enviar_conversa(texto, lista_mensagens)
-        lista_mensagens.append({'role': 'user', 'content': resposta})
+        # lista_mensagens = []
+        # texto = f'Analise esses dados:\n{exibir}\n'    
+        # texto += f'{in_out}\n'
+        # texto += f'{valores_de_teste_inputados}'
+        # texto += f'Predição do teste: {valor_predicao}'
+        # resposta = enviar_conversa(texto, lista_mensagens)
+        # lista_mensagens.append({'role': 'user', 'content': resposta})
           
-        with col2:
-          sl.markdown('<div style="font-weight: bold; font-size: 20px">Análise do chatbot:<div/>', unsafe_allow_html=True)
-          sl.markdown('<div style="background-color: #82c9ff; color: white; width: 165px; height: 3px;"> <div/>', unsafe_allow_html=True)
+        # with col2:
+        #   sl.markdown('<div style="font-weight: bold; font-size: 20px">Análise do chatbot:<div/>', unsafe_allow_html=True)
+        #   sl.markdown('<div style="background-color: #82c9ff; color: white; width: 165px; height: 3px;"> <div/>', unsafe_allow_html=True)
           
-          # Exibe a resposta do chatbot gerada anteriormente
-          sl.write(resposta)
+        #   # Exibe a resposta do chatbot gerada anteriormente
+        #   sl.write(resposta)
 
           # Captura a mensagem do usuário
           mensagem_usuario = sl.text_input("Digite sua mensagem")
