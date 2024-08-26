@@ -372,7 +372,7 @@ with tab2:
       import requests
 
       def pegarUltimosDados():
-        urlTSultimoResultado = f'<api>'
+        urlTSultimoResultado = f'https://api.thingspeak.com/channels/2127654/feeds.json?api_key=MZB0IDFGQR9AQVBW&results=1'
 
         resposta = requests.get(urlTSultimoResultado)
 
