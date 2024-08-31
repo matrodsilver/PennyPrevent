@@ -1,0 +1,3001 @@
+id,Cor,Infravermelho,Temperatura,Vibracao,Estado
+0,0,1,44.717,0,Funcional
+1,1,1,19.2994,0,Funcional
+2,3,1,-100.8952,0,Funcional
+3,0,1,94.9387,1,Problema encontrado
+4,2,0,93.8993,0,Problema encontrado
+5,1,1,24.598,0,Funcional
+6,1,1,69.4053,0,Funcional
+7,-2,1,28.8364,0,Disfuncional
+8,2,1,-19.829,0,Funcional
+9,0,1,20.4627,0,Funcional
+10,1,0,79.128,1,Problema encontrado
+11,1,1,-50.22,0,Funcional
+12,1,0,-18.3308,0,Problema encontrado
+13,0,1,6.9033,1,Funcional
+14,-2,1,121.7156,1,Disfuncional
+15,0,0,104.6598,0,Problema encontrado
+16,1,0,47.1428,1,Problema encontrado
+17,3,0,-79.4247,1,Problema encontrado
+18,0,0,-72.0593,1,Funcional
+19,3,1,82.2078,1,Funcional
+20,3,0,132.6278,1,Problema encontrado
+21,-2,1,-126.8515,1,Disfuncional
+22,3,0,30.5304,0,Problema encontrado
+23,-2,0,-76.3847,0,Disfuncional
+24,-2,1,-1.7095,1,Disfuncional
+25,0,1,-84.7094,0,Funcional
+26,2,1,84.2702,0,Funcional
+27,3,0,-39.3899,1,Problema encontrado
+28,3,1,59.2617,1,Funcional
+29,0,0,-81.9124,0,Funcional
+30,0,0,-125.7037,1,Disfuncional
+31,1,1,42.721,0,Funcional
+32,-2,1,7.3139,0,Disfuncional
+33,0,1,-6.4523,1,Funcional
+34,-2,1,-84.3361,1,Disfuncional
+35,-2,0,92.0334,0,Disfuncional
+36,-2,1,-1.8674,0,Disfuncional
+37,1,1,64.6313,0,Funcional
+38,2,1,132.5006,0,Problema encontrado
+39,-2,0,-13.5151,0,Disfuncional
+40,-2,1,148.2103,1,Disfuncional
+41,2,0,107.6564,0,Problema encontrado
+42,1,0,100.7771,1,Problema encontrado
+43,1,0,-109.6627,0,Problema encontrado
+44,0,1,79.998,0,Funcional
+45,-2,0,-98.8258,1,Disfuncional
+46,0,0,-57.45,0,Funcional
+47,0,0,-21.8306,1,Funcional
+48,2,1,-51.9407,0,Funcional
+49,-2,1,127.8854,1,Disfuncional
+50,0,0,-8.7675,1,Funcional
+51,3,1,-61.0983,1,Funcional
+52,3,1,20.0307,1,Funcional
+53,2,0,-120.3799,0,Problema encontrado
+54,3,1,-112.7534,0,Funcional
+55,0,0,138.1112,0,Problema encontrado
+56,3,1,-108.5653,1,Funcional
+57,3,1,2.3003,0,Funcional
+58,0,1,-4.4223,1,Funcional
+59,1,0,25.8696,0,Problema encontrado
+60,3,0,-109.1297,1,Problema encontrado
+61,2,1,-79.2406,0,Funcional
+62,3,0,-104.2413,1,Problema encontrado
+63,1,1,102.4316,1,Problema encontrado
+64,2,0,97.9151,1,Problema encontrado
+65,1,1,11.7951,1,Funcional
+66,3,1,-46.7526,0,Funcional
+67,1,0,37.9758,1,Problema encontrado
+68,3,0,-8.9316,1,Problema encontrado
+69,0,0,58.582,0,Funcional
+70,3,0,-79.9521,0,Problema encontrado
+71,-2,1,-25.8428,0,Disfuncional
+72,1,0,-33.9235,1,Problema encontrado
+73,1,0,-65.4488,0,Problema encontrado
+74,1,0,82.5641,0,Problema encontrado
+75,3,0,53.2743,0,Problema encontrado
+76,3,1,-56.487,1,Funcional
+77,2,0,-32.3911,0,Problema encontrado
+78,1,1,122.5524,0,Problema encontrado
+79,-2,0,71.4397,0,Disfuncional
+80,2,1,-122.5982,1,Funcional
+81,1,1,82.5487,0,Funcional
+82,-2,0,132.1769,0,Disfuncional
+83,3,0,-107.9645,1,Problema encontrado
+84,2,1,-84.5219,0,Funcional
+85,-2,1,-16.0122,0,Disfuncional
+86,2,1,-31.2744,0,Funcional
+87,3,0,62.8892,1,Problema encontrado
+88,3,0,51.8798,1,Problema encontrado
+89,2,0,94.298,0,Problema encontrado
+90,2,1,139.4521,0,Problema encontrado
+91,-2,1,40.0524,0,Disfuncional
+92,0,0,121.1249,0,Problema encontrado
+93,2,0,-73.5122,0,Problema encontrado
+94,0,0,130.1135,1,Problema encontrado
+95,-2,0,118.8549,1,Disfuncional
+96,2,0,-70.529,0,Problema encontrado
+97,-2,0,55.9949,1,Disfuncional
+98,2,0,112.5119,1,Problema encontrado
+99,0,1,-15.883,0,Funcional
+100,-2,1,-24.7243,1,Disfuncional
+101,-2,0,133.0621,0,Disfuncional
+102,-2,1,-77.5926,0,Disfuncional
+103,1,1,-103.2304,1,Funcional
+104,-2,1,64.3058,0,Disfuncional
+105,0,1,-121.8063,0,Funcional
+106,2,0,49.0714,0,Problema encontrado
+107,1,0,84.2947,1,Problema encontrado
+108,-2,1,50.7847,1,Disfuncional
+109,0,1,-77.9239,1,Funcional
+110,2,1,138.2859,1,Problema encontrado
+111,0,1,-108.4213,1,Funcional
+112,0,0,15.4132,1,Funcional
+113,3,0,-116.9993,0,Problema encontrado
+114,3,1,101.9699,1,Problema encontrado
+115,1,1,138.8671,1,Problema encontrado
+116,2,0,0.0137,0,Problema encontrado
+117,2,1,-87.7253,0,Funcional
+118,-2,0,22.8964,0,Disfuncional
+119,3,1,-43.7124,0,Funcional
+120,1,0,-88.0894,1,Problema encontrado
+121,1,1,119.75,0,Problema encontrado
+122,0,1,25.7354,0,Funcional
+123,1,1,-17.3992,0,Funcional
+124,0,1,-9.5341,1,Funcional
+125,-2,0,-84.0963,1,Disfuncional
+126,0,0,-35.5251,0,Funcional
+127,-2,1,44.0536,1,Disfuncional
+128,1,1,9.3031,0,Funcional
+129,0,1,-32.8209,1,Funcional
+130,3,0,116.9872,1,Problema encontrado
+131,3,1,123.2508,1,Problema encontrado
+132,2,0,109.4227,0,Problema encontrado
+133,3,1,10.9537,1,Funcional
+134,3,1,149.2697,0,Problema encontrado
+135,3,1,8.435,0,Funcional
+136,3,1,28.9496,0,Funcional
+137,-2,0,128.6347,0,Disfuncional
+138,3,0,56.9243,0,Problema encontrado
+139,2,1,-35.4226,1,Funcional
+140,0,1,-118.2091,1,Funcional
+141,3,0,102.0437,1,Problema encontrado
+142,3,1,-82.7702,1,Funcional
+143,1,1,92.4584,1,Problema encontrado
+144,1,1,139.9985,1,Problema encontrado
+145,2,0,120.4356,0,Problema encontrado
+146,1,0,-43.1253,0,Problema encontrado
+147,1,0,21.2739,0,Problema encontrado
+148,3,0,69.782,0,Problema encontrado
+149,1,1,-125.4824,1,Disfuncional
+150,0,0,-115.0847,1,Funcional
+151,3,0,10.2683,0,Problema encontrado
+152,3,0,124.9096,0,Problema encontrado
+153,2,0,59.7343,0,Problema encontrado
+154,0,0,109.4312,1,Problema encontrado
+155,0,1,-48.6656,0,Funcional
+156,3,1,119.3302,0,Problema encontrado
+157,0,0,71.5173,0,Funcional
+158,-2,1,-22.1979,0,Disfuncional
+159,-2,1,124.3207,0,Disfuncional
+160,3,1,145.6788,1,Problema encontrado
+161,2,0,62.6748,1,Problema encontrado
+162,-2,1,-112.1575,1,Disfuncional
+163,0,0,24.0655,1,Funcional
+164,-2,0,-72.271,0,Disfuncional
+165,2,0,61.0709,0,Problema encontrado
+166,2,0,24.6144,1,Problema encontrado
+167,2,0,-103.1291,0,Problema encontrado
+168,3,1,18.535,1,Funcional
+169,1,1,-13.5979,0,Funcional
+170,3,0,117.4329,0,Problema encontrado
+171,1,0,4.7201,1,Problema encontrado
+172,0,1,136.7393,1,Problema encontrado
+173,3,0,-1.2545,0,Problema encontrado
+174,2,1,-19.5918,1,Funcional
+175,3,0,-40.0457,1,Problema encontrado
+176,2,0,-108.7326,1,Problema encontrado
+177,-2,0,-64.2659,0,Disfuncional
+178,1,1,44.1215,1,Funcional
+179,0,1,-45.3426,0,Funcional
+180,3,0,137.2241,1,Problema encontrado
+181,2,1,8.299,0,Funcional
+182,-2,1,61.6146,1,Disfuncional
+183,1,0,-25.1973,1,Problema encontrado
+184,1,0,11.4479,0,Problema encontrado
+185,2,1,40.9142,0,Funcional
+186,-2,0,130.3467,0,Disfuncional
+187,-2,0,41.5782,1,Disfuncional
+188,-2,0,117.5024,1,Disfuncional
+189,-2,0,64.7853,0,Disfuncional
+190,0,0,138.5653,0,Problema encontrado
+191,0,0,-32.6352,1,Funcional
+192,3,0,63.046,0,Problema encontrado
+193,3,0,-48.2674,1,Problema encontrado
+194,2,1,-15.3375,1,Funcional
+195,3,0,90.153,1,Problema encontrado
+196,3,0,95.4982,0,Problema encontrado
+197,0,0,76.202,0,Funcional
+198,0,0,-101.3692,0,Funcional
+199,1,1,-69.9481,0,Funcional
+200,-2,1,99.2491,0,Disfuncional
+201,2,1,14.0714,1,Funcional
+202,-2,0,76.1996,0,Disfuncional
+203,-2,0,91.5834,1,Disfuncional
+204,3,0,129.0258,1,Problema encontrado
+205,3,0,90.1892,1,Problema encontrado
+206,3,1,70.0967,0,Funcional
+207,-2,0,53.9046,1,Disfuncional
+208,3,1,110.9239,0,Problema encontrado
+209,-2,1,-72.7004,0,Disfuncional
+210,0,0,3.8448,0,Funcional
+211,2,0,145.5985,1,Problema encontrado
+212,1,1,141.8115,1,Problema encontrado
+213,1,1,-52.9935,0,Funcional
+214,3,1,142.9529,0,Problema encontrado
+215,0,0,49.7785,0,Funcional
+216,1,0,102.0372,0,Problema encontrado
+217,-2,0,-48.1156,0,Disfuncional
+218,-2,0,60.4373,1,Disfuncional
+219,0,1,-80.5752,1,Funcional
+220,0,0,-92.1014,1,Funcional
+221,0,1,-26.521,0,Funcional
+222,1,0,-24.2406,0,Problema encontrado
+223,2,0,-44.7713,1,Problema encontrado
+224,2,0,-74.0036,0,Problema encontrado
+225,1,1,-71.1176,0,Funcional
+226,3,0,-11.3817,0,Problema encontrado
+227,1,0,-8.8828,0,Problema encontrado
+228,0,0,85.607,1,Funcional
+229,0,0,121.0913,0,Problema encontrado
+230,-2,0,98.2783,1,Disfuncional
+231,3,0,-94.9106,0,Problema encontrado
+232,3,0,-120.3682,0,Problema encontrado
+233,1,1,-106.3181,0,Funcional
+234,1,1,74.6705,0,Funcional
+235,-2,1,34.3178,0,Disfuncional
+236,1,0,-67.4284,1,Problema encontrado
+237,-2,0,129.6765,0,Disfuncional
+238,1,0,100.9105,1,Problema encontrado
+239,2,0,73.5163,1,Problema encontrado
+240,1,1,38.9854,1,Funcional
+241,1,1,95.0772,0,Problema encontrado
+242,-2,0,144.0359,0,Disfuncional
+243,1,0,74.3373,1,Problema encontrado
+244,1,1,-66.4503,0,Funcional
+245,0,0,-92.1704,0,Funcional
+246,2,0,112.8057,1,Problema encontrado
+247,2,1,7.6064,0,Funcional
+248,1,1,121.4768,1,Problema encontrado
+249,3,0,0.8684,0,Problema encontrado
+250,0,1,-5.2412,0,Funcional
+251,0,1,19.7107,0,Funcional
+252,-2,1,110.0936,1,Disfuncional
+253,0,1,103.6801,1,Problema encontrado
+254,3,1,-23.7614,1,Funcional
+255,-2,1,-8.2378,0,Disfuncional
+256,1,0,-46.555,0,Problema encontrado
+257,1,1,77.9451,1,Funcional
+258,3,0,76.4361,0,Problema encontrado
+259,1,0,68.5861,1,Problema encontrado
+260,3,0,97.9313,1,Problema encontrado
+261,0,0,-41.087,1,Funcional
+262,0,0,-65.0229,0,Funcional
+263,1,0,-98.5374,1,Problema encontrado
+264,-2,0,51.9297,0,Disfuncional
+265,-2,0,117.5264,0,Disfuncional
+266,3,0,101.2031,0,Problema encontrado
+267,2,0,80.2844,0,Problema encontrado
+268,1,0,92.2377,1,Problema encontrado
+269,2,1,79.2151,1,Funcional
+270,0,1,-22.4749,1,Funcional
+271,2,0,72.3564,0,Problema encontrado
+272,2,1,70.0028,1,Funcional
+273,-2,0,26.1106,1,Disfuncional
+274,1,1,89.9444,1,Funcional
+275,0,0,11.6984,0,Funcional
+276,0,0,110.8514,1,Problema encontrado
+277,3,1,122.2492,0,Problema encontrado
+278,-2,1,19.8677,1,Disfuncional
+279,3,0,44.5553,1,Problema encontrado
+280,-2,0,-7.2571,1,Disfuncional
+281,-2,1,43.8607,0,Disfuncional
+282,2,0,81.7891,0,Problema encontrado
+283,0,0,14.7684,1,Funcional
+284,2,0,-64.2568,1,Problema encontrado
+285,0,1,46.4584,1,Funcional
+286,2,1,-8.8644,1,Funcional
+287,2,0,-58.5522,0,Problema encontrado
+288,-2,1,-53.3502,0,Disfuncional
+289,1,1,-48.8626,1,Funcional
+290,3,1,32.0495,1,Funcional
+291,3,1,80.1422,0,Funcional
+292,3,1,146.2801,0,Problema encontrado
+293,2,0,-15.149,1,Problema encontrado
+294,0,0,15.499,0,Funcional
+295,2,1,-52.2994,0,Funcional
+296,1,1,-1.8982,1,Funcional
+297,3,0,-95.1409,0,Problema encontrado
+298,0,1,-118.5068,1,Funcional
+299,0,1,-105.7429,0,Funcional
+300,3,0,70.1001,0,Problema encontrado
+301,2,0,93.7319,0,Problema encontrado
+302,2,0,-13.4844,0,Problema encontrado
+303,0,0,44.7955,1,Funcional
+304,2,0,-27.4312,1,Problema encontrado
+305,0,0,-74.0907,0,Funcional
+306,1,0,75.401,1,Problema encontrado
+307,2,0,6.7173,1,Problema encontrado
+308,1,0,19.3138,1,Problema encontrado
+309,1,0,7.7945,1,Problema encontrado
+310,0,0,-79.2488,1,Funcional
+311,2,0,1.0106,0,Problema encontrado
+312,2,1,-52.6317,1,Funcional
+313,2,0,-7.1133,0,Problema encontrado
+314,2,0,-120.9312,0,Problema encontrado
+315,0,0,83.6528,0,Funcional
+316,2,0,-2.088,1,Problema encontrado
+317,1,1,60.0132,1,Funcional
+318,3,1,36.1622,1,Funcional
+319,-2,0,105.8878,0,Disfuncional
+320,0,0,12.9561,0,Funcional
+321,2,1,141.7741,1,Problema encontrado
+322,1,0,84.2428,1,Problema encontrado
+323,1,1,100.1357,0,Problema encontrado
+324,1,1,-101.5417,1,Funcional
+325,3,0,-80.9835,0,Problema encontrado
+326,-2,1,-49.2321,1,Disfuncional
+327,0,0,43.4715,1,Funcional
+328,-2,1,-123.8041,1,Disfuncional
+329,0,1,137.8628,0,Problema encontrado
+330,0,0,-114.0137,0,Funcional
+331,3,1,-122.1646,0,Funcional
+332,1,1,88.7289,1,Funcional
+333,1,1,-111.0013,1,Funcional
+334,3,0,-115.5735,0,Problema encontrado
+335,1,1,-4.4302,0,Funcional
+336,2,1,18.0138,1,Funcional
+337,2,0,-100.3603,1,Problema encontrado
+338,-2,1,135.2384,1,Disfuncional
+339,1,1,88.916,1,Funcional
+340,1,1,32.6561,1,Funcional
+341,-2,1,-123.1946,1,Disfuncional
+342,2,1,0.8348,0,Funcional
+343,2,1,133.8243,1,Problema encontrado
+344,-2,0,108.6004,0,Disfuncional
+345,1,0,-89.9706,0,Problema encontrado
+346,-2,1,-75.6753,1,Disfuncional
+347,1,0,34.9448,0,Problema encontrado
+348,0,0,79.7367,1,Funcional
+349,2,0,128.3678,1,Problema encontrado
+350,3,0,-6.2603,0,Problema encontrado
+351,-2,0,-103.2121,1,Disfuncional
+352,0,0,7.615,1,Funcional
+353,0,0,-59.2817,0,Funcional
+354,1,1,-37.8304,1,Funcional
+355,1,1,-12.9412,1,Funcional
+356,1,0,54.6829,1,Problema encontrado
+357,1,0,104.0613,1,Problema encontrado
+358,2,1,-77.3616,1,Funcional
+359,-2,1,128.6633,0,Disfuncional
+360,0,0,-49.2561,1,Funcional
+361,2,1,129.3393,0,Problema encontrado
+362,3,0,48.1297,0,Problema encontrado
+363,3,0,141.6236,0,Problema encontrado
+364,-2,0,-42.3868,1,Disfuncional
+365,1,0,91.5763,0,Problema encontrado
+366,1,1,56.8322,0,Funcional
+367,2,1,10.6281,1,Funcional
+368,3,1,136.4684,0,Problema encontrado
+369,0,1,75.8611,1,Funcional
+370,1,1,25.9624,1,Funcional
+371,1,0,137.6593,0,Problema encontrado
+372,-2,0,-114.2284,1,Disfuncional
+373,2,0,108.6203,1,Problema encontrado
+374,3,1,56.0829,0,Funcional
+375,3,0,64.3355,1,Problema encontrado
+376,3,0,4.8555,0,Problema encontrado
+377,0,0,115.4451,0,Problema encontrado
+378,3,0,-37.0381,1,Problema encontrado
+379,-2,0,55.5235,0,Disfuncional
+380,-2,0,-83.8345,0,Disfuncional
+381,0,1,-39.0396,0,Funcional
+382,2,1,-8.0957,0,Funcional
+383,0,1,-70.3053,1,Funcional
+384,2,0,54.3897,0,Problema encontrado
+385,2,1,129.7979,1,Problema encontrado
+386,1,1,-11.5311,0,Funcional
+387,1,1,15.6698,0,Funcional
+388,1,1,117.4683,0,Problema encontrado
+389,3,1,-24.7855,1,Funcional
+390,1,0,4.8368,1,Problema encontrado
+391,-2,1,59.476,1,Disfuncional
+392,1,1,2.3269,1,Funcional
+393,1,0,-62.3051,0,Problema encontrado
+394,1,0,-27.7226,1,Problema encontrado
+395,2,0,104.2431,0,Problema encontrado
+396,1,1,50.0179,0,Funcional
+397,2,0,-89.5267,0,Problema encontrado
+398,0,0,25.37,1,Funcional
+399,3,1,84.8906,1,Funcional
+400,2,0,-10.4021,1,Problema encontrado
+401,-2,0,0.8042,0,Disfuncional
+402,1,1,-11.2521,0,Funcional
+403,-2,1,136.107,0,Disfuncional
+404,3,0,96.9093,1,Problema encontrado
+405,-2,1,105.5994,1,Disfuncional
+406,3,1,90.0822,0,Problema encontrado
+407,-2,0,-16.8328,0,Disfuncional
+408,2,1,120.8007,0,Problema encontrado
+409,-2,1,-79.0979,1,Disfuncional
+410,1,1,28.8851,0,Funcional
+411,1,1,148.0447,0,Problema encontrado
+412,0,1,101.7485,1,Problema encontrado
+413,1,1,64.2797,1,Funcional
+414,3,1,6.1913,1,Funcional
+415,3,0,39.3025,1,Problema encontrado
+416,-2,1,-122.7809,1,Disfuncional
+417,-2,0,-108.032,0,Disfuncional
+418,2,1,-97.1348,1,Funcional
+419,2,0,-4.2087,1,Problema encontrado
+420,-2,0,149.0669,1,Disfuncional
+421,2,1,49.0406,1,Funcional
+422,-2,0,89.8517,0,Disfuncional
+423,1,1,41.2265,1,Funcional
+424,2,1,52.5062,1,Funcional
+425,3,0,0.0805,1,Problema encontrado
+426,2,1,102.0513,1,Problema encontrado
+427,2,1,-79.2212,0,Funcional
+428,0,0,33.4758,0,Funcional
+429,-2,0,138.4142,1,Disfuncional
+430,2,0,102.5715,1,Problema encontrado
+431,0,0,26.6391,0,Funcional
+432,3,0,-26.1123,0,Problema encontrado
+433,1,1,-53.3071,0,Funcional
+434,-2,1,102.1002,1,Disfuncional
+435,2,0,140.9272,1,Problema encontrado
+436,0,1,89.4451,0,Funcional
+437,2,0,-85.7763,0,Problema encontrado
+438,0,0,114.6098,0,Problema encontrado
+439,3,1,-23.0933,1,Funcional
+440,2,1,-124.2424,1,Funcional
+441,0,0,76.8553,1,Funcional
+442,1,0,-79.931,1,Problema encontrado
+443,-2,1,-86.0209,0,Disfuncional
+444,2,0,-67.1695,1,Problema encontrado
+445,3,0,-98.3162,1,Problema encontrado
+446,0,0,131.6979,1,Problema encontrado
+447,-2,0,14.8594,1,Disfuncional
+448,0,0,-66.5717,0,Funcional
+449,1,1,1.6398,1,Funcional
+450,-2,0,118.9025,1,Disfuncional
+451,2,1,21.5609,0,Funcional
+452,0,0,-14.7831,0,Funcional
+453,-2,0,4.0575,0,Disfuncional
+454,-2,0,17.0136,0,Disfuncional
+455,2,0,36.6973,0,Problema encontrado
+456,1,0,-25.542,1,Problema encontrado
+457,3,1,-122.6846,0,Funcional
+458,0,0,-62.7589,0,Funcional
+459,-2,1,28.7368,1,Disfuncional
+460,-2,0,73.6503,0,Disfuncional
+461,1,0,127.7659,1,Problema encontrado
+462,0,1,123.877,1,Problema encontrado
+463,3,1,77.7888,0,Funcional
+464,1,1,-61.1588,0,Funcional
+465,3,1,72.1173,0,Funcional
+466,1,0,-16.0994,0,Problema encontrado
+467,0,1,-1.6947,1,Funcional
+468,3,0,138.3697,1,Problema encontrado
+469,3,0,-53.1693,1,Problema encontrado
+470,3,1,-19.1859,0,Funcional
+471,3,0,-18.1797,1,Problema encontrado
+472,-2,1,-121.8435,0,Disfuncional
+473,0,1,-94.1303,0,Funcional
+474,-2,0,-31.3632,1,Disfuncional
+475,1,1,29.0508,1,Funcional
+476,-2,0,26.419,1,Disfuncional
+477,-2,1,134.6792,1,Disfuncional
+478,1,0,113.3623,1,Problema encontrado
+479,1,1,-4.869,1,Funcional
+480,-2,1,-83.7382,0,Disfuncional
+481,1,0,116.0415,0,Problema encontrado
+482,0,1,-32.4996,0,Funcional
+483,0,1,115.4812,1,Problema encontrado
+484,-2,1,-72.7032,0,Disfuncional
+485,2,1,-114.7854,1,Funcional
+486,0,0,-105.3151,1,Funcional
+487,0,0,37.663,1,Funcional
+488,3,1,76.461,1,Funcional
+489,2,0,23.0502,1,Problema encontrado
+490,0,0,10.5209,0,Funcional
+491,3,0,-56.0238,1,Problema encontrado
+492,-2,0,-70.1245,0,Disfuncional
+493,-2,0,13.5141,0,Disfuncional
+494,3,1,-83.3336,0,Funcional
+495,-2,1,22.5857,0,Disfuncional
+496,1,1,77.5622,1,Funcional
+497,-2,0,-110.2406,0,Disfuncional
+498,3,0,88.799,0,Problema encontrado
+499,0,0,34.7244,1,Funcional
+500,0,1,-84.5063,1,Funcional
+501,0,1,135.9576,0,Problema encontrado
+502,1,0,77.1502,1,Problema encontrado
+503,-2,0,147.3032,1,Disfuncional
+504,-2,1,-26.704,1,Disfuncional
+505,0,0,-95.9484,0,Funcional
+506,3,0,-105.1493,1,Problema encontrado
+507,1,0,-44.9002,1,Problema encontrado
+508,2,0,103.2986,0,Problema encontrado
+509,-2,0,33.4585,0,Disfuncional
+510,1,1,40.0976,1,Funcional
+511,3,0,-76.7862,1,Problema encontrado
+512,-2,0,89.082,1,Disfuncional
+513,1,0,59.0308,1,Problema encontrado
+514,3,1,-97.7504,1,Funcional
+515,-2,1,60.5171,1,Disfuncional
+516,-2,0,41.7126,1,Disfuncional
+517,-2,0,50.0902,0,Disfuncional
+518,1,0,130.6981,0,Problema encontrado
+519,1,1,-104.874,0,Funcional
+520,2,0,-4.9323,1,Problema encontrado
+521,2,0,12.7167,1,Problema encontrado
+522,-2,1,-3.1316,0,Disfuncional
+523,2,1,82.6415,0,Funcional
+524,2,1,76.6593,0,Funcional
+525,2,1,-115.318,1,Funcional
+526,-2,0,24.6169,1,Disfuncional
+527,3,1,66.873,0,Funcional
+528,-2,0,72.1372,1,Disfuncional
+529,-2,0,51.7429,1,Disfuncional
+530,-2,1,62.1181,1,Disfuncional
+531,1,0,83.3228,0,Problema encontrado
+532,2,1,33.499,0,Funcional
+533,0,0,104.5485,1,Problema encontrado
+534,3,1,63.9531,0,Funcional
+535,1,1,139.133,0,Problema encontrado
+536,2,1,82.7499,1,Funcional
+537,0,0,-49.5335,0,Funcional
+538,2,0,-50.8334,0,Problema encontrado
+539,1,1,-49.2236,1,Funcional
+540,0,0,5.786,0,Funcional
+541,2,0,-44.065,0,Problema encontrado
+542,1,0,-16.5432,0,Problema encontrado
+543,2,0,53.839,0,Problema encontrado
+544,3,0,142.1552,0,Problema encontrado
+545,3,1,31.9587,0,Funcional
+546,2,0,112.5218,1,Problema encontrado
+547,0,0,-12.4901,0,Funcional
+548,0,0,35.3435,0,Funcional
+549,0,1,89.34,0,Funcional
+550,-2,1,46.3204,1,Disfuncional
+551,2,1,144.9083,1,Problema encontrado
+552,2,1,104.015,1,Problema encontrado
+553,1,0,-17.9364,1,Problema encontrado
+554,3,0,-65.2043,1,Problema encontrado
+555,-2,1,35.1522,1,Disfuncional
+556,-2,0,69.6703,0,Disfuncional
+557,1,1,103.1076,1,Problema encontrado
+558,1,1,-59.5547,1,Funcional
+559,2,0,0.695,0,Problema encontrado
+560,-2,1,-31.2864,1,Disfuncional
+561,3,0,-114.7249,1,Problema encontrado
+562,3,1,20.7877,1,Funcional
+563,3,0,-18.5036,1,Problema encontrado
+564,1,1,91.569,1,Problema encontrado
+565,2,0,-79.8844,0,Problema encontrado
+566,-2,0,147.2924,0,Disfuncional
+567,-2,0,-0.6998,0,Disfuncional
+568,1,0,20.1829,0,Problema encontrado
+569,2,1,-122.4855,0,Funcional
+570,1,1,14.1393,1,Funcional
+571,3,0,-25.1834,1,Problema encontrado
+572,2,1,-3.4206,1,Funcional
+573,0,0,-76.7402,1,Funcional
+574,0,1,35.0491,0,Funcional
+575,1,0,-46.9139,0,Problema encontrado
+576,2,1,-78.9982,0,Funcional
+577,2,0,-23.4139,1,Problema encontrado
+578,1,1,-52.8852,1,Funcional
+579,3,0,95.2039,1,Problema encontrado
+580,-2,1,-76.7828,1,Disfuncional
+581,-2,0,-105.2157,0,Disfuncional
+582,1,0,46.16,0,Problema encontrado
+583,3,0,38.3347,1,Problema encontrado
+584,3,0,88.8295,0,Problema encontrado
+585,3,1,-45.5834,1,Funcional
+586,2,0,122.2555,1,Problema encontrado
+587,2,0,146.1154,0,Problema encontrado
+588,-2,0,144.9045,1,Disfuncional
+589,1,0,9.6381,0,Problema encontrado
+590,0,0,103.8049,1,Problema encontrado
+591,-2,1,79.9884,0,Disfuncional
+592,2,0,-79.5284,0,Problema encontrado
+593,1,0,-121.6099,1,Problema encontrado
+594,3,0,63.9566,1,Problema encontrado
+595,0,1,131.6448,1,Problema encontrado
+596,0,1,-23.7199,0,Funcional
+597,0,1,43.4866,0,Funcional
+598,-2,0,6.92,0,Disfuncional
+599,3,0,-24.3983,1,Problema encontrado
+600,0,1,131.3691,0,Problema encontrado
+601,3,0,-51.1019,0,Problema encontrado
+602,0,1,-103.8171,1,Funcional
+603,2,0,93.4802,0,Problema encontrado
+604,3,1,59.4013,1,Funcional
+605,2,0,99.4257,1,Problema encontrado
+606,-2,0,9.282,1,Disfuncional
+607,0,0,74.9869,1,Funcional
+608,0,1,70.6278,0,Funcional
+609,-2,1,45.9203,0,Disfuncional
+610,3,1,136.9349,1,Problema encontrado
+611,2,0,-109.6897,0,Problema encontrado
+612,1,1,-66.701,1,Funcional
+613,1,0,-107.4385,1,Problema encontrado
+614,0,0,-56.8129,0,Funcional
+615,1,1,-96.0692,1,Funcional
+616,2,0,66.1681,1,Problema encontrado
+617,2,0,26.9537,0,Problema encontrado
+618,3,0,-11.6925,1,Problema encontrado
+619,0,0,-88.7331,1,Funcional
+620,0,1,71.6629,1,Funcional
+621,2,0,-59.4941,0,Problema encontrado
+622,3,1,26.3418,1,Funcional
+623,-2,1,-28.7449,1,Disfuncional
+624,1,0,115.8017,0,Problema encontrado
+625,1,1,-23.3421,0,Funcional
+626,-2,1,-113.4691,0,Disfuncional
+627,1,0,40.4206,0,Problema encontrado
+628,1,0,37.125,0,Problema encontrado
+629,-2,0,41.5649,0,Disfuncional
+630,2,1,16.3334,0,Funcional
+631,3,1,71.917,1,Funcional
+632,-2,1,-120.1717,1,Disfuncional
+633,1,1,85.8015,0,Funcional
+634,3,1,99.0508,0,Problema encontrado
+635,-2,1,-73.819,1,Disfuncional
+636,1,0,-27.0508,1,Problema encontrado
+637,0,0,-60.0842,0,Funcional
+638,0,0,-73.7856,0,Funcional
+639,2,0,-122.5754,0,Problema encontrado
+640,3,1,149.682,0,Problema encontrado
+641,-2,1,-73.0322,0,Disfuncional
+642,2,0,-114.9995,1,Problema encontrado
+643,-2,1,35.5795,0,Disfuncional
+644,-2,0,20.0524,0,Disfuncional
+645,1,1,73.2267,1,Funcional
+646,1,1,-66.2275,0,Funcional
+647,1,1,146.4416,0,Problema encontrado
+648,2,1,-59.5942,0,Funcional
+649,2,0,140.8623,1,Problema encontrado
+650,0,1,13.57,0,Funcional
+651,0,1,142.3776,0,Problema encontrado
+652,3,1,34.8171,0,Funcional
+653,-2,0,30.9279,1,Disfuncional
+654,2,0,5.7249,1,Problema encontrado
+655,3,1,-0.2364,1,Funcional
+656,0,0,69.2888,1,Funcional
+657,-2,1,19.0929,1,Disfuncional
+658,-2,1,-104.2086,1,Disfuncional
+659,1,0,-60.4963,1,Problema encontrado
+660,3,1,-75.7432,1,Funcional
+661,3,1,105.0293,1,Problema encontrado
+662,3,1,48.9232,0,Funcional
+663,1,0,100.904,1,Problema encontrado
+664,2,0,-126.4251,0,Disfuncional
+665,0,1,133.5261,1,Problema encontrado
+666,0,1,49.8903,0,Funcional
+667,-2,1,-22.6167,1,Disfuncional
+668,-2,1,-90.8192,0,Disfuncional
+669,3,1,-32.9943,0,Funcional
+670,1,1,-97.157,1,Funcional
+671,1,0,45.9579,0,Problema encontrado
+672,2,0,-97.526,0,Problema encontrado
+673,3,1,111.3344,1,Problema encontrado
+674,3,1,10.6445,0,Funcional
+675,2,0,140.6198,1,Problema encontrado
+676,2,1,40.254,0,Funcional
+677,1,0,21.9737,0,Problema encontrado
+678,-2,0,-12.0007,0,Disfuncional
+679,0,0,35.4843,1,Funcional
+680,-2,0,-21.5695,1,Disfuncional
+681,-2,1,-26.8002,1,Disfuncional
+682,0,1,105.8915,1,Problema encontrado
+683,2,0,-121.0318,1,Problema encontrado
+684,2,0,25.0685,1,Problema encontrado
+685,2,0,-72.2738,0,Problema encontrado
+686,1,1,57.1516,1,Funcional
+687,0,0,34.6864,0,Funcional
+688,1,0,65.4505,0,Problema encontrado
+689,2,1,76.6512,0,Funcional
+690,3,1,28.364,1,Funcional
+691,0,0,111.1296,0,Problema encontrado
+692,2,1,9.0463,1,Funcional
+693,-2,0,-30.251,0,Disfuncional
+694,0,0,94.3853,1,Problema encontrado
+695,0,1,31.4846,0,Funcional
+696,3,0,88.4616,0,Problema encontrado
+697,1,1,-88.5027,0,Funcional
+698,2,1,123.7655,0,Problema encontrado
+699,0,1,-82.4787,0,Funcional
+700,1,0,-74.9283,0,Problema encontrado
+701,1,0,42.2139,0,Problema encontrado
+702,0,1,92.5786,1,Problema encontrado
+703,1,1,34.3688,0,Funcional
+704,-2,1,87.8622,1,Disfuncional
+705,2,0,148.3708,0,Problema encontrado
+706,0,0,-99.9677,1,Funcional
+707,3,0,-86.3599,1,Problema encontrado
+708,0,0,12.0289,0,Funcional
+709,0,1,-75.2848,1,Funcional
+710,-2,1,65.9124,1,Disfuncional
+711,2,0,-47.3396,1,Problema encontrado
+712,1,1,-18.0815,0,Funcional
+713,1,0,23.8509,0,Problema encontrado
+714,1,1,-61.7595,1,Funcional
+715,1,0,2.6702,0,Problema encontrado
+716,2,1,79.2454,0,Funcional
+717,1,0,145.5622,1,Problema encontrado
+718,3,1,-99.312,0,Funcional
+719,1,0,-113.7632,1,Problema encontrado
+720,2,0,34.7953,1,Problema encontrado
+721,0,0,-101.1578,1,Funcional
+722,2,0,22.644,0,Problema encontrado
+723,-2,1,112.8918,1,Disfuncional
+724,-2,1,123.5151,1,Disfuncional
+725,3,0,-1.2411,0,Problema encontrado
+726,0,0,140.4076,0,Problema encontrado
+727,1,0,59.9838,0,Problema encontrado
+728,1,0,-33.4956,0,Problema encontrado
+729,1,0,75.004,0,Problema encontrado
+730,-2,0,136.9281,1,Disfuncional
+731,1,0,118.6219,0,Problema encontrado
+732,3,1,-24.89,1,Funcional
+733,-2,0,-34.6553,0,Disfuncional
+734,-2,1,-80.635,0,Disfuncional
+735,1,1,-121.9734,0,Funcional
+736,-2,0,25.4164,1,Disfuncional
+737,1,1,-2.7057,1,Funcional
+738,1,0,-65.7449,1,Problema encontrado
+739,2,1,-58.409,0,Funcional
+740,0,1,145.668,1,Problema encontrado
+741,3,1,-58.9575,0,Funcional
+742,0,1,11.9256,1,Funcional
+743,2,0,55.1725,0,Problema encontrado
+744,1,0,9.3022,1,Problema encontrado
+745,1,0,-19.8883,1,Problema encontrado
+746,3,0,77.1669,1,Problema encontrado
+747,3,1,70.9971,1,Funcional
+748,2,1,-50.1752,1,Funcional
+749,2,0,-95.8334,0,Problema encontrado
+750,2,0,21.3222,1,Problema encontrado
+751,2,0,-90.7908,1,Problema encontrado
+752,1,0,-3.7884,1,Problema encontrado
+753,2,0,51.7893,1,Problema encontrado
+754,2,0,91.2757,1,Problema encontrado
+755,3,0,-92.6819,0,Problema encontrado
+756,3,0,9.4059,0,Problema encontrado
+757,3,1,-37.3013,0,Funcional
+758,3,1,147.9888,1,Problema encontrado
+759,-2,0,-97.577,0,Disfuncional
+760,2,0,-45.2319,0,Problema encontrado
+761,0,1,-104.3605,1,Funcional
+762,2,1,76.484,1,Funcional
+763,1,1,141.5911,1,Problema encontrado
+764,1,0,-28.0156,0,Problema encontrado
+765,-2,0,52.7241,1,Disfuncional
+766,3,0,86.9444,0,Problema encontrado
+767,2,0,119.7911,0,Problema encontrado
+768,-2,1,-35.4195,0,Disfuncional
+769,0,0,116.1789,1,Problema encontrado
+770,2,0,136.2163,1,Problema encontrado
+771,1,0,-118.4377,0,Problema encontrado
+772,0,0,-7.1195,0,Funcional
+773,0,1,69.9463,1,Funcional
+774,3,1,-13.3912,0,Funcional
+775,2,1,121.5727,0,Problema encontrado
+776,-2,1,-69.2737,0,Disfuncional
+777,2,0,94.5581,0,Problema encontrado
+778,1,1,-91.4468,0,Funcional
+779,-2,0,56.2005,0,Disfuncional
+780,3,1,-68.9171,0,Funcional
+781,1,0,-17.7085,1,Problema encontrado
+782,3,0,-78.5238,1,Problema encontrado
+783,0,0,118.7836,1,Problema encontrado
+784,2,0,-73.4887,0,Problema encontrado
+785,1,1,101.3232,1,Problema encontrado
+786,-2,1,-72.7452,0,Disfuncional
+787,3,1,-10.1368,1,Funcional
+788,3,1,71.812,0,Funcional
+789,1,1,-63.5646,0,Funcional
+790,3,1,58.5724,0,Funcional
+791,1,1,-38.5696,1,Funcional
+792,1,1,-49.8731,1,Funcional
+793,3,0,84.8772,1,Problema encontrado
+794,1,1,91.0764,1,Problema encontrado
+795,-2,0,139.4412,0,Disfuncional
+796,3,0,26.0155,0,Problema encontrado
+797,2,1,103.7601,0,Problema encontrado
+798,-2,0,101.3303,1,Disfuncional
+799,0,0,-19.7309,1,Funcional
+800,2,1,-79.5965,1,Funcional
+801,2,0,17.6181,0,Problema encontrado
+802,0,1,-126.3156,1,Disfuncional
+803,2,0,-49.9156,0,Problema encontrado
+804,2,1,-44.4805,1,Funcional
+805,-2,1,-119.1981,1,Disfuncional
+806,2,1,91.9619,0,Problema encontrado
+807,3,0,47.3294,1,Problema encontrado
+808,0,0,83.189,1,Funcional
+809,1,0,107.8045,1,Problema encontrado
+810,3,1,35.3276,0,Funcional
+811,2,0,50.4125,1,Problema encontrado
+812,3,1,-108.3581,1,Funcional
+813,1,1,-11.4718,1,Funcional
+814,2,1,108.7742,0,Problema encontrado
+815,3,0,-17.4182,0,Problema encontrado
+816,1,1,40.954,1,Funcional
+817,3,1,55.2936,1,Funcional
+818,1,1,20.9377,1,Funcional
+819,0,0,-100.2173,1,Funcional
+820,0,1,-109.2895,0,Funcional
+821,3,0,46.0817,1,Problema encontrado
+822,0,0,14.7452,1,Funcional
+823,-2,0,55.5963,1,Disfuncional
+824,2,1,138.8264,1,Problema encontrado
+825,1,1,3.9276,1,Funcional
+826,0,0,18.7706,1,Funcional
+827,0,1,-46.1915,1,Funcional
+828,3,1,-92.7932,0,Funcional
+829,2,0,-29.6545,1,Problema encontrado
+830,2,1,109.6836,0,Problema encontrado
+831,2,0,-35.987,0,Problema encontrado
+832,2,0,-35.0191,1,Problema encontrado
+833,1,0,48.0894,0,Problema encontrado
+834,0,1,-19.6552,0,Funcional
+835,3,1,56.1164,0,Funcional
+836,2,1,24.4353,0,Funcional
+837,-2,0,-40.2351,1,Disfuncional
+838,0,0,42.4743,1,Funcional
+839,-2,0,134.9646,1,Disfuncional
+840,3,1,53.0835,1,Funcional
+841,1,1,-15.0028,1,Funcional
+842,1,0,-32.3519,0,Problema encontrado
+843,-2,1,141.476,1,Disfuncional
+844,-2,0,-16.2999,0,Disfuncional
+845,1,0,-71.885,0,Problema encontrado
+846,-2,0,-40.3694,1,Disfuncional
+847,0,1,-108.19,0,Funcional
+848,-2,0,123.4911,0,Disfuncional
+849,3,1,23.3322,1,Funcional
+850,0,0,102.3059,0,Problema encontrado
+851,-2,1,0.5691,1,Disfuncional
+852,0,1,-5.3946,1,Funcional
+853,2,1,84.6999,1,Funcional
+854,2,1,46.2161,0,Funcional
+855,-2,1,18.735,1,Disfuncional
+856,1,1,94.6396,1,Problema encontrado
+857,3,1,0.2746,0,Funcional
+858,3,0,118.223,0,Problema encontrado
+859,0,1,-117.4818,1,Funcional
+860,1,0,68.6009,1,Problema encontrado
+861,-2,1,69.4766,1,Disfuncional
+862,0,1,78.0699,1,Funcional
+863,1,0,-110.6028,0,Problema encontrado
+864,0,0,28.8383,0,Funcional
+865,0,1,-77.6802,1,Funcional
+866,1,0,34.1034,1,Problema encontrado
+867,1,0,95.0517,1,Problema encontrado
+868,1,0,17.9611,0,Problema encontrado
+869,3,1,-125.9143,0,Disfuncional
+870,3,0,91.4752,1,Problema encontrado
+871,1,0,146.272,0,Problema encontrado
+872,3,1,-16.9322,1,Funcional
+873,2,0,-102.9826,0,Problema encontrado
+874,1,0,-78.2776,1,Problema encontrado
+875,3,1,-84.4514,1,Funcional
+876,3,1,-113.8962,1,Funcional
+877,3,1,15.9455,1,Funcional
+878,-2,1,23.9341,1,Disfuncional
+879,3,1,64.3972,0,Funcional
+880,1,1,127.1245,0,Problema encontrado
+881,-2,1,-24.0796,0,Disfuncional
+882,-2,0,44.8794,0,Disfuncional
+883,1,0,119.2133,1,Problema encontrado
+884,3,1,-70.2623,0,Funcional
+885,3,0,11.4745,1,Problema encontrado
+886,3,0,-114.0506,0,Problema encontrado
+887,-2,1,-62.414,0,Disfuncional
+888,1,1,127.9386,1,Problema encontrado
+889,1,0,28.5146,0,Problema encontrado
+890,2,0,-105.9203,1,Problema encontrado
+891,1,1,-40.7596,0,Funcional
+892,-2,1,144.6896,1,Disfuncional
+893,3,1,-99.9605,0,Funcional
+894,3,1,138.4617,0,Problema encontrado
+895,0,1,118.0526,0,Problema encontrado
+896,-2,1,-47.7072,1,Disfuncional
+897,3,1,-86.2912,0,Funcional
+898,2,1,-48.1842,0,Funcional
+899,0,0,-114.6409,1,Funcional
+900,1,1,117.44,0,Problema encontrado
+901,1,1,-64.6603,0,Funcional
+902,2,1,-59.9723,1,Funcional
+903,0,1,-13.0711,0,Funcional
+904,0,1,-19.1364,1,Funcional
+905,-2,1,87.6465,1,Disfuncional
+906,-2,0,28.8782,0,Disfuncional
+907,2,1,15.0356,1,Funcional
+908,2,0,-38.4305,0,Problema encontrado
+909,-2,0,47.4399,0,Disfuncional
+910,-2,1,-53.3851,1,Disfuncional
+911,1,1,-10.0316,0,Funcional
+912,2,0,-27.3365,0,Problema encontrado
+913,0,1,-126.146,1,Disfuncional
+914,2,0,4.6441,1,Problema encontrado
+915,0,1,44.8201,0,Funcional
+916,2,0,-114.4791,0,Problema encontrado
+917,3,1,-31.9728,1,Funcional
+918,3,0,-13.3447,1,Problema encontrado
+919,3,1,-104.6287,0,Funcional
+920,3,1,81.9101,0,Funcional
+921,2,1,-12.1299,1,Funcional
+922,1,1,128.579,0,Problema encontrado
+923,0,1,-93.6743,1,Funcional
+924,3,1,142.3316,0,Problema encontrado
+925,1,1,-74.5823,1,Funcional
+926,2,1,113.4326,0,Problema encontrado
+927,0,1,72.8936,0,Funcional
+928,2,0,77.6754,1,Problema encontrado
+929,1,0,46.6905,1,Problema encontrado
+930,2,1,21.187,1,Funcional
+931,-2,1,39.794,1,Disfuncional
+932,1,0,52.7839,0,Problema encontrado
+933,-2,0,92.7114,0,Disfuncional
+934,1,1,52.101,1,Funcional
+935,0,0,-29.599,1,Funcional
+936,-2,1,139.4588,1,Disfuncional
+937,3,0,94.6462,1,Problema encontrado
+938,0,0,-103.0543,0,Funcional
+939,-2,0,67.7553,0,Disfuncional
+940,0,0,25.0722,0,Funcional
+941,1,0,41.5459,0,Problema encontrado
+942,2,0,-63.1431,1,Problema encontrado
+943,1,1,43.1939,1,Funcional
+944,3,0,-30.0624,0,Problema encontrado
+945,1,1,139.4248,0,Problema encontrado
+946,-2,0,-16.844,1,Disfuncional
+947,2,1,58.4294,0,Funcional
+948,-2,1,-45.7416,0,Disfuncional
+949,3,0,77.0181,0,Problema encontrado
+950,3,0,-125.6043,0,Disfuncional
+951,2,1,49.5262,1,Funcional
+952,2,0,116.5481,1,Problema encontrado
+953,1,1,72.1437,1,Funcional
+954,-2,0,-96.3026,1,Disfuncional
+955,2,0,-103.8338,0,Problema encontrado
+956,-2,1,-37.8287,1,Disfuncional
+957,0,1,116.2417,1,Problema encontrado
+958,2,1,-42.4452,0,Funcional
+959,-2,1,133.3415,0,Disfuncional
+960,3,1,116.1238,1,Problema encontrado
+961,2,1,57.619,0,Funcional
+962,-2,0,6.2492,1,Disfuncional
+963,0,1,67.6466,1,Funcional
+964,0,1,-88.1381,0,Funcional
+965,2,0,90.154,0,Problema encontrado
+966,0,0,106.1991,1,Problema encontrado
+967,-2,0,57.8789,1,Disfuncional
+968,-2,0,75.6329,1,Disfuncional
+969,-2,1,79.1041,1,Disfuncional
+970,0,0,-108.343,1,Funcional
+971,0,1,68.5886,1,Funcional
+972,0,1,54.492,1,Funcional
+973,0,0,117.6096,0,Problema encontrado
+974,1,0,-102.8965,1,Problema encontrado
+975,0,0,3.4992,1,Funcional
+976,-2,1,-31.6963,1,Disfuncional
+977,-2,0,74.0463,1,Disfuncional
+978,3,1,4.1415,0,Funcional
+979,3,0,121.3257,0,Problema encontrado
+980,1,0,119.2265,1,Problema encontrado
+981,1,1,-37.1734,0,Funcional
+982,3,0,-71.5297,0,Problema encontrado
+983,3,0,-47.6892,1,Problema encontrado
+984,1,0,-32.0822,1,Problema encontrado
+985,1,0,-61.6575,0,Problema encontrado
+986,0,0,71.2519,1,Funcional
+987,1,0,-10.9512,1,Problema encontrado
+988,0,0,62.8328,1,Funcional
+989,2,1,-15.9864,1,Funcional
+990,1,1,4.9211,0,Funcional
+991,3,0,134.9364,1,Problema encontrado
+992,1,0,32.2451,1,Problema encontrado
+993,2,1,-87.6045,0,Funcional
+994,2,1,-36.7509,0,Funcional
+995,-2,0,-98.9207,0,Disfuncional
+996,0,1,132.3551,1,Problema encontrado
+997,-2,0,-11.9598,1,Disfuncional
+998,3,1,-93.258,0,Funcional
+999,0,0,134.2584,1,Problema encontrado
+1000,1,1,-100.7736,0,Funcional
+1001,3,0,-126.1842,0,Disfuncional
+1002,2,0,-19.6867,1,Problema encontrado
+1003,1,1,115.1748,1,Problema encontrado
+1004,0,1,54.2511,0,Funcional
+1005,-2,1,13.8779,1,Disfuncional
+1006,-2,1,103.9215,0,Disfuncional
+1007,0,1,-42.022,1,Funcional
+1008,3,1,74.0903,0,Funcional
+1009,0,0,47.0063,1,Funcional
+1010,0,1,-114.024,1,Funcional
+1011,1,0,96.7944,1,Problema encontrado
+1012,0,1,145.55,1,Problema encontrado
+1013,-2,0,96.0573,0,Disfuncional
+1014,3,0,-74.0831,0,Problema encontrado
+1015,2,1,-68.4408,0,Funcional
+1016,1,1,-52.43,1,Funcional
+1017,2,1,141.0339,0,Problema encontrado
+1018,2,0,-46.2855,0,Problema encontrado
+1019,3,0,-18.574,0,Problema encontrado
+1020,-2,0,84.3123,1,Disfuncional
+1021,0,0,11.8162,1,Funcional
+1022,0,1,122.1321,0,Problema encontrado
+1023,0,1,-106.9792,0,Funcional
+1024,2,1,-107.2371,0,Funcional
+1025,2,1,-10.3797,1,Funcional
+1026,0,1,-71.7335,1,Funcional
+1027,1,1,70.9856,0,Funcional
+1028,1,1,4.4624,1,Funcional
+1029,3,1,12.915,0,Funcional
+1030,2,1,-118.3596,0,Funcional
+1031,0,1,35.3853,1,Funcional
+1032,2,1,148.1691,1,Problema encontrado
+1033,1,0,-60.4861,1,Problema encontrado
+1034,3,1,-72.2628,0,Funcional
+1035,1,0,-55.2289,0,Problema encontrado
+1036,-2,1,22.1893,0,Disfuncional
+1037,0,1,55.7994,1,Funcional
+1038,0,1,15.326,1,Funcional
+1039,2,1,-115.0083,0,Funcional
+1040,-2,0,49.7028,1,Disfuncional
+1041,2,1,139.2266,0,Problema encontrado
+1042,-2,1,-86.8053,1,Disfuncional
+1043,1,0,-92.762,1,Problema encontrado
+1044,1,1,-10.1842,1,Funcional
+1045,0,1,142.0044,1,Problema encontrado
+1046,2,0,73.6213,0,Problema encontrado
+1047,2,1,18.623,0,Funcional
+1048,0,0,-62.3717,1,Funcional
+1049,3,1,50.7908,1,Funcional
+1050,0,0,62.6707,1,Funcional
+1051,2,0,-36.1605,1,Problema encontrado
+1052,-2,0,60.3143,0,Disfuncional
+1053,2,0,128.6115,1,Problema encontrado
+1054,3,0,12.624,1,Problema encontrado
+1055,1,1,91.796,1,Problema encontrado
+1056,1,0,-19.2662,0,Problema encontrado
+1057,3,0,-52.5397,1,Problema encontrado
+1058,1,1,-84.8478,0,Funcional
+1059,-2,1,87.915,0,Disfuncional
+1060,0,1,-63.7842,1,Funcional
+1061,2,1,41.6588,0,Funcional
+1062,0,1,-94.2732,1,Funcional
+1063,-2,0,49.0211,0,Disfuncional
+1064,0,1,77.3833,0,Funcional
+1065,3,0,73.2285,0,Problema encontrado
+1066,3,0,-88.2196,1,Problema encontrado
+1067,2,0,112.7501,1,Problema encontrado
+1068,1,0,-91.278,0,Problema encontrado
+1069,3,1,116.6319,1,Problema encontrado
+1070,2,0,-88.0311,0,Problema encontrado
+1071,3,1,-64.1685,0,Funcional
+1072,-2,0,-64.5407,1,Disfuncional
+1073,-2,1,89.4313,0,Disfuncional
+1074,1,0,-96.1447,1,Problema encontrado
+1075,3,1,-126.062,1,Disfuncional
+1076,-2,0,147.0741,1,Disfuncional
+1077,2,0,102.1543,0,Problema encontrado
+1078,1,1,136.5621,0,Problema encontrado
+1079,3,0,-1.8274,0,Problema encontrado
+1080,-2,0,-25.4051,1,Disfuncional
+1081,2,1,-98.425,1,Funcional
+1082,1,0,-46.2041,0,Problema encontrado
+1083,1,1,-32.6549,1,Funcional
+1084,3,0,130.0977,0,Problema encontrado
+1085,0,1,80.8023,0,Funcional
+1086,0,1,-16.8375,0,Funcional
+1087,0,1,148.3939,1,Problema encontrado
+1088,1,0,71.5893,0,Problema encontrado
+1089,3,1,-28.3127,1,Funcional
+1090,2,0,108.5278,1,Problema encontrado
+1091,0,0,124.4002,1,Problema encontrado
+1092,2,0,83.4375,1,Problema encontrado
+1093,0,0,-123.4192,0,Funcional
+1094,2,1,46.933,0,Funcional
+1095,2,0,54.454,0,Problema encontrado
+1096,0,1,37.0669,1,Funcional
+1097,-2,1,128.6794,1,Disfuncional
+1098,0,1,27.7797,1,Funcional
+1099,3,1,-22.9644,0,Funcional
+1100,3,0,53.5605,0,Problema encontrado
+1101,2,0,74.3752,1,Problema encontrado
+1102,3,1,51.058,0,Funcional
+1103,3,0,-37.3619,0,Problema encontrado
+1104,-2,0,138.9019,1,Disfuncional
+1105,0,0,-24.9168,1,Funcional
+1106,-2,1,-55.7795,1,Disfuncional
+1107,1,0,138.9411,1,Problema encontrado
+1108,1,0,-37.6854,0,Problema encontrado
+1109,2,1,-113.4133,0,Funcional
+1110,-2,0,-59.0832,0,Disfuncional
+1111,0,1,-100.266,1,Funcional
+1112,3,1,17.993,0,Funcional
+1113,0,1,42.6733,1,Funcional
+1114,-2,0,8.0267,1,Disfuncional
+1115,2,0,-44.2419,1,Problema encontrado
+1116,2,1,57.6471,1,Funcional
+1117,3,1,2.2728,0,Funcional
+1118,0,0,-60.9136,1,Funcional
+1119,3,1,-55.8569,1,Funcional
+1120,0,1,-10.6023,1,Funcional
+1121,0,1,-64.3883,0,Funcional
+1122,2,0,102.4719,0,Problema encontrado
+1123,-2,1,145.3404,0,Disfuncional
+1124,2,1,-114.1122,0,Funcional
+1125,3,1,71.8542,0,Funcional
+1126,2,1,81.5499,0,Funcional
+1127,1,1,-71.5673,0,Funcional
+1128,-2,0,-26.2774,0,Disfuncional
+1129,2,1,83.9601,0,Funcional
+1130,0,1,-113.2146,0,Funcional
+1131,1,0,3.2544,0,Problema encontrado
+1132,2,1,-123.2424,1,Funcional
+1133,2,0,100.8712,1,Problema encontrado
+1134,-2,1,65.4851,0,Disfuncional
+1135,2,0,140.9314,1,Problema encontrado
+1136,2,0,69.3118,1,Problema encontrado
+1137,-2,1,-116.1714,1,Disfuncional
+1138,1,0,27.9834,0,Problema encontrado
+1139,3,1,108.9622,1,Problema encontrado
+1140,0,1,38.0438,0,Funcional
+1141,1,0,47.4253,0,Problema encontrado
+1142,-2,0,67.2731,0,Disfuncional
+1143,3,0,130.1899,1,Problema encontrado
+1144,3,1,50.7426,1,Funcional
+1145,3,0,-26.3513,1,Problema encontrado
+1146,2,0,-60.7116,0,Problema encontrado
+1147,3,1,-32.1066,0,Funcional
+1148,2,0,-123.5621,0,Problema encontrado
+1149,0,0,147.0231,0,Problema encontrado
+1150,-2,0,37.5705,0,Disfuncional
+1151,3,0,-39.3708,1,Problema encontrado
+1152,2,0,86.9415,0,Problema encontrado
+1153,0,1,69.0426,1,Funcional
+1154,0,1,-103.1179,1,Funcional
+1155,0,1,63.3934,0,Funcional
+1156,1,0,117.5844,1,Problema encontrado
+1157,2,0,-86.064,0,Problema encontrado
+1158,2,1,116.5538,0,Problema encontrado
+1159,3,0,-110.1169,1,Problema encontrado
+1160,-2,1,0.0904,0,Disfuncional
+1161,0,1,-13.1436,1,Funcional
+1162,2,0,88.7631,0,Problema encontrado
+1163,2,0,-63.6493,0,Problema encontrado
+1164,0,0,67.9132,1,Funcional
+1165,2,1,-125.2508,1,Disfuncional
+1166,1,0,100.1811,1,Problema encontrado
+1167,-2,1,-54.5293,0,Disfuncional
+1168,2,1,139.6209,1,Problema encontrado
+1169,3,0,34.1743,1,Problema encontrado
+1170,2,1,112.6794,1,Problema encontrado
+1171,3,0,106.5361,1,Problema encontrado
+1172,1,0,87.5348,0,Problema encontrado
+1173,-2,1,-114.7678,1,Disfuncional
+1174,1,0,-65.7784,1,Problema encontrado
+1175,1,1,73.9694,1,Funcional
+1176,0,1,-89.7763,1,Funcional
+1177,0,0,-4.5797,1,Funcional
+1178,1,0,24.3447,0,Problema encontrado
+1179,-2,0,69.6009,1,Disfuncional
+1180,2,0,-23.0813,0,Problema encontrado
+1181,3,1,-120.5066,1,Funcional
+1182,3,0,104.4611,0,Problema encontrado
+1183,-2,1,45.9601,1,Disfuncional
+1184,-2,1,67.4152,1,Disfuncional
+1185,1,0,-69.1299,1,Problema encontrado
+1186,0,0,3.4381,0,Funcional
+1187,-2,0,-59.4466,1,Disfuncional
+1188,3,0,85.9214,1,Problema encontrado
+1189,1,0,134.9631,1,Problema encontrado
+1190,2,0,-93.8883,0,Problema encontrado
+1191,2,0,-99.2491,0,Problema encontrado
+1192,1,1,57.1111,0,Funcional
+1193,3,0,113.2369,1,Problema encontrado
+1194,1,0,-19.8311,1,Problema encontrado
+1195,-2,1,28.7713,0,Disfuncional
+1196,2,0,140.9077,0,Problema encontrado
+1197,2,1,-38.4085,0,Funcional
+1198,2,0,-14.2386,0,Problema encontrado
+1199,0,1,-33.9266,1,Funcional
+1200,3,0,104.9468,1,Problema encontrado
+1201,1,1,-0.013,0,Funcional
+1202,0,1,35.2161,0,Funcional
+1203,0,0,96.2084,0,Problema encontrado
+1204,-2,1,73.051,0,Disfuncional
+1205,1,1,-33.7082,0,Funcional
+1206,0,0,81.4329,1,Funcional
+1207,0,1,-101.8149,1,Funcional
+1208,3,1,82.7764,0,Funcional
+1209,1,1,50.4108,1,Funcional
+1210,1,1,88.7974,0,Funcional
+1211,3,0,76.0766,1,Problema encontrado
+1212,2,1,33.9777,1,Funcional
+1213,-2,1,68.0425,0,Disfuncional
+1214,2,1,-34.023,1,Funcional
+1215,2,1,23.9986,1,Funcional
+1216,2,0,67.2021,1,Problema encontrado
+1217,-2,1,-68.4599,0,Disfuncional
+1218,1,1,-35.5775,0,Funcional
+1219,0,0,125.7591,1,Problema encontrado
+1220,1,1,45.1645,0,Funcional
+1221,3,0,-33.6917,1,Problema encontrado
+1222,-2,1,26.7487,0,Disfuncional
+1223,0,0,77.4404,1,Funcional
+1224,3,0,-78.0404,0,Problema encontrado
+1225,1,1,41.8282,0,Funcional
+1226,2,0,64.1599,0,Problema encontrado
+1227,0,1,-5.497,0,Funcional
+1228,1,1,138.3167,1,Problema encontrado
+1229,-2,0,-12.9345,1,Disfuncional
+1230,3,1,118.8987,0,Problema encontrado
+1231,2,0,124.9262,0,Problema encontrado
+1232,0,1,-109.5485,0,Funcional
+1233,-2,0,92.7755,1,Disfuncional
+1234,0,1,131.259,1,Problema encontrado
+1235,2,1,-2.4546,0,Funcional
+1236,3,1,-36.0951,1,Funcional
+1237,3,0,118.4382,1,Problema encontrado
+1238,1,1,37.3189,1,Funcional
+1239,3,0,-21.7523,0,Problema encontrado
+1240,-2,1,114.0486,0,Disfuncional
+1241,3,1,-70.0891,0,Funcional
+1242,3,1,100.6207,0,Problema encontrado
+1243,2,0,55.8781,1,Problema encontrado
+1244,0,0,46.0589,1,Funcional
+1245,-2,1,-83.6542,0,Disfuncional
+1246,3,1,33.9296,0,Funcional
+1247,1,1,104.5207,0,Problema encontrado
+1248,1,0,50.8431,1,Problema encontrado
+1249,2,0,147.7952,0,Problema encontrado
+1250,-2,0,85.1791,1,Disfuncional
+1251,-2,0,-125.0519,0,Disfuncional
+1252,0,1,-72.9756,1,Funcional
+1253,3,0,-35.5386,0,Problema encontrado
+1254,2,0,-101.6536,0,Problema encontrado
+1255,2,1,-86.8619,0,Funcional
+1256,-2,1,143.4864,1,Disfuncional
+1257,3,1,1.8363,1,Funcional
+1258,-2,0,146.831,1,Disfuncional
+1259,1,1,-24.9859,1,Funcional
+1260,2,1,19.002,1,Funcional
+1261,-2,0,-60.1125,1,Disfuncional
+1262,3,0,8.8755,0,Problema encontrado
+1263,-2,1,-23.2995,1,Disfuncional
+1264,3,0,-48.9288,1,Problema encontrado
+1265,-2,0,-39.3818,0,Disfuncional
+1266,3,1,-96.0287,1,Funcional
+1267,2,1,4.4652,0,Funcional
+1268,0,1,-101.1588,1,Funcional
+1269,-2,1,95.1939,0,Disfuncional
+1270,3,1,29.9555,0,Funcional
+1271,3,1,-91.1745,1,Funcional
+1272,0,1,96.9978,1,Problema encontrado
+1273,0,1,81.2477,0,Funcional
+1274,2,0,22.7563,1,Problema encontrado
+1275,0,0,115.5379,1,Problema encontrado
+1276,2,1,103.0988,0,Problema encontrado
+1277,3,0,64.9407,0,Problema encontrado
+1278,0,0,-18.6954,0,Funcional
+1279,2,1,-15.166,0,Funcional
+1280,2,1,142.678,1,Problema encontrado
+1281,3,1,-78.0854,0,Funcional
+1282,-2,1,75.0909,1,Disfuncional
+1283,0,1,-79.7301,0,Funcional
+1284,1,0,-15.4005,0,Problema encontrado
+1285,3,0,56.7049,1,Problema encontrado
+1286,1,1,133.0718,0,Problema encontrado
+1287,-2,1,-36.986,1,Disfuncional
+1288,1,1,74.1311,0,Funcional
+1289,0,0,46.5148,0,Funcional
+1290,2,0,9.6808,1,Problema encontrado
+1291,1,0,-107.072,1,Problema encontrado
+1292,2,1,145.8491,1,Problema encontrado
+1293,2,0,-18.4763,1,Problema encontrado
+1294,0,0,60.8781,0,Funcional
+1295,-2,0,-73.6626,0,Disfuncional
+1296,-2,1,60.5149,1,Disfuncional
+1297,0,0,-64.3348,0,Funcional
+1298,0,0,-16.7898,0,Funcional
+1299,0,1,-117.8883,0,Funcional
+1300,0,1,28.1054,0,Funcional
+1301,1,1,126.9796,0,Problema encontrado
+1302,0,1,16.2258,0,Funcional
+1303,-2,0,-9.9376,0,Disfuncional
+1304,-2,1,105.2991,0,Disfuncional
+1305,2,1,-28.8933,1,Funcional
+1306,-2,0,81.016,1,Disfuncional
+1307,-2,0,-76.3732,0,Disfuncional
+1308,0,0,39.9294,0,Funcional
+1309,2,1,135.5968,1,Problema encontrado
+1310,-2,1,-84.538,0,Disfuncional
+1311,0,1,-88.0656,0,Funcional
+1312,1,0,-41.7349,0,Problema encontrado
+1313,3,0,98.042,1,Problema encontrado
+1314,0,1,49.6047,0,Funcional
+1315,1,1,-55.4226,1,Funcional
+1316,-2,0,-122.4369,0,Disfuncional
+1317,3,0,-70.3937,0,Problema encontrado
+1318,1,0,-14.7819,0,Problema encontrado
+1319,0,0,50.597,1,Funcional
+1320,-2,1,-65.6694,1,Disfuncional
+1321,-2,0,82.36,1,Disfuncional
+1322,1,1,-75.53,1,Funcional
+1323,0,0,-105.1818,1,Funcional
+1324,2,0,108.6616,1,Problema encontrado
+1325,3,1,-85.8502,0,Funcional
+1326,2,0,100.3952,1,Problema encontrado
+1327,0,1,44.2166,1,Funcional
+1328,2,1,-101.0542,1,Funcional
+1329,-2,0,19.5603,1,Disfuncional
+1330,0,0,18.0921,1,Funcional
+1331,0,1,-105.8328,0,Funcional
+1332,0,1,101.2177,0,Problema encontrado
+1333,1,1,-79.3074,1,Funcional
+1334,-2,1,76.5674,1,Disfuncional
+1335,0,0,4.7634,1,Funcional
+1336,1,1,15.7266,0,Funcional
+1337,2,0,-98.0058,1,Problema encontrado
+1338,-2,0,-29.0646,0,Disfuncional
+1339,0,0,-24.1505,0,Funcional
+1340,1,1,-48.1362,1,Funcional
+1341,0,0,-8.3631,1,Funcional
+1342,-2,1,-49.2948,0,Disfuncional
+1343,2,1,-74.0067,1,Funcional
+1344,0,1,-120.1005,1,Funcional
+1345,1,0,-27.5414,0,Problema encontrado
+1346,3,0,7.0097,1,Problema encontrado
+1347,-2,0,48.2753,0,Disfuncional
+1348,1,1,-29.3322,1,Funcional
+1349,1,1,141.3051,0,Problema encontrado
+1350,1,0,52.6851,1,Problema encontrado
+1351,3,0,109.4099,1,Problema encontrado
+1352,2,0,-8.8708,1,Problema encontrado
+1353,3,1,-105.4027,1,Funcional
+1354,0,1,43.1876,1,Funcional
+1355,3,0,84.7598,0,Problema encontrado
+1356,0,0,80.3349,1,Funcional
+1357,3,0,-53.3997,0,Problema encontrado
+1358,0,0,-98.1893,0,Funcional
+1359,-2,1,-2.3584,0,Disfuncional
+1360,3,0,-75.397,1,Problema encontrado
+1361,3,1,142.1516,0,Problema encontrado
+1362,0,1,64.7664,0,Funcional
+1363,3,0,83.9143,1,Problema encontrado
+1364,-2,1,133.254,1,Disfuncional
+1365,1,1,145.3314,1,Problema encontrado
+1366,2,1,5.8565,1,Funcional
+1367,3,0,-116.589,0,Problema encontrado
+1368,3,0,47.0239,1,Problema encontrado
+1369,0,0,-90.5594,1,Funcional
+1370,2,1,36.4841,1,Funcional
+1371,2,0,131.3847,0,Problema encontrado
+1372,3,1,-72.8197,1,Funcional
+1373,3,1,2.5683,1,Funcional
+1374,0,0,16.3001,1,Funcional
+1375,3,0,49.0105,1,Problema encontrado
+1376,-2,1,-1.5983,1,Disfuncional
+1377,0,1,-105.4702,0,Funcional
+1378,1,0,-81.8888,0,Problema encontrado
+1379,3,1,105.9779,1,Problema encontrado
+1380,0,0,-48.6408,0,Funcional
+1381,2,1,96.1341,0,Problema encontrado
+1382,-2,1,-10.3715,0,Disfuncional
+1383,0,0,-94.8782,1,Funcional
+1384,2,0,100.9966,0,Problema encontrado
+1385,0,0,15.4829,0,Funcional
+1386,0,1,-7.4756,0,Funcional
+1387,0,0,-100.6897,1,Funcional
+1388,0,1,81.9477,0,Funcional
+1389,3,0,-32.1609,0,Problema encontrado
+1390,0,1,84.3134,0,Funcional
+1391,0,0,31.9252,0,Funcional
+1392,0,1,-87.4646,1,Funcional
+1393,0,1,114.1166,0,Problema encontrado
+1394,2,0,-19.2212,0,Problema encontrado
+1395,1,1,115.8214,0,Problema encontrado
+1396,1,1,36.9953,0,Funcional
+1397,2,0,21.7384,1,Problema encontrado
+1398,0,1,-12.9302,0,Funcional
+1399,2,0,56.7112,1,Problema encontrado
+1400,0,0,-12.0393,1,Funcional
+1401,-2,0,-73.5104,1,Disfuncional
+1402,2,0,-64.4699,0,Problema encontrado
+1403,3,0,-9.0831,0,Problema encontrado
+1404,3,1,34.3148,1,Funcional
+1405,-2,1,-1.2155,1,Disfuncional
+1406,1,1,-97.9349,0,Funcional
+1407,0,0,-120.4952,0,Funcional
+1408,3,0,48.9167,1,Problema encontrado
+1409,3,1,-3.5703,0,Funcional
+1410,0,0,79.1955,0,Funcional
+1411,3,0,27.7688,1,Problema encontrado
+1412,1,0,18.281,1,Problema encontrado
+1413,3,0,43.0171,1,Problema encontrado
+1414,0,0,49.8464,0,Funcional
+1415,1,1,5.7062,0,Funcional
+1416,3,1,-82.9544,0,Funcional
+1417,2,1,118.5777,0,Problema encontrado
+1418,3,1,89.4402,0,Funcional
+1419,0,1,-105.8483,1,Funcional
+1420,-2,0,93.9092,1,Disfuncional
+1421,-2,1,54.2132,1,Disfuncional
+1422,3,1,-95.2522,0,Funcional
+1423,3,0,61.2847,1,Problema encontrado
+1424,-2,1,-117.9841,1,Disfuncional
+1425,-2,1,25.083,1,Disfuncional
+1426,-2,0,-112.5661,0,Disfuncional
+1427,2,1,132.3889,0,Problema encontrado
+1428,-2,0,-84.3502,1,Disfuncional
+1429,3,1,0.4696,0,Funcional
+1430,2,1,-61.9215,1,Funcional
+1431,-2,0,84.3861,1,Disfuncional
+1432,0,0,-27.0068,0,Funcional
+1433,-2,1,-62.3275,0,Disfuncional
+1434,1,0,-38.2143,0,Problema encontrado
+1435,0,1,-31.1527,0,Funcional
+1436,0,1,-82.1093,1,Funcional
+1437,2,1,46.711,1,Funcional
+1438,0,0,-13.2076,0,Funcional
+1439,1,1,-112.7937,1,Funcional
+1440,0,0,132.4769,1,Problema encontrado
+1441,2,1,-0.2917,0,Funcional
+1442,1,1,138.446,1,Problema encontrado
+1443,0,0,-24.7815,1,Funcional
+1444,2,1,15.191,1,Funcional
+1445,0,1,58.2803,1,Funcional
+1446,-2,1,130.7835,1,Disfuncional
+1447,-2,0,-36.8762,1,Disfuncional
+1448,2,1,60.9629,0,Funcional
+1449,0,0,-104.2299,1,Funcional
+1450,3,1,-3.4543,1,Funcional
+1451,3,1,-111.234,1,Funcional
+1452,-2,0,43.2094,1,Disfuncional
+1453,3,0,111.8689,1,Problema encontrado
+1454,1,0,-101.0167,0,Problema encontrado
+1455,-2,0,59.4639,1,Disfuncional
+1456,-2,0,124.9996,0,Disfuncional
+1457,1,1,-120.7539,1,Funcional
+1458,3,0,-116.972,0,Problema encontrado
+1459,-2,0,94.2293,1,Disfuncional
+1460,-2,0,110.3896,1,Disfuncional
+1461,0,0,-14.4264,1,Funcional
+1462,3,1,52.0792,0,Funcional
+1463,3,0,101.9475,1,Problema encontrado
+1464,0,1,-23.6806,0,Funcional
+1465,2,1,-39.908,0,Funcional
+1466,2,0,16.3466,1,Problema encontrado
+1467,3,0,81.9247,1,Problema encontrado
+1468,2,0,-104.6818,1,Problema encontrado
+1469,0,0,-84.2162,1,Funcional
+1470,-2,0,58.1724,1,Disfuncional
+1471,2,0,-126.6264,0,Disfuncional
+1472,1,1,132.1588,0,Problema encontrado
+1473,2,0,101.8419,0,Problema encontrado
+1474,3,0,-64.2324,0,Problema encontrado
+1475,2,0,42.2517,0,Problema encontrado
+1476,0,0,58.9759,1,Funcional
+1477,3,1,-89.0888,1,Funcional
+1478,0,1,112.9793,0,Problema encontrado
+1479,-2,1,72.9987,1,Disfuncional
+1480,3,1,59.0466,1,Funcional
+1481,3,1,-20.8397,1,Funcional
+1482,-2,1,132.1753,1,Disfuncional
+1483,1,0,58.6501,1,Problema encontrado
+1484,2,1,107.2865,1,Problema encontrado
+1485,2,1,-52.9961,0,Funcional
+1486,2,0,106.7659,0,Problema encontrado
+1487,0,0,34.7745,1,Funcional
+1488,2,1,28.5631,0,Funcional
+1489,-2,1,-26.5046,0,Disfuncional
+1490,0,0,0.6762,1,Funcional
+1491,-2,1,-42.8605,1,Disfuncional
+1492,1,0,-25.4708,1,Problema encontrado
+1493,1,1,-59.3276,0,Funcional
+1494,1,0,-114.9285,0,Problema encontrado
+1495,1,1,-85.2641,0,Funcional
+1496,0,1,138.8046,0,Problema encontrado
+1497,0,0,-13.7499,0,Funcional
+1498,-2,0,-21.5452,0,Disfuncional
+1499,1,0,-81.4059,0,Problema encontrado
+1500,-2,0,135.3303,0,Disfuncional
+1501,-2,1,54.9055,0,Disfuncional
+1502,0,0,131.2784,0,Problema encontrado
+1503,0,0,102.8462,0,Problema encontrado
+1504,1,0,-73.2579,1,Problema encontrado
+1505,2,0,58.5022,0,Problema encontrado
+1506,3,0,-35.4217,1,Problema encontrado
+1507,2,0,140.555,0,Problema encontrado
+1508,1,1,53.5366,1,Funcional
+1509,0,0,-79.5348,1,Funcional
+1510,0,1,-83.3104,1,Funcional
+1511,0,1,-43.4756,0,Funcional
+1512,-2,0,-98.2108,1,Disfuncional
+1513,1,1,14.0356,0,Funcional
+1514,3,1,-69.1587,1,Funcional
+1515,2,1,-72.9326,0,Funcional
+1516,0,0,40.3938,0,Funcional
+1517,3,1,-107.4989,1,Funcional
+1518,-2,0,141.8986,0,Disfuncional
+1519,-2,1,15.794,1,Disfuncional
+1520,-2,1,51.1558,1,Disfuncional
+1521,3,0,109.3125,1,Problema encontrado
+1522,2,1,32.1037,0,Funcional
+1523,2,0,-58.2053,1,Problema encontrado
+1524,1,0,-21.2621,1,Problema encontrado
+1525,0,0,43.8601,0,Funcional
+1526,2,1,101.9556,1,Problema encontrado
+1527,-2,1,-15.6606,0,Disfuncional
+1528,-2,0,8.2243,1,Disfuncional
+1529,1,0,-71.4818,0,Problema encontrado
+1530,-2,1,-120.7095,0,Disfuncional
+1531,1,0,86.1378,1,Problema encontrado
+1532,0,1,8.5457,1,Funcional
+1533,0,0,-101.8711,1,Funcional
+1534,2,0,-84.253,1,Problema encontrado
+1535,0,1,123.2254,1,Problema encontrado
+1536,1,1,-66.6632,0,Funcional
+1537,0,0,-17.968,0,Funcional
+1538,2,1,39.1281,1,Funcional
+1539,2,1,110.9544,1,Problema encontrado
+1540,2,0,9.5213,1,Problema encontrado
+1541,1,1,37.497,0,Funcional
+1542,0,1,26.6131,0,Funcional
+1543,2,1,-69.1899,0,Funcional
+1544,-2,1,108.5045,1,Disfuncional
+1545,3,0,44.639,1,Problema encontrado
+1546,-2,1,-107.1859,1,Disfuncional
+1547,0,1,142.147,1,Problema encontrado
+1548,1,0,62.8847,1,Problema encontrado
+1549,0,0,-70.849,1,Funcional
+1550,-2,0,23.5304,0,Disfuncional
+1551,3,1,135.0601,1,Problema encontrado
+1552,1,0,98.7898,1,Problema encontrado
+1553,3,1,-101.0548,1,Funcional
+1554,-2,0,-17.5757,1,Disfuncional
+1555,2,1,11.8928,0,Funcional
+1556,3,0,134.9073,0,Problema encontrado
+1557,2,1,34.1698,0,Funcional
+1558,2,0,-32.383,0,Problema encontrado
+1559,3,0,73.0001,1,Problema encontrado
+1560,-2,0,-61.5542,0,Disfuncional
+1561,0,1,53.7099,0,Funcional
+1562,0,0,-25.4584,0,Funcional
+1563,3,1,125.3138,1,Problema encontrado
+1564,2,0,-121.0954,0,Problema encontrado
+1565,1,0,-126.6936,0,Disfuncional
+1566,2,1,-61.5033,1,Funcional
+1567,2,0,-71.6666,0,Problema encontrado
+1568,0,0,-101.1929,0,Funcional
+1569,-2,1,136.6743,1,Disfuncional
+1570,3,0,106.8796,0,Problema encontrado
+1571,0,1,-111.3027,1,Funcional
+1572,3,0,13.2542,1,Problema encontrado
+1573,-2,1,130.2674,0,Disfuncional
+1574,3,1,-36.8784,1,Funcional
+1575,-2,0,-33.6493,0,Disfuncional
+1576,-2,0,-97.306,1,Disfuncional
+1577,2,1,148.2482,0,Problema encontrado
+1578,1,0,24.8586,1,Problema encontrado
+1579,1,0,-65.4199,1,Problema encontrado
+1580,-2,1,86.097,0,Disfuncional
+1581,0,0,24.4121,1,Funcional
+1582,2,0,92.6619,0,Problema encontrado
+1583,0,0,48.218,0,Funcional
+1584,3,0,118.5896,0,Problema encontrado
+1585,-2,0,-120.3753,0,Disfuncional
+1586,0,1,-43.5213,1,Funcional
+1587,0,1,-44.2718,0,Funcional
+1588,0,1,-41.4488,0,Funcional
+1589,1,1,27.441,0,Funcional
+1590,1,0,-17.2852,1,Problema encontrado
+1591,1,1,-93.3169,0,Funcional
+1592,-2,0,-39.5325,1,Disfuncional
+1593,3,1,100.5843,0,Problema encontrado
+1594,1,0,30.5682,1,Problema encontrado
+1595,1,1,82.9947,1,Funcional
+1596,2,1,24.6797,0,Funcional
+1597,2,1,-77.4849,0,Funcional
+1598,1,1,133.448,0,Problema encontrado
+1599,1,0,-77.7551,1,Problema encontrado
+1600,1,1,48.3699,1,Funcional
+1601,-2,1,38.082,1,Disfuncional
+1602,1,0,43.2574,0,Problema encontrado
+1603,3,0,118.3782,1,Problema encontrado
+1604,3,0,45.9067,1,Problema encontrado
+1605,3,1,106.5214,0,Problema encontrado
+1606,2,1,9.0261,0,Funcional
+1607,-2,1,-4.3676,0,Disfuncional
+1608,2,0,10.5376,0,Problema encontrado
+1609,-2,1,-113.23,1,Disfuncional
+1610,1,1,125.7437,0,Problema encontrado
+1611,1,1,24.0925,1,Funcional
+1612,2,0,-81.3553,0,Problema encontrado
+1613,0,1,147.1611,1,Problema encontrado
+1614,0,0,-28.512,0,Funcional
+1615,-2,0,75.8402,0,Disfuncional
+1616,-2,1,-37.3072,0,Disfuncional
+1617,0,0,108.9315,1,Problema encontrado
+1618,-2,1,-118.6061,1,Disfuncional
+1619,3,0,-53.345,1,Problema encontrado
+1620,3,0,-99.7417,1,Problema encontrado
+1621,3,0,17.8545,1,Problema encontrado
+1622,-2,1,-80.455,1,Disfuncional
+1623,2,1,-69.7686,0,Funcional
+1624,2,1,-6.8754,0,Funcional
+1625,0,1,-95.6344,0,Funcional
+1626,3,0,62.1759,1,Problema encontrado
+1627,2,0,137.8909,1,Problema encontrado
+1628,3,0,34.0097,0,Problema encontrado
+1629,0,1,66.8008,0,Funcional
+1630,2,1,141.4314,0,Problema encontrado
+1631,1,1,17.4821,1,Funcional
+1632,0,0,51.0342,1,Funcional
+1633,2,1,-81.3267,0,Funcional
+1634,-2,1,69.4139,0,Disfuncional
+1635,-2,0,-17.243,0,Disfuncional
+1636,0,0,-35.8904,0,Funcional
+1637,2,0,-51.8632,1,Problema encontrado
+1638,3,1,-18.779,0,Funcional
+1639,0,0,-68.8414,0,Funcional
+1640,2,1,18.4482,0,Funcional
+1641,3,0,-100.9061,1,Problema encontrado
+1642,2,0,67.355,1,Problema encontrado
+1643,3,0,103.1396,1,Problema encontrado
+1644,3,1,11.8856,0,Funcional
+1645,1,1,-43.3853,1,Funcional
+1646,-2,0,86.6334,0,Disfuncional
+1647,2,0,140.7838,0,Problema encontrado
+1648,1,0,112.8214,1,Problema encontrado
+1649,1,0,90.8944,0,Problema encontrado
+1650,-2,0,67.2255,1,Disfuncional
+1651,3,1,93.6311,1,Problema encontrado
+1652,2,1,86.7777,1,Funcional
+1653,0,0,-119.6562,1,Funcional
+1654,2,0,21.3687,0,Problema encontrado
+1655,1,1,-77.4231,1,Funcional
+1656,3,1,50.7966,1,Funcional
+1657,-2,0,61.3022,1,Disfuncional
+1658,2,0,-123.6833,1,Problema encontrado
+1659,0,1,-93.47,0,Funcional
+1660,3,0,28.5266,1,Problema encontrado
+1661,2,0,58.3109,1,Problema encontrado
+1662,-2,1,-63.6731,0,Disfuncional
+1663,2,0,-109.1907,0,Problema encontrado
+1664,1,0,91.3081,0,Problema encontrado
+1665,1,1,-109.8412,1,Funcional
+1666,1,0,-123.7405,0,Problema encontrado
+1667,0,1,148.1457,0,Problema encontrado
+1668,0,0,-75.9301,0,Funcional
+1669,-2,0,-126.01,1,Disfuncional
+1670,2,0,-81.5898,0,Problema encontrado
+1671,0,0,31.2439,1,Funcional
+1672,0,1,90.4911,1,Problema encontrado
+1673,0,1,-28.3872,1,Funcional
+1674,1,1,-26.2171,0,Funcional
+1675,2,0,-25.5804,1,Problema encontrado
+1676,2,1,141.1342,1,Problema encontrado
+1677,1,0,-2.2699,1,Problema encontrado
+1678,0,0,102.518,1,Problema encontrado
+1679,0,1,-119.4654,0,Funcional
+1680,-2,0,39.7301,1,Disfuncional
+1681,2,1,-40.4846,0,Funcional
+1682,0,1,128.5742,1,Problema encontrado
+1683,0,0,-0.1756,1,Funcional
+1684,0,1,19.6156,1,Funcional
+1685,0,1,-18.7977,0,Funcional
+1686,0,0,144.0353,1,Problema encontrado
+1687,2,1,37.0702,0,Funcional
+1688,0,1,-67.5502,0,Funcional
+1689,3,0,-83.8206,1,Problema encontrado
+1690,1,1,-125.7432,0,Disfuncional
+1691,1,1,66.894,0,Funcional
+1692,0,1,106.5952,0,Problema encontrado
+1693,-2,1,50.1385,0,Disfuncional
+1694,0,1,147.9959,1,Problema encontrado
+1695,-2,0,5.0779,1,Disfuncional
+1696,-2,1,-5.2745,0,Disfuncional
+1697,1,1,27.5634,0,Funcional
+1698,1,1,120.136,1,Problema encontrado
+1699,-2,0,-66.2836,1,Disfuncional
+1700,2,0,87.3008,1,Problema encontrado
+1701,2,0,-68.3139,1,Problema encontrado
+1702,3,0,113.5192,1,Problema encontrado
+1703,0,1,105.7928,1,Problema encontrado
+1704,1,0,136.9677,0,Problema encontrado
+1705,1,1,-100.2528,1,Funcional
+1706,0,0,-97.3833,1,Funcional
+1707,2,1,-23.4191,0,Funcional
+1708,-2,1,-79.809,1,Disfuncional
+1709,2,0,-101.8765,1,Problema encontrado
+1710,-2,0,75.5788,1,Disfuncional
+1711,0,0,-57.8591,0,Funcional
+1712,0,0,-104.0095,1,Funcional
+1713,3,1,137.8585,1,Problema encontrado
+1714,0,0,85.4856,0,Funcional
+1715,0,0,46.439,0,Funcional
+1716,0,0,-5.7642,1,Funcional
+1717,1,0,87.6509,0,Problema encontrado
+1718,3,1,-67.8184,1,Funcional
+1719,-2,0,101.5253,0,Disfuncional
+1720,3,0,21.0402,0,Problema encontrado
+1721,2,0,131.1804,0,Problema encontrado
+1722,3,1,-36.8745,1,Funcional
+1723,1,1,-78.5228,1,Funcional
+1724,0,1,20.121,0,Funcional
+1725,3,0,-114.7555,1,Problema encontrado
+1726,2,1,-67.9193,0,Funcional
+1727,-2,1,-103.1203,0,Disfuncional
+1728,0,1,-116.5607,1,Funcional
+1729,-2,1,94.0959,0,Disfuncional
+1730,0,0,-56.4034,0,Funcional
+1731,3,0,74.2599,0,Problema encontrado
+1732,1,1,9.4112,1,Funcional
+1733,2,1,48.2748,1,Funcional
+1734,3,0,-114.0156,1,Problema encontrado
+1735,2,0,-88.2441,0,Problema encontrado
+1736,3,1,-3.8127,0,Funcional
+1737,0,1,-101.2829,1,Funcional
+1738,3,0,43.4956,1,Problema encontrado
+1739,1,1,-31.5892,1,Funcional
+1740,3,0,141.8309,0,Problema encontrado
+1741,-2,0,56.5994,1,Disfuncional
+1742,3,1,-85.6679,0,Funcional
+1743,1,0,-126.8635,1,Disfuncional
+1744,-2,0,-122.8824,1,Disfuncional
+1745,0,0,99.0936,0,Problema encontrado
+1746,0,0,-91.1203,1,Funcional
+1747,2,0,-37.5182,1,Problema encontrado
+1748,0,1,-116.9547,0,Funcional
+1749,3,0,107.6621,1,Problema encontrado
+1750,0,0,52.7995,0,Funcional
+1751,-2,0,142.0819,0,Disfuncional
+1752,1,1,85.4422,1,Funcional
+1753,0,1,-96.7392,1,Funcional
+1754,1,0,-66.659,1,Problema encontrado
+1755,2,0,95.9396,1,Problema encontrado
+1756,0,1,-112.473,1,Funcional
+1757,2,1,-96.3912,1,Funcional
+1758,2,1,144.2345,1,Problema encontrado
+1759,1,1,-43.0311,0,Funcional
+1760,-2,1,15.8014,1,Disfuncional
+1761,2,0,0.6068,1,Problema encontrado
+1762,0,0,15.2512,1,Funcional
+1763,2,0,-52.212,0,Problema encontrado
+1764,2,1,83.5615,1,Funcional
+1765,2,1,57.9333,0,Funcional
+1766,1,1,56.2784,0,Funcional
+1767,0,1,48.329,1,Funcional
+1768,0,1,-71.1013,0,Funcional
+1769,1,1,83.6793,1,Funcional
+1770,3,1,-34.1968,1,Funcional
+1771,0,1,-85.4127,0,Funcional
+1772,0,0,73.1427,0,Funcional
+1773,-2,1,-1.7896,0,Disfuncional
+1774,0,0,-62.8353,1,Funcional
+1775,-2,1,-85.4106,1,Disfuncional
+1776,3,0,-109.1189,0,Problema encontrado
+1777,3,0,-109.6724,0,Problema encontrado
+1778,-2,1,125.7905,1,Disfuncional
+1779,0,1,-44.0119,0,Funcional
+1780,2,0,-21.1749,0,Problema encontrado
+1781,1,0,105.8567,0,Problema encontrado
+1782,-2,1,140.4254,1,Disfuncional
+1783,1,1,-57.1751,1,Funcional
+1784,1,0,92.4753,1,Problema encontrado
+1785,2,1,-67.2313,0,Funcional
+1786,0,0,66.1889,0,Funcional
+1787,3,1,58.535,0,Funcional
+1788,0,1,-96.3556,0,Funcional
+1789,3,1,38.6323,1,Funcional
+1790,1,0,81.4536,0,Problema encontrado
+1791,1,0,-51.2628,0,Problema encontrado
+1792,3,0,132.9699,1,Problema encontrado
+1793,-2,1,-1.5455,0,Disfuncional
+1794,2,0,-67.0728,1,Problema encontrado
+1795,3,1,72.4586,1,Funcional
+1796,2,0,-43.2566,0,Problema encontrado
+1797,-2,0,101.3256,0,Disfuncional
+1798,3,1,-1.766,1,Funcional
+1799,3,1,7.9874,1,Funcional
+1800,2,0,-125.1725,1,Disfuncional
+1801,2,1,81.044,1,Funcional
+1802,-2,0,117.2698,0,Disfuncional
+1803,3,0,-48.1124,1,Problema encontrado
+1804,2,1,-39.3876,0,Funcional
+1805,1,0,-46.8923,1,Problema encontrado
+1806,0,1,-87.5106,0,Funcional
+1807,0,0,-24.2728,1,Funcional
+1808,-2,1,82.1744,0,Disfuncional
+1809,1,0,142.5353,1,Problema encontrado
+1810,3,0,52.785,0,Problema encontrado
+1811,-2,0,116.8185,1,Disfuncional
+1812,0,0,45.3695,0,Funcional
+1813,1,1,-28.4605,0,Funcional
+1814,0,1,-31.8097,0,Funcional
+1815,2,0,72.6178,1,Problema encontrado
+1816,1,1,49.0334,1,Funcional
+1817,2,0,95.0671,0,Problema encontrado
+1818,2,1,36.0183,1,Funcional
+1819,0,0,38.6448,0,Funcional
+1820,1,0,-51.7225,0,Problema encontrado
+1821,2,0,8.1708,0,Problema encontrado
+1822,1,1,120.8163,1,Problema encontrado
+1823,0,0,142.8561,1,Problema encontrado
+1824,0,0,57.6487,1,Funcional
+1825,-2,0,124.4803,1,Disfuncional
+1826,0,0,92.0039,1,Problema encontrado
+1827,3,0,100.9187,0,Problema encontrado
+1828,-2,1,-95.6622,0,Disfuncional
+1829,0,1,76.6133,0,Funcional
+1830,2,1,-1.4392,1,Funcional
+1831,-2,0,-5.1014,1,Disfuncional
+1832,0,0,-19.8461,1,Funcional
+1833,1,1,53.4836,0,Funcional
+1834,2,1,-83.8437,0,Funcional
+1835,2,0,126.2157,0,Problema encontrado
+1836,0,1,115.1852,1,Problema encontrado
+1837,-2,0,-30.271,0,Disfuncional
+1838,3,0,58.3013,1,Problema encontrado
+1839,-2,1,82.6638,0,Disfuncional
+1840,3,1,73.3985,0,Funcional
+1841,0,1,86.6651,1,Funcional
+1842,3,1,-74.3243,0,Funcional
+1843,-2,0,38.6041,1,Disfuncional
+1844,2,0,59.9326,0,Problema encontrado
+1845,3,1,66.1662,0,Funcional
+1846,3,1,-126.2566,0,Disfuncional
+1847,-2,0,-103.7567,0,Disfuncional
+1848,-2,0,-6.4208,0,Disfuncional
+1849,1,1,-36.9624,0,Funcional
+1850,0,0,95.5926,1,Problema encontrado
+1851,2,1,97.4492,0,Problema encontrado
+1852,0,1,73.0128,1,Funcional
+1853,3,0,144.259,1,Problema encontrado
+1854,2,0,92.7969,0,Problema encontrado
+1855,0,1,67.8698,1,Funcional
+1856,2,0,-67.9339,0,Problema encontrado
+1857,3,1,9.9348,0,Funcional
+1858,-2,1,-106.5596,0,Disfuncional
+1859,-2,0,-102.6114,0,Disfuncional
+1860,3,0,40.4738,0,Problema encontrado
+1861,3,1,25.9239,1,Funcional
+1862,3,0,49.4957,1,Problema encontrado
+1863,3,1,-118.7861,1,Funcional
+1864,0,0,-122.3815,0,Funcional
+1865,2,0,-20.1026,0,Problema encontrado
+1866,0,0,142.3787,0,Problema encontrado
+1867,1,1,-93.951,1,Funcional
+1868,3,0,3.3635,1,Problema encontrado
+1869,1,0,109.8482,1,Problema encontrado
+1870,3,1,71.9571,0,Funcional
+1871,-2,0,-38.5672,0,Disfuncional
+1872,2,1,112.1372,1,Problema encontrado
+1873,0,1,127.5566,0,Problema encontrado
+1874,2,1,-25.1065,1,Funcional
+1875,1,1,-19.4022,0,Funcional
+1876,3,0,-0.5371,1,Problema encontrado
+1877,2,1,-18.4802,1,Funcional
+1878,-2,0,-122.7826,1,Disfuncional
+1879,-2,0,-42.5436,1,Disfuncional
+1880,3,1,38.7319,1,Funcional
+1881,3,1,79.1458,0,Funcional
+1882,1,1,99.1111,1,Problema encontrado
+1883,3,1,94.7636,1,Problema encontrado
+1884,3,0,-125.8609,1,Disfuncional
+1885,0,0,78.0812,0,Funcional
+1886,-2,1,83.4042,0,Disfuncional
+1887,3,1,80.822,0,Funcional
+1888,3,0,-122.4362,0,Problema encontrado
+1889,-2,1,14.9131,0,Disfuncional
+1890,1,1,142.3372,1,Problema encontrado
+1891,0,0,-118.4689,0,Funcional
+1892,3,0,-20.8006,1,Problema encontrado
+1893,0,1,-79.9044,0,Funcional
+1894,3,0,1.1011,1,Problema encontrado
+1895,-2,1,144.6585,1,Disfuncional
+1896,3,0,13.1304,1,Problema encontrado
+1897,3,1,6.0222,1,Funcional
+1898,3,0,45.0071,1,Problema encontrado
+1899,0,1,55.0813,0,Funcional
+1900,2,0,-98.1511,0,Problema encontrado
+1901,3,0,-80.0206,0,Problema encontrado
+1902,2,0,12.4109,0,Problema encontrado
+1903,-2,1,43.1517,0,Disfuncional
+1904,3,0,-35.6052,0,Problema encontrado
+1905,2,1,-20.4586,0,Funcional
+1906,-2,0,13.6095,1,Disfuncional
+1907,-2,0,-5.5492,0,Disfuncional
+1908,1,1,20.1074,0,Funcional
+1909,2,0,-16.0134,1,Problema encontrado
+1910,-2,0,-113.9027,0,Disfuncional
+1911,0,0,25.7837,1,Funcional
+1912,2,1,51.9449,0,Funcional
+1913,3,1,120.3,1,Problema encontrado
+1914,3,0,96.4772,1,Problema encontrado
+1915,3,1,-95.9999,0,Funcional
+1916,2,0,-78.3469,1,Problema encontrado
+1917,1,0,70.9015,1,Problema encontrado
+1918,-2,1,75.0541,0,Disfuncional
+1919,-2,0,128.6725,0,Disfuncional
+1920,0,1,107.173,0,Problema encontrado
+1921,3,0,-93.6747,1,Problema encontrado
+1922,1,1,-56.4804,0,Funcional
+1923,1,1,-55.2043,1,Funcional
+1924,2,1,94.0776,1,Problema encontrado
+1925,1,1,21.1832,0,Funcional
+1926,3,1,-64.5788,0,Funcional
+1927,2,1,-63.7889,0,Funcional
+1928,3,1,-23.0786,0,Funcional
+1929,-2,1,40.0794,0,Disfuncional
+1930,1,0,-69.5308,0,Problema encontrado
+1931,1,1,50.9072,1,Funcional
+1932,2,1,-76.403,0,Funcional
+1933,0,0,1.2762,1,Funcional
+1934,1,0,-18.3833,0,Problema encontrado
+1935,-2,1,-73.2018,1,Disfuncional
+1936,0,0,126.8189,0,Problema encontrado
+1937,2,1,101.8539,1,Problema encontrado
+1938,2,1,116.1118,0,Problema encontrado
+1939,2,1,106.338,1,Problema encontrado
+1940,3,0,143.1628,0,Problema encontrado
+1941,2,1,-82.3345,1,Funcional
+1942,1,0,-115.1217,0,Problema encontrado
+1943,1,1,31.9659,0,Funcional
+1944,1,0,-14.5397,0,Problema encontrado
+1945,2,1,55.3002,0,Funcional
+1946,2,0,105.8313,1,Problema encontrado
+1947,3,0,-78.4476,1,Problema encontrado
+1948,0,1,6.5542,1,Funcional
+1949,0,1,-14.4712,1,Funcional
+1950,3,1,129.9372,0,Problema encontrado
+1951,-2,1,68.2807,0,Disfuncional
+1952,3,1,41.0125,1,Funcional
+1953,2,0,-109.4793,1,Problema encontrado
+1954,2,0,16.1878,1,Problema encontrado
+1955,0,0,10.4881,0,Funcional
+1956,1,1,-27.6621,0,Funcional
+1957,3,0,129.1592,1,Problema encontrado
+1958,0,0,-36.8435,0,Funcional
+1959,-2,1,-52.5935,0,Disfuncional
+1960,3,0,7.5752,0,Problema encontrado
+1961,0,0,-79.2021,0,Funcional
+1962,3,0,85.4961,0,Problema encontrado
+1963,1,0,-13.7844,0,Problema encontrado
+1964,0,0,-41.558,1,Funcional
+1965,2,0,103.6457,1,Problema encontrado
+1966,1,0,23.2169,0,Problema encontrado
+1967,0,1,-62.799,0,Funcional
+1968,1,0,11.5239,0,Problema encontrado
+1969,0,0,93.2035,1,Problema encontrado
+1970,2,1,-102.8635,1,Funcional
+1971,2,1,-106.4923,0,Funcional
+1972,3,0,44.36,1,Problema encontrado
+1973,3,0,15.6587,0,Problema encontrado
+1974,2,1,-7.9677,0,Funcional
+1975,1,1,132.1702,0,Problema encontrado
+1976,3,1,-83.9758,0,Funcional
+1977,0,0,-89.7569,1,Funcional
+1978,-2,0,-119.2781,0,Disfuncional
+1979,0,1,-115.9309,0,Funcional
+1980,2,0,44.0066,0,Problema encontrado
+1981,3,1,123.1045,1,Problema encontrado
+1982,1,0,100.2418,0,Problema encontrado
+1983,3,1,-61.9744,1,Funcional
+1984,0,0,82.6419,0,Funcional
+1985,1,0,92.5758,0,Problema encontrado
+1986,1,1,123.7854,1,Problema encontrado
+1987,0,1,-61.7011,0,Funcional
+1988,0,0,-76.1838,0,Funcional
+1989,3,1,105.5791,0,Problema encontrado
+1990,0,0,-38.9244,0,Funcional
+1991,3,1,16.5937,0,Funcional
+1992,-2,0,-17.9151,0,Disfuncional
+1993,2,1,-46.3653,0,Funcional
+1994,1,0,121.5089,0,Problema encontrado
+1995,0,1,-24.253,1,Funcional
+1996,3,0,-61.3215,1,Problema encontrado
+1997,0,1,94.5923,0,Problema encontrado
+1998,2,1,122.3205,1,Problema encontrado
+1999,1,0,20.0045,1,Problema encontrado
+2000,3,0,-72.5703,0,Problema encontrado
+2001,0,1,-79.8562,0,Funcional
+2002,1,1,-72.2722,1,Funcional
+2003,2,1,-16.3476,1,Funcional
+2004,2,0,-122.6142,1,Problema encontrado
+2005,-2,1,-67.8062,0,Disfuncional
+2006,1,1,147.9753,1,Problema encontrado
+2007,1,1,-86.7575,0,Funcional
+2008,2,1,32.2403,0,Funcional
+2009,-2,0,121.5593,0,Disfuncional
+2010,2,1,48.9461,1,Funcional
+2011,1,1,82.6908,0,Funcional
+2012,2,0,0.5384,0,Problema encontrado
+2013,3,1,-107.5461,1,Funcional
+2014,0,1,84.4368,1,Funcional
+2015,3,1,-6.8061,0,Funcional
+2016,3,1,-104.0274,0,Funcional
+2017,-2,1,93.3623,1,Disfuncional
+2018,0,0,-65.9089,1,Funcional
+2019,2,1,-1.9031,0,Funcional
+2020,2,1,-92.7191,1,Funcional
+2021,1,0,28.0506,1,Problema encontrado
+2022,1,0,119.1771,0,Problema encontrado
+2023,1,0,-41.4942,0,Problema encontrado
+2024,2,1,119.1318,1,Problema encontrado
+2025,0,0,37.6935,0,Funcional
+2026,-2,0,147.8234,1,Disfuncional
+2027,0,1,3.7409,0,Funcional
+2028,3,0,136.9974,1,Problema encontrado
+2029,2,0,20.6019,0,Problema encontrado
+2030,3,0,113.1651,1,Problema encontrado
+2031,1,1,136.4484,0,Problema encontrado
+2032,-2,0,-7.7145,1,Disfuncional
+2033,0,0,145.718,0,Problema encontrado
+2034,2,0,46.7269,1,Problema encontrado
+2035,2,0,-34.4554,0,Problema encontrado
+2036,-2,0,44.6287,0,Disfuncional
+2037,-2,1,8.629,1,Disfuncional
+2038,2,0,-41.3852,1,Problema encontrado
+2039,2,0,7.6757,1,Problema encontrado
+2040,1,1,-32.9081,0,Funcional
+2041,2,1,92.002,1,Problema encontrado
+2042,2,0,-66.951,1,Problema encontrado
+2043,1,0,113.8792,0,Problema encontrado
+2044,2,0,-2.4791,1,Problema encontrado
+2045,2,1,60.4477,0,Funcional
+2046,2,1,-122.7319,0,Funcional
+2047,0,0,-89.228,1,Funcional
+2048,0,1,5.363,1,Funcional
+2049,2,1,103.1643,0,Problema encontrado
+2050,2,0,-111.1024,0,Problema encontrado
+2051,1,0,-89.0799,1,Problema encontrado
+2052,1,0,-90.8343,0,Problema encontrado
+2053,1,0,93.7625,0,Problema encontrado
+2054,1,1,9.3316,1,Funcional
+2055,1,1,64.4938,1,Funcional
+2056,-2,0,141.3935,1,Disfuncional
+2057,3,1,-101.5172,0,Funcional
+2058,3,0,-91.0492,1,Problema encontrado
+2059,-2,0,-89.8833,1,Disfuncional
+2060,3,0,-4.6723,0,Problema encontrado
+2061,2,0,31.3943,1,Problema encontrado
+2062,2,0,18.1922,0,Problema encontrado
+2063,-2,1,-125.5817,1,Disfuncional
+2064,0,1,-89.5092,0,Funcional
+2065,3,1,-3.4061,1,Funcional
+2066,1,1,70.636,0,Funcional
+2067,0,0,-97.4298,0,Funcional
+2068,3,0,-64.5038,0,Problema encontrado
+2069,1,0,-31.5921,1,Problema encontrado
+2070,3,0,39.3945,0,Problema encontrado
+2071,1,0,-79.2879,1,Problema encontrado
+2072,2,0,104.9202,0,Problema encontrado
+2073,3,1,-33.4117,1,Funcional
+2074,1,0,-103.5084,0,Problema encontrado
+2075,2,0,26.695,0,Problema encontrado
+2076,2,0,99.8212,0,Problema encontrado
+2077,1,0,96.6721,0,Problema encontrado
+2078,1,0,-29.9431,0,Problema encontrado
+2079,1,1,40.5241,0,Funcional
+2080,0,1,-37.1293,0,Funcional
+2081,3,0,137.947,1,Problema encontrado
+2082,3,0,11.481,1,Problema encontrado
+2083,1,1,19.2337,1,Funcional
+2084,2,1,116.3173,1,Problema encontrado
+2085,1,1,-0.1753,1,Funcional
+2086,0,0,-19.2417,1,Funcional
+2087,-2,1,90.8701,1,Disfuncional
+2088,3,0,124.1711,0,Problema encontrado
+2089,0,1,-50.5622,0,Funcional
+2090,3,1,-46.6841,1,Funcional
+2091,-2,0,75.9593,1,Disfuncional
+2092,-2,1,-21.3084,0,Disfuncional
+2093,0,1,-67.8001,1,Funcional
+2094,0,1,75.2643,0,Funcional
+2095,0,0,129.5922,0,Problema encontrado
+2096,3,1,73.741,1,Funcional
+2097,0,0,45.9986,0,Funcional
+2098,3,1,97.5706,0,Problema encontrado
+2099,1,1,105.0886,0,Problema encontrado
+2100,1,1,40.0501,0,Funcional
+2101,1,1,8.9278,1,Funcional
+2102,-2,0,62.9041,0,Disfuncional
+2103,1,1,-117.1217,0,Funcional
+2104,3,0,113.4475,1,Problema encontrado
+2105,2,0,-89.4759,1,Problema encontrado
+2106,1,0,-21.9098,0,Problema encontrado
+2107,0,0,23.8801,1,Funcional
+2108,0,0,-109.7362,1,Funcional
+2109,2,0,69.2123,0,Problema encontrado
+2110,-2,1,63.415,0,Disfuncional
+2111,-2,1,105.1449,1,Disfuncional
+2112,0,0,-111.8625,0,Funcional
+2113,3,0,27.5108,0,Problema encontrado
+2114,2,0,-121.0448,1,Problema encontrado
+2115,-2,0,-95.4214,0,Disfuncional
+2116,0,1,-16.0192,1,Funcional
+2117,1,0,97.73,0,Problema encontrado
+2118,3,0,74.4235,1,Problema encontrado
+2119,0,0,-117.1747,0,Funcional
+2120,3,1,55.0292,1,Funcional
+2121,-2,1,-22.8051,0,Disfuncional
+2122,3,1,93.1991,1,Problema encontrado
+2123,1,1,44.8208,1,Funcional
+2124,3,0,52.4006,1,Problema encontrado
+2125,3,1,-93.2429,0,Funcional
+2126,3,0,8.1111,0,Problema encontrado
+2127,0,0,92.5795,1,Problema encontrado
+2128,-2,0,-11.1521,0,Disfuncional
+2129,0,1,-83.9232,1,Funcional
+2130,2,0,-72.8452,1,Problema encontrado
+2131,0,1,-9.3711,0,Funcional
+2132,2,1,-27.8918,0,Funcional
+2133,3,1,-29.6843,0,Funcional
+2134,3,0,109.8164,1,Problema encontrado
+2135,2,1,131.0603,1,Problema encontrado
+2136,0,1,111.1192,1,Problema encontrado
+2137,-2,0,76.9923,0,Disfuncional
+2138,-2,1,-95.0877,1,Disfuncional
+2139,0,1,-81.0386,0,Funcional
+2140,0,1,-45.1038,1,Funcional
+2141,3,1,140.5604,0,Problema encontrado
+2142,3,0,110.1285,1,Problema encontrado
+2143,2,0,-115.2786,0,Problema encontrado
+2144,1,0,109.671,1,Problema encontrado
+2145,1,1,46.6403,0,Funcional
+2146,1,0,21.7486,0,Problema encontrado
+2147,0,0,7.2919,1,Funcional
+2148,2,1,-71.3656,1,Funcional
+2149,-2,1,80.6199,1,Disfuncional
+2150,3,1,44.8622,1,Funcional
+2151,-2,0,-102.5849,1,Disfuncional
+2152,3,1,-107.1654,1,Funcional
+2153,-2,1,-40.2001,1,Disfuncional
+2154,3,0,-121.8825,1,Problema encontrado
+2155,1,1,136.4724,1,Problema encontrado
+2156,2,1,55.1301,0,Funcional
+2157,1,0,-21.0816,0,Problema encontrado
+2158,0,1,-118.8257,1,Funcional
+2159,1,1,92.1438,1,Problema encontrado
+2160,3,0,-43.2366,0,Problema encontrado
+2161,2,1,-5.4886,0,Funcional
+2162,3,0,-42.7075,0,Problema encontrado
+2163,2,0,58.2912,1,Problema encontrado
+2164,0,1,92.7503,1,Problema encontrado
+2165,2,1,-119.1354,1,Funcional
+2166,0,0,136.7853,0,Problema encontrado
+2167,-2,0,112.742,0,Disfuncional
+2168,1,1,126.5262,0,Problema encontrado
+2169,3,0,-26.887,1,Problema encontrado
+2170,0,0,-120.3857,0,Funcional
+2171,-2,0,50.5325,1,Disfuncional
+2172,2,0,-23.0233,1,Problema encontrado
+2173,-2,1,-86.2984,1,Disfuncional
+2174,2,1,29.0149,0,Funcional
+2175,3,0,-72.7833,1,Problema encontrado
+2176,0,0,35.5306,0,Funcional
+2177,3,0,103.5804,1,Problema encontrado
+2178,3,0,77.3216,0,Problema encontrado
+2179,1,1,-4.0366,0,Funcional
+2180,0,0,-95.2162,0,Funcional
+2181,0,0,-64.1105,0,Funcional
+2182,2,1,-67.3263,1,Funcional
+2183,0,0,67.5826,0,Funcional
+2184,0,1,2.1964,0,Funcional
+2185,-2,1,-3.9211,0,Disfuncional
+2186,0,0,19.3444,1,Funcional
+2187,2,0,47.8602,0,Problema encontrado
+2188,0,1,146.3596,0,Problema encontrado
+2189,-2,1,-39.6242,0,Disfuncional
+2190,1,0,118.7252,0,Problema encontrado
+2191,1,1,78.2177,1,Funcional
+2192,-2,1,-15.6553,1,Disfuncional
+2193,-2,1,43.832,1,Disfuncional
+2194,3,1,-108.4473,1,Funcional
+2195,-2,0,43.1647,0,Disfuncional
+2196,2,1,-0.9683,1,Funcional
+2197,-2,0,-65.7861,0,Disfuncional
+2198,-2,0,7.726,0,Disfuncional
+2199,1,0,-66.6966,0,Problema encontrado
+2200,0,0,90.8478,0,Problema encontrado
+2201,-2,1,-83.9276,1,Disfuncional
+2202,1,1,53.901,0,Funcional
+2203,3,1,102.6432,1,Problema encontrado
+2204,3,1,-78.5207,1,Funcional
+2205,0,1,-25.0172,0,Funcional
+2206,1,0,139.7393,0,Problema encontrado
+2207,3,1,24.6197,0,Funcional
+2208,0,1,115.5162,1,Problema encontrado
+2209,-2,1,0.1353,1,Disfuncional
+2210,3,0,7.7101,1,Problema encontrado
+2211,0,0,-40.1924,0,Funcional
+2212,-2,1,-34.8369,1,Disfuncional
+2213,3,1,-33.1148,1,Funcional
+2214,1,1,84.9735,1,Funcional
+2215,3,1,-27.3064,0,Funcional
+2216,2,1,1.4548,1,Funcional
+2217,-2,0,-126.2207,0,Disfuncional
+2218,-2,0,-105.8995,0,Disfuncional
+2219,0,0,127.2548,1,Problema encontrado
+2220,1,1,113.1096,1,Problema encontrado
+2221,3,1,129.9113,1,Problema encontrado
+2222,2,0,-13.9616,0,Problema encontrado
+2223,-2,0,-64.9462,0,Disfuncional
+2224,2,0,88.4676,1,Problema encontrado
+2225,-2,0,-93.9868,1,Disfuncional
+2226,3,1,-110.6889,0,Funcional
+2227,1,1,120.3405,1,Problema encontrado
+2228,0,0,112.6548,1,Problema encontrado
+2229,2,1,-108.4878,1,Funcional
+2230,-2,0,59.6023,0,Disfuncional
+2231,1,0,-86.6683,1,Problema encontrado
+2232,0,0,-87.3935,0,Funcional
+2233,0,0,-25.828,1,Funcional
+2234,-2,0,-31.5885,0,Disfuncional
+2235,1,0,-24.6995,0,Problema encontrado
+2236,1,0,-4.4794,1,Problema encontrado
+2237,-2,1,-37.904,0,Disfuncional
+2238,-2,0,102.3412,0,Disfuncional
+2239,1,0,75.0102,0,Problema encontrado
+2240,-2,0,55.8463,0,Disfuncional
+2241,2,1,112.9478,1,Problema encontrado
+2242,3,1,105.1677,0,Problema encontrado
+2243,-2,1,-77.0852,1,Disfuncional
+2244,-2,1,-38.6314,1,Disfuncional
+2245,2,0,36.9814,0,Problema encontrado
+2246,0,1,-73.5865,1,Funcional
+2247,3,1,19.103,1,Funcional
+2248,3,0,-7.7794,0,Problema encontrado
+2249,3,1,147.8593,0,Problema encontrado
+2250,-2,0,125.4486,0,Disfuncional
+2251,-2,0,62.2585,1,Disfuncional
+2252,2,1,40.8167,1,Funcional
+2253,2,1,18.3566,1,Funcional
+2254,2,0,71.1648,0,Problema encontrado
+2255,0,0,-93.2915,0,Funcional
+2256,1,0,65.6365,0,Problema encontrado
+2257,1,0,-13.3655,1,Problema encontrado
+2258,2,1,78.1205,0,Funcional
+2259,2,0,-111.0641,0,Problema encontrado
+2260,0,1,10.6653,0,Funcional
+2261,2,0,66.1927,0,Problema encontrado
+2262,-2,1,-95.4857,0,Disfuncional
+2263,1,0,5.5523,0,Problema encontrado
+2264,-2,1,138.1645,1,Disfuncional
+2265,2,1,-105.6326,0,Funcional
+2266,0,0,-48.4482,0,Funcional
+2267,1,1,-63.9085,0,Funcional
+2268,-2,0,105.5568,0,Disfuncional
+2269,-2,0,9.2288,1,Disfuncional
+2270,-2,0,54.598,1,Disfuncional
+2271,0,1,66.6236,0,Funcional
+2272,3,1,52.1332,1,Funcional
+2273,1,0,-105.2609,1,Problema encontrado
+2274,1,1,-29.6498,1,Funcional
+2275,0,1,6.1863,1,Funcional
+2276,3,1,-84.4673,1,Funcional
+2277,2,0,-55.8575,0,Problema encontrado
+2278,1,0,-53.7069,0,Problema encontrado
+2279,2,1,81.9403,0,Funcional
+2280,-2,0,118.8677,1,Disfuncional
+2281,-2,0,104.4712,1,Disfuncional
+2282,0,1,-117.6504,1,Funcional
+2283,-2,1,35.151,0,Disfuncional
+2284,1,0,76.4491,1,Problema encontrado
+2285,2,1,119.3459,0,Problema encontrado
+2286,3,1,112.0209,0,Problema encontrado
+2287,-2,0,103.5641,1,Disfuncional
+2288,3,1,116.7305,0,Problema encontrado
+2289,1,0,-33.837,0,Problema encontrado
+2290,3,0,-13.5423,0,Problema encontrado
+2291,3,0,18.5822,0,Problema encontrado
+2292,0,1,138.547,0,Problema encontrado
+2293,-2,1,-98.9392,0,Disfuncional
+2294,-2,1,32.4455,0,Disfuncional
+2295,0,0,-108.6898,1,Funcional
+2296,1,0,-51.0463,1,Problema encontrado
+2297,0,0,-46.5391,1,Funcional
+2298,1,1,43.3983,1,Funcional
+2299,0,1,-1.9382,0,Funcional
+2300,-2,1,77.5501,1,Disfuncional
+2301,-2,1,-88.6799,1,Disfuncional
+2302,2,1,76.2765,1,Funcional
+2303,0,1,7.633,1,Funcional
+2304,1,0,116.9589,1,Problema encontrado
+2305,0,1,113.5691,0,Problema encontrado
+2306,-2,1,135.5857,1,Disfuncional
+2307,1,1,105.8335,0,Problema encontrado
+2308,-2,0,-12.2455,0,Disfuncional
+2309,-2,1,117.1519,0,Disfuncional
+2310,-2,1,120.9849,1,Disfuncional
+2311,3,0,-26.7262,1,Problema encontrado
+2312,1,1,-9.8888,1,Funcional
+2313,-2,0,-20.0086,0,Disfuncional
+2314,1,0,90.5345,1,Problema encontrado
+2315,3,0,135.2018,0,Problema encontrado
+2316,2,1,4.8332,1,Funcional
+2317,-2,1,-15.9566,1,Disfuncional
+2318,1,0,-119.2466,0,Problema encontrado
+2319,3,1,88.3692,0,Funcional
+2320,1,1,89.0577,0,Funcional
+2321,0,1,-85.898,1,Funcional
+2322,2,0,30.8232,1,Problema encontrado
+2323,3,0,66.2304,1,Problema encontrado
+2324,3,0,-85.1176,1,Problema encontrado
+2325,2,1,52.6547,0,Funcional
+2326,1,1,50.6265,0,Funcional
+2327,1,1,10.362,0,Funcional
+2328,1,0,136.1452,1,Problema encontrado
+2329,1,1,-102.0178,1,Funcional
+2330,3,1,100.7348,1,Problema encontrado
+2331,-2,0,-49.883,0,Disfuncional
+2332,0,0,97.1235,0,Problema encontrado
+2333,-2,0,-15.9297,0,Disfuncional
+2334,0,0,39.0542,1,Funcional
+2335,2,0,-35.7324,1,Problema encontrado
+2336,0,1,62.6896,0,Funcional
+2337,3,1,-4.285,1,Funcional
+2338,1,1,-84.3062,0,Funcional
+2339,2,0,90.1857,0,Problema encontrado
+2340,0,0,-57.005,1,Funcional
+2341,0,1,-9.8131,1,Funcional
+2342,0,0,131.171,0,Problema encontrado
+2343,1,1,-110.3157,0,Funcional
+2344,1,0,91.1357,0,Problema encontrado
+2345,-2,0,-119.285,1,Disfuncional
+2346,-2,0,95.2726,1,Disfuncional
+2347,1,1,66.7513,0,Funcional
+2348,0,0,23.7201,0,Funcional
+2349,0,1,-110.4143,0,Funcional
+2350,-2,0,-67.3613,1,Disfuncional
+2351,1,0,-113.7313,0,Problema encontrado
+2352,1,1,85.9025,0,Funcional
+2353,3,0,23.8365,0,Problema encontrado
+2354,-2,1,17.9543,0,Disfuncional
+2355,3,1,29.8249,0,Funcional
+2356,1,0,-57.3642,1,Problema encontrado
+2357,0,0,39.6831,1,Funcional
+2358,3,1,-23.5357,1,Funcional
+2359,2,0,116.2476,1,Problema encontrado
+2360,3,1,-91.0861,0,Funcional
+2361,2,1,139.2223,0,Problema encontrado
+2362,2,1,107.9251,1,Problema encontrado
+2363,0,0,-80.2546,1,Funcional
+2364,2,1,82.8782,0,Funcional
+2365,1,0,-59.1793,1,Problema encontrado
+2366,0,1,127.6825,0,Problema encontrado
+2367,3,0,-113.2338,0,Problema encontrado
+2368,2,0,-4.2926,0,Problema encontrado
+2369,1,0,2.1185,1,Problema encontrado
+2370,3,0,38.2064,1,Problema encontrado
+2371,3,0,86.4997,1,Problema encontrado
+2372,-2,1,-51.8924,1,Disfuncional
+2373,2,1,-10.7844,0,Funcional
+2374,3,0,108.8018,0,Problema encontrado
+2375,2,1,100.9397,1,Problema encontrado
+2376,2,1,74.0069,1,Funcional
+2377,1,0,-12.1302,0,Problema encontrado
+2378,0,0,124.7666,1,Problema encontrado
+2379,0,0,-49.4249,0,Funcional
+2380,2,0,-9.5849,0,Problema encontrado
+2381,1,1,17.4688,0,Funcional
+2382,1,1,-49.8448,1,Funcional
+2383,2,0,-70.8842,0,Problema encontrado
+2384,1,1,-108.3173,1,Funcional
+2385,3,0,-56.443,0,Problema encontrado
+2386,1,0,64.8652,0,Problema encontrado
+2387,3,0,103.8164,0,Problema encontrado
+2388,1,1,-121.716,1,Funcional
+2389,0,0,132.8139,0,Problema encontrado
+2390,0,0,102.2555,1,Problema encontrado
+2391,0,0,139.415,1,Problema encontrado
+2392,3,0,31.7331,0,Problema encontrado
+2393,0,0,65.9119,0,Funcional
+2394,1,1,-96.6789,1,Funcional
+2395,3,0,7.271,0,Problema encontrado
+2396,1,1,-86.8426,1,Funcional
+2397,2,0,-113.0668,0,Problema encontrado
+2398,1,0,121.4634,0,Problema encontrado
+2399,-2,1,83.3418,1,Disfuncional
+2400,0,1,-125.7823,1,Disfuncional
+2401,1,1,77.4536,0,Funcional
+2402,0,1,-29.583,0,Funcional
+2403,2,0,146.684,1,Problema encontrado
+2404,3,1,52.6622,0,Funcional
+2405,1,0,-92.208,1,Problema encontrado
+2406,1,1,85.17,0,Funcional
+2407,2,1,-79.0975,0,Funcional
+2408,3,1,18.3627,0,Funcional
+2409,1,1,-61.0645,0,Funcional
+2410,0,1,129.4567,0,Problema encontrado
+2411,-2,0,-79.2826,1,Disfuncional
+2412,1,1,-81.0091,1,Funcional
+2413,0,1,4.9093,0,Funcional
+2414,3,0,88.172,0,Problema encontrado
+2415,3,1,-45.8277,0,Funcional
+2416,0,1,116.5471,0,Problema encontrado
+2417,3,0,-40.6346,0,Problema encontrado
+2418,1,1,-90.4313,1,Funcional
+2419,-2,1,127.0383,1,Disfuncional
+2420,1,1,-61.7386,1,Funcional
+2421,-2,1,-14.7811,0,Disfuncional
+2422,-2,0,5.5575,1,Disfuncional
+2423,1,0,-116.9161,0,Problema encontrado
+2424,0,0,146.7557,1,Problema encontrado
+2425,2,0,91.1265,1,Problema encontrado
+2426,2,1,73.707,0,Funcional
+2427,-2,1,126.3932,1,Disfuncional
+2428,-2,0,-86.1334,0,Disfuncional
+2429,2,1,28.9374,1,Funcional
+2430,-2,0,-33.8883,0,Disfuncional
+2431,2,0,-41.9051,0,Problema encontrado
+2432,1,1,-58.1249,0,Funcional
+2433,0,0,9.3149,0,Funcional
+2434,0,1,6.7817,1,Funcional
+2435,2,0,106.0618,0,Problema encontrado
+2436,1,0,111.5109,1,Problema encontrado
+2437,0,1,110.5464,1,Problema encontrado
+2438,0,1,106.0354,1,Problema encontrado
+2439,1,1,134.9303,1,Problema encontrado
+2440,3,0,-9.7552,1,Problema encontrado
+2441,0,1,-103.7609,1,Funcional
+2442,2,0,87.2238,1,Problema encontrado
+2443,1,0,99.4094,0,Problema encontrado
+2444,1,0,52.3201,0,Problema encontrado
+2445,-2,1,-2.7084,0,Disfuncional
+2446,1,1,12.1664,1,Funcional
+2447,1,1,-54.257,1,Funcional
+2448,0,1,131.2482,0,Problema encontrado
+2449,0,0,-79.9295,0,Funcional
+2450,1,1,-72.964,0,Funcional
+2451,3,1,-17.8602,1,Funcional
+2452,1,1,28.2774,1,Funcional
+2453,3,1,-72.8843,1,Funcional
+2454,-2,0,132.8045,0,Disfuncional
+2455,3,1,115.9951,0,Problema encontrado
+2456,3,1,81.7411,0,Funcional
+2457,1,1,-91.3519,0,Funcional
+2458,1,1,-83.3987,0,Funcional
+2459,3,0,-34.4781,0,Problema encontrado
+2460,1,1,-7.1427,1,Funcional
+2461,2,1,45.1058,1,Funcional
+2462,1,1,-74.4493,0,Funcional
+2463,3,0,-124.9061,0,Problema encontrado
+2464,1,0,111.9499,0,Problema encontrado
+2465,1,0,-126.8643,0,Disfuncional
+2466,0,1,37.5885,0,Funcional
+2467,2,1,-32.4969,1,Funcional
+2468,-2,1,75.9684,1,Disfuncional
+2469,2,0,-99.3456,1,Problema encontrado
+2470,0,1,57.1996,0,Funcional
+2471,0,0,-108.0156,0,Funcional
+2472,3,0,-54.6624,0,Problema encontrado
+2473,3,1,94.8116,0,Problema encontrado
+2474,-2,0,-31.6677,0,Disfuncional
+2475,3,1,-75.8071,0,Funcional
+2476,0,0,112.1642,0,Problema encontrado
+2477,1,1,138.1196,1,Problema encontrado
+2478,3,0,-13.9992,1,Problema encontrado
+2479,1,1,-66.463,0,Funcional
+2480,-2,0,64.1838,1,Disfuncional
+2481,-2,1,-64.3065,1,Disfuncional
+2482,-2,1,70.0262,0,Disfuncional
+2483,0,0,77.7685,0,Funcional
+2484,1,1,39.9278,0,Funcional
+2485,2,0,82.2706,0,Problema encontrado
+2486,2,0,-66.4961,0,Problema encontrado
+2487,0,0,14.8128,0,Funcional
+2488,2,0,-69.744,1,Problema encontrado
+2489,2,1,-20.8706,0,Funcional
+2490,-2,1,-84.286,1,Disfuncional
+2491,1,0,27.6732,1,Problema encontrado
+2492,-2,0,-96.9156,1,Disfuncional
+2493,3,0,-7.2266,0,Problema encontrado
+2494,2,0,-64.9699,0,Problema encontrado
+2495,1,0,119.1945,0,Problema encontrado
+2496,-2,0,-69.9973,1,Disfuncional
+2497,2,1,11.9345,0,Funcional
+2498,2,1,83.4063,1,Funcional
+2499,3,1,129.648,1,Problema encontrado
+2500,3,1,57.0791,1,Funcional
+2501,0,1,72.2003,1,Funcional
+2502,1,0,122.8765,0,Problema encontrado
+2503,1,0,60.1967,1,Problema encontrado
+2504,0,0,-74.7681,0,Funcional
+2505,3,0,-110.3108,0,Problema encontrado
+2506,-2,1,19.2803,1,Disfuncional
+2507,1,0,124.3897,1,Problema encontrado
+2508,0,1,-94.1978,0,Funcional
+2509,3,1,141.507,0,Problema encontrado
+2510,0,0,26.9272,1,Funcional
+2511,0,1,-116.5502,0,Funcional
+2512,3,0,56.538,1,Problema encontrado
+2513,2,0,52.8017,1,Problema encontrado
+2514,0,1,48.7199,1,Funcional
+2515,1,1,85.4201,0,Funcional
+2516,2,0,123.3765,0,Problema encontrado
+2517,-2,0,-9.3429,1,Disfuncional
+2518,0,0,122.5661,0,Problema encontrado
+2519,2,1,130.7585,1,Problema encontrado
+2520,1,0,30.6784,0,Problema encontrado
+2521,2,1,-113.8986,1,Funcional
+2522,0,1,-56.7863,0,Funcional
+2523,3,0,38.0159,1,Problema encontrado
+2524,1,0,-82.4469,1,Problema encontrado
+2525,0,1,-82.1872,1,Funcional
+2526,-2,0,-100.301,0,Disfuncional
+2527,2,0,-118.615,0,Problema encontrado
+2528,1,0,-72.0484,1,Problema encontrado
+2529,3,1,82.5704,1,Funcional
+2530,-2,1,-65.6674,0,Disfuncional
+2531,1,1,-121.9282,0,Funcional
+2532,-2,1,-29.9857,1,Disfuncional
+2533,2,0,17.4118,1,Problema encontrado
+2534,1,1,138.8084,0,Problema encontrado
+2535,-2,1,-73.7686,1,Disfuncional
+2536,2,0,114.5039,0,Problema encontrado
+2537,3,1,142.4118,1,Problema encontrado
+2538,-2,1,112.23,0,Disfuncional
+2539,-2,1,-14.9894,0,Disfuncional
+2540,2,1,61.3957,1,Funcional
+2541,1,1,-24.5878,0,Funcional
+2542,3,0,-59.5433,0,Problema encontrado
+2543,-2,1,107.9845,1,Disfuncional
+2544,3,0,-74.9522,1,Problema encontrado
+2545,1,1,-109.7502,1,Funcional
+2546,0,0,-97.7012,1,Funcional
+2547,1,0,46.4589,0,Problema encontrado
+2548,3,1,-74.3254,0,Funcional
+2549,-2,0,140.8793,0,Disfuncional
+2550,1,0,-109.531,1,Problema encontrado
+2551,-2,1,117.6236,1,Disfuncional
+2552,0,1,32.0326,1,Funcional
+2553,1,1,64.9966,0,Funcional
+2554,1,0,-94.964,1,Problema encontrado
+2555,1,0,95.7852,1,Problema encontrado
+2556,-2,0,56.3096,0,Disfuncional
+2557,0,0,-117.0168,1,Funcional
+2558,1,0,-71.7641,1,Problema encontrado
+2559,3,0,8.4957,0,Problema encontrado
+2560,0,0,-117.4369,1,Funcional
+2561,2,0,-79.6684,0,Problema encontrado
+2562,-2,1,5.583,0,Disfuncional
+2563,2,0,-42.0883,0,Problema encontrado
+2564,0,1,14.2458,0,Funcional
+2565,3,0,28.6406,1,Problema encontrado
+2566,1,1,-118.1646,0,Funcional
+2567,3,0,67.5931,0,Problema encontrado
+2568,-2,0,86.6887,0,Disfuncional
+2569,2,0,135.2344,1,Problema encontrado
+2570,-2,1,120.5571,0,Disfuncional
+2571,1,1,-17.1169,1,Funcional
+2572,3,1,22.4191,1,Funcional
+2573,-2,0,-86.7629,0,Disfuncional
+2574,3,1,-4.9508,1,Funcional
+2575,1,1,136.9074,0,Problema encontrado
+2576,0,1,-86.0251,0,Funcional
+2577,1,0,68.6961,0,Problema encontrado
+2578,1,0,-60.3567,0,Problema encontrado
+2579,3,0,-7.2338,0,Problema encontrado
+2580,3,1,-124.1956,1,Funcional
+2581,3,0,-58.6711,0,Problema encontrado
+2582,0,0,-49.5698,0,Funcional
+2583,3,0,50.2642,0,Problema encontrado
+2584,0,0,78.715,1,Funcional
+2585,0,0,-24.4756,0,Funcional
+2586,0,0,111.2876,0,Problema encontrado
+2587,-2,0,-52.3888,0,Disfuncional
+2588,0,1,-76.8081,1,Funcional
+2589,-2,0,141.7716,0,Disfuncional
+2590,2,1,5.5569,1,Funcional
+2591,-2,1,137.1962,1,Disfuncional
+2592,2,0,-28.1236,1,Problema encontrado
+2593,1,0,72.1128,1,Problema encontrado
+2594,2,1,139.7023,0,Problema encontrado
+2595,1,1,-73.8702,1,Funcional
+2596,-2,1,-113.681,1,Disfuncional
+2597,3,0,6.5738,1,Problema encontrado
+2598,0,1,-120.3946,0,Funcional
+2599,2,0,-67.5763,0,Problema encontrado
+2600,-2,1,128.0871,1,Disfuncional
+2601,-2,1,-69.1709,0,Disfuncional
+2602,0,0,88.5903,0,Funcional
+2603,1,0,-117.1446,0,Problema encontrado
+2604,2,1,112.9851,0,Problema encontrado
+2605,-2,1,31.8492,1,Disfuncional
+2606,0,0,-120.1389,1,Funcional
+2607,2,0,-87.7565,1,Problema encontrado
+2608,-2,1,-115.9266,1,Disfuncional
+2609,3,0,-70.6106,0,Problema encontrado
+2610,1,1,50.202,1,Funcional
+2611,1,0,103.4024,0,Problema encontrado
+2612,0,0,-34.1558,0,Funcional
+2613,0,1,-8.0506,1,Funcional
+2614,2,0,101.2533,1,Problema encontrado
+2615,3,1,22.1025,0,Funcional
+2616,2,0,-110.2841,0,Problema encontrado
+2617,2,0,101.605,0,Problema encontrado
+2618,0,1,138.5718,0,Problema encontrado
+2619,2,1,89.8436,1,Funcional
+2620,2,1,-67.8692,0,Funcional
+2621,2,0,25.2288,0,Problema encontrado
+2622,2,1,127.8544,0,Problema encontrado
+2623,2,0,-11.6591,1,Problema encontrado
+2624,3,1,-25.7375,1,Funcional
+2625,2,1,57.1209,1,Funcional
+2626,3,0,-114.1829,0,Problema encontrado
+2627,3,0,145.4452,0,Problema encontrado
+2628,3,0,-41.8563,1,Problema encontrado
+2629,-2,1,-103.1264,1,Disfuncional
+2630,3,1,-49.427,1,Funcional
+2631,0,0,-86.5622,1,Funcional
+2632,2,1,123.785,1,Problema encontrado
+2633,-2,0,146.5942,0,Disfuncional
+2634,2,1,-35.7102,0,Funcional
+2635,3,1,15.0665,1,Funcional
+2636,0,1,92.6558,1,Problema encontrado
+2637,1,1,75.7503,1,Funcional
+2638,3,1,-111.0564,0,Funcional
+2639,1,1,-72.5644,0,Funcional
+2640,2,1,39.0954,0,Funcional
+2641,0,1,-87.8176,1,Funcional
+2642,2,0,-67.1227,0,Problema encontrado
+2643,3,1,-27.1069,1,Funcional
+2644,3,0,-114.4029,1,Problema encontrado
+2645,3,1,-109.0938,0,Funcional
+2646,3,0,-93.1434,1,Problema encontrado
+2647,-2,0,-37.2406,1,Disfuncional
+2648,3,0,-93.6445,1,Problema encontrado
+2649,0,0,96.3894,1,Problema encontrado
+2650,2,0,23.3687,1,Problema encontrado
+2651,1,0,120.4041,0,Problema encontrado
+2652,3,1,-97.1472,0,Funcional
+2653,-2,0,75.3194,0,Disfuncional
+2654,-2,1,-6.5725,0,Disfuncional
+2655,1,1,-96.4265,1,Funcional
+2656,2,0,-59.4906,0,Problema encontrado
+2657,1,1,-108.1202,1,Funcional
+2658,3,0,-93.0642,1,Problema encontrado
+2659,1,0,-108.1815,1,Problema encontrado
+2660,2,0,111.8769,1,Problema encontrado
+2661,3,0,12.835,1,Problema encontrado
+2662,-2,1,140.6946,1,Disfuncional
+2663,1,1,-117.2591,0,Funcional
+2664,1,1,120.5681,0,Problema encontrado
+2665,2,0,-115.6279,1,Problema encontrado
+2666,2,0,-24.4428,1,Problema encontrado
+2667,-2,1,-93.5258,0,Disfuncional
+2668,3,1,96.32,0,Problema encontrado
+2669,0,1,137.0021,0,Problema encontrado
+2670,1,1,-76.785,1,Funcional
+2671,2,0,110.1248,1,Problema encontrado
+2672,-2,0,-89.0465,1,Disfuncional
+2673,1,0,-17.6019,1,Problema encontrado
+2674,-2,0,5.2681,0,Disfuncional
+2675,0,1,31.6839,1,Funcional
+2676,-2,1,131.1614,1,Disfuncional
+2677,-2,0,97.8798,1,Disfuncional
+2678,0,0,89.1911,1,Funcional
+2679,0,0,-36.0379,1,Funcional
+2680,3,0,-95.4405,1,Problema encontrado
+2681,3,0,65.3051,1,Problema encontrado
+2682,2,1,-13.477,1,Funcional
+2683,3,0,-35.5568,0,Problema encontrado
+2684,1,0,-87.1299,0,Problema encontrado
+2685,-2,1,-30.4289,0,Disfuncional
+2686,1,0,117.92,0,Problema encontrado
+2687,3,0,20.0094,1,Problema encontrado
+2688,0,1,-31.9743,0,Funcional
+2689,-2,0,58.2853,0,Disfuncional
+2690,1,0,-45.2654,0,Problema encontrado
+2691,2,1,132.1676,0,Problema encontrado
+2692,3,1,54.2232,1,Funcional
+2693,3,0,-97.4921,1,Problema encontrado
+2694,3,0,-60.7806,1,Problema encontrado
+2695,0,0,68.9296,0,Funcional
+2696,0,1,34.61,1,Funcional
+2697,-2,0,-22.0811,1,Disfuncional
+2698,2,1,121.0186,1,Problema encontrado
+2699,1,0,-28.3,1,Problema encontrado
+2700,-2,1,-123.6127,1,Disfuncional
+2701,2,1,-76.5755,0,Funcional
+2702,-2,0,-113.4799,1,Disfuncional
+2703,2,1,78.2972,1,Funcional
+2704,3,0,-102.8772,1,Problema encontrado
+2705,2,0,25.2047,0,Problema encontrado
+2706,0,1,7.0485,0,Funcional
+2707,-2,0,-66.6519,1,Disfuncional
+2708,2,1,50.0941,1,Funcional
+2709,2,0,-90.278,1,Problema encontrado
+2710,0,1,-56.1262,1,Funcional
+2711,2,1,119.1203,1,Problema encontrado
+2712,-2,0,97.3846,1,Disfuncional
+2713,-2,0,147.4319,1,Disfuncional
+2714,1,0,-52.237,0,Problema encontrado
+2715,-2,1,42.0346,1,Disfuncional
+2716,2,0,55.717,0,Problema encontrado
+2717,2,0,138.8448,1,Problema encontrado
+2718,2,0,-10.3741,0,Problema encontrado
+2719,-2,1,23.502,1,Disfuncional
+2720,-2,1,88.5623,0,Disfuncional
+2721,3,0,-87.7579,1,Problema encontrado
+2722,2,1,29.0842,1,Funcional
+2723,3,0,42.5587,0,Problema encontrado
+2724,1,1,-23.269,1,Funcional
+2725,2,1,-107.0498,1,Funcional
+2726,3,0,23.9609,0,Problema encontrado
+2727,2,0,91.5601,1,Problema encontrado
+2728,-2,0,35.2099,1,Disfuncional
+2729,2,1,-77.3598,1,Funcional
+2730,0,1,-54.4414,0,Funcional
+2731,2,1,30.4147,1,Funcional
+2732,3,1,53.779,0,Funcional
+2733,2,1,-42.8547,1,Funcional
+2734,-2,0,36.5307,1,Disfuncional
+2735,0,1,-32.4667,1,Funcional
+2736,1,1,136.1576,1,Problema encontrado
+2737,2,0,-112.3078,0,Problema encontrado
+2738,-2,0,-23.3939,1,Disfuncional
+2739,-2,0,36.213,1,Disfuncional
+2740,0,0,-58.4042,0,Funcional
+2741,1,1,-44.5135,1,Funcional
+2742,3,1,-82.7651,1,Funcional
+2743,1,1,118.1752,1,Problema encontrado
+2744,2,0,35.7343,1,Problema encontrado
+2745,1,1,0.1057,1,Funcional
+2746,0,1,6.9336,1,Funcional
+2747,1,1,0.8897,1,Funcional
+2748,2,0,77.0895,1,Problema encontrado
+2749,1,1,-48.6102,1,Funcional
+2750,3,0,40.6315,1,Problema encontrado
+2751,3,0,-63.509,0,Problema encontrado
+2752,2,1,96.8426,0,Problema encontrado
+2753,1,1,5.8711,1,Funcional
+2754,0,0,2.1349,0,Funcional
+2755,1,0,124.1621,0,Problema encontrado
+2756,2,0,-55.2943,1,Problema encontrado
+2757,1,0,-81.8475,1,Problema encontrado
+2758,0,0,48.5601,1,Funcional
+2759,0,0,1.9477,1,Funcional
+2760,0,1,63.9126,1,Funcional
+2761,1,0,23.1077,1,Problema encontrado
+2762,-2,1,66.8452,1,Disfuncional
+2763,1,0,-121.34,0,Problema encontrado
+2764,-2,1,-28.4676,0,Disfuncional
+2765,1,1,-1.5826,1,Funcional
+2766,0,0,-65.5216,1,Funcional
+2767,-2,1,-109.3221,0,Disfuncional
+2768,3,1,14.4828,0,Funcional
+2769,3,0,107.4668,0,Problema encontrado
+2770,1,0,-28.2086,0,Problema encontrado
+2771,3,1,-67.8055,0,Funcional
+2772,2,0,131.4877,1,Problema encontrado
+2773,2,0,40.6299,1,Problema encontrado
+2774,0,0,42.847,1,Funcional
+2775,2,1,129.9481,1,Problema encontrado
+2776,3,1,71.7609,0,Funcional
+2777,0,1,135.1838,0,Problema encontrado
+2778,1,1,48.2215,0,Funcional
+2779,-2,0,143.2339,1,Disfuncional
+2780,3,1,23.2565,0,Funcional
+2781,1,0,94.046,1,Problema encontrado
+2782,-2,1,139.0015,0,Disfuncional
+2783,1,1,-70.2466,0,Funcional
+2784,0,1,30.8588,0,Funcional
+2785,-2,0,-22.9538,0,Disfuncional
+2786,2,1,101.3743,1,Problema encontrado
+2787,1,1,106.6669,1,Problema encontrado
+2788,3,1,-59.6872,0,Funcional
+2789,3,1,-46.6987,1,Funcional
+2790,0,1,53.7296,1,Funcional
+2791,1,1,74.1928,1,Funcional
+2792,1,1,143.5691,1,Problema encontrado
+2793,1,0,56.0512,0,Problema encontrado
+2794,3,1,70.8776,1,Funcional
+2795,-2,0,113.1506,1,Disfuncional
+2796,3,0,114.5534,0,Problema encontrado
+2797,2,1,3.4423,0,Funcional
+2798,2,0,0.3033,1,Problema encontrado
+2799,1,0,142.2221,1,Problema encontrado
+2800,0,0,-123.9094,1,Funcional
+2801,1,0,59.4057,0,Problema encontrado
+2802,3,1,-83.5986,1,Funcional
+2803,2,1,-120.696,1,Funcional
+2804,0,1,-66.4949,0,Funcional
+2805,-2,1,-22.4596,0,Disfuncional
+2806,3,0,112.1101,1,Problema encontrado
+2807,3,0,52.6351,0,Problema encontrado
+2808,3,1,96.3364,0,Problema encontrado
+2809,1,0,131.9629,1,Problema encontrado
+2810,-2,0,115.9285,1,Disfuncional
+2811,0,0,-123.5197,1,Funcional
+2812,-2,0,134.9496,1,Disfuncional
+2813,-2,0,-68.9256,0,Disfuncional
+2814,1,0,-106.6449,0,Problema encontrado
+2815,2,0,-3.1007,1,Problema encontrado
+2816,2,1,-80.0092,1,Funcional
+2817,3,1,85.0705,1,Funcional
+2818,2,0,43.8134,1,Problema encontrado
+2819,0,0,-54.0548,1,Funcional
+2820,0,0,2.6347,0,Funcional
+2821,0,0,-46.0688,0,Funcional
+2822,2,0,-38.0822,0,Problema encontrado
+2823,0,1,123.942,0,Problema encontrado
+2824,2,0,90.5999,1,Problema encontrado
+2825,2,0,-121.3535,1,Problema encontrado
+2826,0,1,-73.5561,1,Funcional
+2827,2,1,47.1928,0,Funcional
+2828,1,0,-109.8288,0,Problema encontrado
+2829,2,0,-119.7808,1,Problema encontrado
+2830,-2,1,-66.0373,1,Disfuncional
+2831,0,0,-86.5721,1,Funcional
+2832,1,1,136.6044,1,Problema encontrado
+2833,2,0,118.7944,1,Problema encontrado
+2834,0,1,-62.0181,0,Funcional
+2835,1,0,-99.8899,0,Problema encontrado
+2836,0,1,-96.1291,1,Funcional
+2837,3,0,38.8435,0,Problema encontrado
+2838,2,0,-68.4971,1,Problema encontrado
+2839,1,1,62.7127,0,Funcional
+2840,-2,0,54.7942,0,Disfuncional
+2841,0,0,52.5106,1,Funcional
+2842,-2,1,31.8961,1,Disfuncional
+2843,1,1,41.9381,0,Funcional
+2844,3,0,-86.0968,0,Problema encontrado
+2845,3,0,98.3053,0,Problema encontrado
+2846,-2,0,-20.1187,1,Disfuncional
+2847,-2,0,130.5246,1,Disfuncional
+2848,3,0,48.2818,1,Problema encontrado
+2849,3,0,-61.3905,1,Problema encontrado
+2850,3,0,-74.2499,1,Problema encontrado
+2851,1,1,17.146,1,Funcional
+2852,1,1,71.4125,0,Funcional
+2853,1,0,-2.5634,1,Problema encontrado
+2854,-2,1,-15.721,1,Disfuncional
+2855,1,1,-112.2005,1,Funcional
+2856,0,0,14.2749,0,Funcional
+2857,0,0,-81.2308,1,Funcional
+2858,2,0,16.7591,0,Problema encontrado
+2859,0,1,-67.0435,1,Funcional
+2860,-2,0,-78.3634,1,Disfuncional
+2861,2,0,73.5617,0,Problema encontrado
+2862,0,0,35.5531,1,Funcional
+2863,-2,1,38.4347,0,Disfuncional
+2864,3,1,70.6517,0,Funcional
+2865,2,1,59.7271,1,Funcional
+2866,2,0,142.6471,1,Problema encontrado
+2867,2,1,117.6511,1,Problema encontrado
+2868,2,0,76.156,1,Problema encontrado
+2869,0,0,103.3492,1,Problema encontrado
+2870,2,0,-39.1973,1,Problema encontrado
+2871,0,1,55.1629,0,Funcional
+2872,3,0,-28.0501,0,Problema encontrado
+2873,3,0,-108.1788,0,Problema encontrado
+2874,0,1,-114.3797,1,Funcional
+2875,0,1,60.7596,0,Funcional
+2876,3,1,-126.0162,1,Disfuncional
+2877,1,1,-68.6288,0,Funcional
+2878,0,1,56.226,0,Funcional
+2879,-2,0,14.7237,1,Disfuncional
+2880,1,1,40.8025,0,Funcional
+2881,-2,1,138.5054,0,Disfuncional
+2882,0,0,40.7758,0,Funcional
+2883,2,0,-25.9344,1,Problema encontrado
+2884,-2,0,111.0828,0,Disfuncional
+2885,3,0,-87.2945,1,Problema encontrado
+2886,0,0,80.967,1,Funcional
+2887,-2,1,135.0601,1,Disfuncional
+2888,1,1,-99.4833,0,Funcional
+2889,-2,0,45.707,0,Disfuncional
+2890,1,0,-42.4044,0,Problema encontrado
+2891,-2,0,35.2934,1,Disfuncional
+2892,-2,0,-43.444,0,Disfuncional
+2893,1,0,-61.2077,0,Problema encontrado
+2894,1,1,-27.7884,0,Funcional
+2895,2,0,129.5463,0,Problema encontrado
+2896,3,1,6.8162,0,Funcional
+2897,1,1,4.4294,0,Funcional
+2898,1,0,135.0639,1,Problema encontrado
+2899,-2,1,37.5024,1,Disfuncional
+2900,3,1,85.5246,0,Funcional
+2901,3,0,-52.6363,1,Problema encontrado
+2902,1,0,101.9822,1,Problema encontrado
+2903,2,1,32.2076,1,Funcional
+2904,3,1,-32.332,0,Funcional
+2905,0,0,-23.5917,0,Funcional
+2906,-2,1,-3.1098,0,Disfuncional
+2907,0,0,-58.7542,0,Funcional
+2908,3,1,-74.1807,1,Funcional
+2909,3,1,-67.2144,1,Funcional
+2910,2,0,98.5285,1,Problema encontrado
+2911,-2,1,-58.0959,0,Disfuncional
+2912,2,1,129.0159,1,Problema encontrado
+2913,0,1,-39.2913,0,Funcional
+2914,-2,0,-50.9862,1,Disfuncional
+2915,-2,1,-2.5758,0,Disfuncional
+2916,0,1,-113.879,1,Funcional
+2917,2,1,-42.592,0,Funcional
+2918,2,0,123.4938,1,Problema encontrado
+2919,-2,0,1.0749,1,Disfuncional
+2920,0,0,-89.079,1,Funcional
+2921,3,1,129.9269,0,Problema encontrado
+2922,0,0,95.1701,1,Problema encontrado
+2923,1,1,-62.0952,1,Funcional
+2924,1,1,-26.1048,1,Funcional
+2925,-2,1,-95.0898,0,Disfuncional
+2926,3,1,133.1728,1,Problema encontrado
+2927,2,0,107.4082,0,Problema encontrado
+2928,1,1,117.3704,0,Problema encontrado
+2929,2,1,-35.2268,1,Funcional
+2930,1,1,-61.451,1,Funcional
+2931,3,1,124.8069,0,Problema encontrado
+2932,-2,1,50.6373,0,Disfuncional
+2933,3,1,1.247,1,Funcional
+2934,1,1,-23.6507,0,Funcional
+2935,0,0,-21.6252,0,Funcional
+2936,0,0,-45.5148,1,Funcional
+2937,2,1,20.5762,0,Funcional
+2938,3,0,104.6973,1,Problema encontrado
+2939,-2,0,25.3266,0,Disfuncional
+2940,1,1,-125.3716,1,Disfuncional
+2941,3,0,146.3476,1,Problema encontrado
+2942,0,1,-23.6749,1,Funcional
+2943,2,0,-23.8154,1,Problema encontrado
+2944,-2,0,-101.9098,1,Disfuncional
+2945,1,1,47.9043,1,Funcional
+2946,-2,0,80.4133,1,Disfuncional
+2947,1,0,-89.5873,1,Problema encontrado
+2948,3,1,90.3289,0,Problema encontrado
+2949,-2,1,70.3073,1,Disfuncional
+2950,-2,1,-61.8208,0,Disfuncional
+2951,3,0,-55.5042,1,Problema encontrado
+2952,2,1,-113.1056,0,Funcional
+2953,1,0,-99.7197,0,Problema encontrado
+2954,-2,1,56.0716,1,Disfuncional
+2955,2,0,52.3281,1,Problema encontrado
+2956,0,0,-23.9747,0,Funcional
+2957,-2,0,-95.5973,1,Disfuncional
+2958,-2,0,53.4728,0,Disfuncional
+2959,1,0,-3.6122,0,Problema encontrado
+2960,2,0,-104.4806,0,Problema encontrado
+2961,3,0,-58.0376,1,Problema encontrado
+2962,1,1,34.7572,0,Funcional
+2963,-2,0,-117.4119,1,Disfuncional
+2964,2,1,-96.4695,1,Funcional
+2965,2,0,50.3602,1,Problema encontrado
+2966,0,1,-57.6085,0,Funcional
+2967,0,0,74.9097,1,Funcional
+2968,-2,0,130.0262,1,Disfuncional
+2969,3,0,-73.2765,1,Problema encontrado
+2970,-2,0,-17.7197,1,Disfuncional
+2971,3,1,-119.0091,0,Funcional
+2972,-2,1,-106.6749,0,Disfuncional
+2973,1,0,-50.1771,1,Problema encontrado
+2974,0,0,22.0348,1,Funcional
+2975,1,1,-27.7504,0,Funcional
+2976,2,0,18.0134,0,Problema encontrado
+2977,0,0,-49.1068,0,Funcional
+2978,0,1,-59.379,1,Funcional
+2979,-2,0,-108.425,0,Disfuncional
+2980,3,1,-38.3518,1,Funcional
+2981,1,1,-106.756,0,Funcional
+2982,1,1,-5.7785,1,Funcional
+2983,2,1,-98.4654,1,Funcional
+2984,-2,0,79.8646,0,Disfuncional
+2985,0,1,118.2465,0,Problema encontrado
+2986,2,1,64.6249,1,Funcional
+2987,0,1,-122.3662,1,Funcional
+2988,0,1,-14.7182,0,Funcional
+2989,1,0,-80.9533,1,Problema encontrado
+2990,3,1,-92.5552,1,Funcional
+2991,-2,1,-2.2014,1,Disfuncional
+2992,3,0,59.1377,1,Problema encontrado
+2993,2,0,72.6802,0,Problema encontrado
+2994,3,0,-102.686,0,Problema encontrado
+2995,1,1,-67.7525,1,Funcional
+2996,2,1,134.103,0,Problema encontrado
+2997,1,1,137.4873,0,Problema encontrado
+2998,-2,0,-109.4493,0,Disfuncional
+2999,0,0,127.9218,0,Problema encontrado
