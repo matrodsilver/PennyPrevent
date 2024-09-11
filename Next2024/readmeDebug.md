@@ -8,7 +8,7 @@ Linha 119:
 - E teste manual em outra página                                                      !
 
 Linha 141:
-- Tentar colocar download do modelo em página separada                                !
+- Colocar try: except: para ver se arquivo existe na página de downlaods              !
 
 Linha 148:
 - No momento, chatbot só é ativo após o teste manual
