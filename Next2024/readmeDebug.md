@@ -3,9 +3,6 @@
 Linha 63 | 127:
 - Mudar condição do else para método mais industrial                                  !
 
-Linhas 116:
-- Colocar resto do chatbot dentro da função do chatbot                                !
-
 Linha 119:
 - Tentar colocar teste manual em página separada                                      !
 
