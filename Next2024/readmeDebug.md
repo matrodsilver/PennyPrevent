@@ -1,23 +1,15 @@
 # Notas
 
-Linha 63 | 127:
-- Mudar condição do else para método mais industrial                                  !
+- Mudar condição do else para método mais industrial                      !
 
-Linha 119:
-- Tentar colocar Predição em tempo real em outra tab                                  !
-- E teste manual em outra página                                                      !
+- Tentar colocar Predição em tempo real em outra tab                      !
 
-Linha 141:
-- Colocar try: except: para ver se arquivo existe na página de downlaods              !
+- Tentar colcoar teste manual em outra página                             !
 
-Linha 148:
+- Colocar try: except: para ver se arquivo existe na página de downloads  !
+
+- Colocar predições no firebase                                           !
+
 - No momento, chatbot só é ativo após o teste manual
 
-Linha 323:
-- Streamlit entra em conflito tentando rodar pushbullet (separar scripts)             !
-
-  obs:
-- É possível colocar '''[algum texto ou html]''' entre essas três aspas para usar html em multiplas linhas no sl.markdown()
-  exemplo: linha 292
-
-- Não testei o chat bot para não gastar crédito, creio q é só mudar ´chatbot´ pra ´True´
+- Streamlit entra em conflito tentando rodar pushbullet (separar scripts)
