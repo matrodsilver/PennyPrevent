@@ -4,7 +4,7 @@ Linha 63 | 127:
 - Mudar condição do else para método mais industrial                                  !
 
 Linha 119:
-- Tentar colocar teste manual em outra página, e predição em tempo real em outra tab  !
+- Tentar colocar Predição em tempo real em outra tab                                  !
 - E teste manual em outra página                                                      !
 
 Linha 141:
