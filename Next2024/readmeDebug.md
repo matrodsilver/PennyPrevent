@@ -1,10 +1,6 @@
 # Notas
 
-- Mudar condição do else para método mais industrial                      !
-
 - Tentar colocar Predição em tempo real em outra tab                      !
-
-- Tentar colcoar teste manual em outra página                             !
 
 - Colocar try: except: para ver se arquivo existe na página de downloads  !
 
