@@ -1,0 +1,11 @@
+keras
+matplotlib
+numpy
+pandas
+pywhatkit
+Requests
+scikit_learn
+openai
+streamlit
+tensorflow
+tensorflow_intel
