@@ -4,7 +4,6 @@ import pandas as pd
 import openai
 import requests
 import numpy as np
-import pywhatkit as wp
 from time import sleep as delay
 import os
 
