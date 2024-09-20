@@ -11,11 +11,11 @@ import os
 openai.api_key = "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"
 
 #caminho das fotos
-gui = r"./Fotos/gui.jpg" # mudar caminho
-bizon = r"./Fotos/bizon.jpg" # mudar caminho
-couto = r"./Fotos/couto.jpg" # mudar caminho
-mat = r"./Fotos/mat.jpg" # mudar caminho
-pp = r"./Fotos/PennyPreventLogo.png" # mudar caminho
+gui = r"./PennyPrevent.csv/Fotos/gui.jpg" # mudar caminho
+bizon = r"./PennyPrevent.csv/Fotos/bizon.jpg" # mudar caminho
+couto = r"./PennyPrevent.csv/Fotos/couto.jpg" # mudar caminho
+mat = r"./PennyPrevent.csv/Fotos/mat.jpg" # mudar caminho
+pp = r"./PennyPrevent.csv/Fotos/PennyPreventLogo.png" # mudar caminho
 
 # mudando estilo da página
 
@@ -226,7 +226,7 @@ with tab_dados:
 
         else:
             sl.markdown("""Rodando arquivo de exemplo (default)""")
-            return pd.read_csv(r".\PennyPrevent.csv")
+            return pd.read_csv(r".\PennyPrevent\PennyPrevent.csv")
 
 
     # ** Define as colunas a serem desconsideradas por input do usuário **
