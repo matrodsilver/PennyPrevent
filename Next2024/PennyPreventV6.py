@@ -384,28 +384,31 @@ with tab_dados:
 
         dado_reshape = np.expand_dims(dados_isolados, axis=0)  # Add a batch dimension
 
-        predito = ia.predict(dado_reshape)
-
-        dados_classe_predita = np.argmax(predito[0])  # Assuming categorical output #
-
-        predicao_atual = list(out2tr.keys())[
-            dados_classe_predita]
-
-        with tab_dash:
-            sl.markdown(f'''Ultimos dados: {ultimos_dados} → {predicao_atual}''', unsafe_allow_html=True)
-        
-        #? escrever predição para firebase
-
-
-        if predicao_atual in ['Disfuncional', 'Problema encontrado']:
-            wp_usuarios = ['+5511996568160']
-
-            titulo, mensagem = '⚠️Aviso⚠️', f'Foi previsto que o sistema 【𝟭】 está {
-                predicao_atual}'
-                
-            for usuario in wp_usuarios:
-                #wp.sendwhatmsg_instantly(usuario, titulo+'\n'+mensagem, 15)  #! descomentar caso queira enviar mensagem pelo whatsapp
-                pass
+        try:
+            predito = ia.predict(dado_reshape)
+    
+            dados_classe_predita = np.argmax(predito[0])  # Assuming categorical output #
+    
+            predicao_atual = list(out2tr.keys())[
+                dados_classe_predita]
+    
+            with tab_dash:
+                sl.markdown(f'''Ultimos dados: {ultimos_dados} → {predicao_atual}''', unsafe_allow_html=True)
+            
+            #? escrever predição para firebase
+    
+    
+            if predicao_atual in ['Disfuncional', 'Problema encontrado']:
+                wp_usuarios = ['+5511996568160']
+    
+                titulo, mensagem = '⚠️Aviso⚠️', f'Foi previsto que o sistema 【𝟭】 está {
+                    predicao_atual}'
+                    
+                for usuario in wp_usuarios:
+                    #wp.sendwhatmsg_instantly(usuario, titulo+'\n'+mensagem, 15)  #! descomentar caso queira enviar mensagem pelo whatsapp
+                    pass
+        except:
+            pass
 
 
     if __name__ == '__main__':
