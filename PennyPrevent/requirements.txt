@@ -9,3 +9,4 @@ openai
 streamlit
 tensorflow
 tensorflow_intel
+plotly
