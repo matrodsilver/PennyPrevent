@@ -26,7 +26,7 @@ def add_bg_from_local(image_file):
     <style>
     [data-testid="stAppViewContainer"] {{
     background: linear-gradient(rgba(0, 11, 44, 0.8), rgba(0, 11, 44, 0.8)), 
-                url('data:image/png;base64,{encoded_string}');
+                url('data:image/jpg;base64,{encoded_string}');
     background-size: cover;
     }}
     [data-testid="stHeader"] {{
