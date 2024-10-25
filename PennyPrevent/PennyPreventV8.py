@@ -37,7 +37,7 @@ def add_bg_from_local(image_file):
     sl.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Chamando a função para adicionar o fundo
-add_bg_from_local('./Fotos/gui.jpg')
+add_bg_from_local('bg.jpg')
 
 # mudando estilo da página
 
