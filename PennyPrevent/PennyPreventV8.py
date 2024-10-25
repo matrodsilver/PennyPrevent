@@ -297,7 +297,7 @@ def CarregarDados():
 
     else:
         sl.markdown("""Rodando arquivo de exemplo (default)""")
-        return pd.read_csv(r"./PennyPrevent.csv")
+        return pd.read_csv(r"./PennyPrevent/PennyPrevent.csv")
 
 
 # ** Define as colunas a serem desconsideradas por input do usuário **
