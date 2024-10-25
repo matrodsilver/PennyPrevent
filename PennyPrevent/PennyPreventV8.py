@@ -11,11 +11,11 @@ import base64
 import plotly.graph_objects as go
 
 # caminho das fotos
-gui = r"./Fotos/gui.jpg"
-bizon = r"./Fotos/bizon.jpg"
-couto = r"./Fotos/couto.jpg"
-mat = r"./Fotos/mat.jpg"
-pp = r"./Fotos/PennyPreventLogo.png"
+gui = r"./PennyPrevent/Fotos/gui.jpg"
+bizon = r"./PennyPrevent/Fotos/bizon.jpg"
+couto = r"./PennyPrevent/Fotos/couto.jpg"
+mat = r"./PennyPrevent/Fotos/mat.jpg"
+pp = r"./PennyPrevent/Fotos/PennyPreventLogo.png"
 
 sl.set_page_config(layout="wide", page_title="Penny Prevent", page_icon=pp)
 
