@@ -558,12 +558,11 @@ with tab_equipe:
             sl.image(gui, use_column_width=True)
             sl.markdown("<br>", unsafe_allow_html=True)
         
-        with col2:
+        with col1:
             sl.markdown('''
-                <br>
                 <div style="font-weight: bold; font-size: 20px">Guilherme Renovato</div>
                 <div style="background-color: #82c9ff; color: white; width: 180px; height: 3px;"></div>
-                <div>Programador e criação da estrutura</div>
+                <div>Programador e criação da estrutura</div> <br>
                 <style>
                 .link-button {
                     font-weight: bold;
@@ -577,11 +576,13 @@ with tab_equipe:
                     text-shadow: 0 0 10px #00FFFF;
                 }
                 </style>
-                <a href="https://www.linkedin.com/in/guilherme-renovato-94389629a/" class="link-button">Checar Linkedin</a>
-                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>''', unsafe_allow_html=True)
+                <a href="https://www.linkedin.com/in/guilherme-renovato-94389629a/" class="link-button">Linkedin</a> <br>
+                <a href="https://github.com/RENOVATINHO" class="link-button">Github</a> <br>
+                <a href="mailto:guilhermerenovs@gmail.com" class="link-button">guilhermerenovs@gmail.com</a> <br>           
+                <br><br><br><br><br><br><br>''', unsafe_allow_html=True)
                         
 
-        with col1:  
+        with col2:  
             sl.image(bizon, use_column_width=True)
             sl.markdown('''<br>''', unsafe_allow_html=True)
 
@@ -589,26 +590,29 @@ with tab_equipe:
             sl.markdown('''
                 <div style="font-weight: bold; font-size: 20px">Gustavo Bizon</div>
                 <div style="background-color: #82c9ff; color: white; width: 124px; height: 3px;"></div>
-                <div>Programador, criação do site e da estrutura</div>
-                <a href="https://www.linkedin.com/in/gustavo-bizon-engenheiro-mecatrônico" class="link-button">Checar Linkedin</a>
-                <br><br><br><br><br>''', unsafe_allow_html=True)
+                <div>Programador, criação do site e da estrutura</div> <br>
+                <a href="https://www.linkedin.com/in/gustavo-bizon-engenheiro-mecatrônico" class="link-button">Linkedin</a> <br>
+                <a href="https://github.com/gustavobizon" class="link-button">Github</a> <br>
+                <a href="mailto:gustavobizonj@gmail.com" class="link-button">gustavobizonj@gmail.com</a> <br>
+                <br><br><br><br><br><br><br>''', unsafe_allow_html=True)
             
 
         with col3:  
             sl.image(couto, use_column_width=True)
             sl.markdown('''<br>''', unsafe_allow_html=True)
 
-        with col4:
+        with col3:
             sl.markdown('''
-                <br>
                 <div style="font-weight: bold; font-size: 20px">Gustavo Couto</div>
                 <div style="background-color: #82c9ff; color: white; width: 125px; height: 3px;"></div>
-                <div>Programador e criação da estrutura</div>
-                <a href="https://www.linkedin.com/in/gustavo-couto-9341bb268/" class="link-button">Checar Linkedin</a>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br>''', unsafe_allow_html=True)
+                <div>Programador e criação da estrutura</div> <br>
+                <a href="https://www.linkedin.com/in/gustavo-couto-9341bb268/" class="link-button">Linkedin</a> <br>
+                <a href="https://github.com/GustavoCouto14" class="link-button">Github</a> <br>
+                <a href="mailto:gucouto14@gmail.com" class="link-button">gucouto14@gmail.com</a> <br>
+                <br><br><br><br><br><br><br>''', unsafe_allow_html=True)
             
 
-        with col3:  
+        with col4:  
             sl.image(mat, use_column_width=True)
             sl.markdown('''<br>''', unsafe_allow_html=True)
 
@@ -616,6 +620,9 @@ with tab_equipe:
             sl.markdown('''
                 <div style="font-weight: bold; font-size: 20px">Matheus Rodrigues</div>
                 <div style="background-color: #82c9ff; color: white; width: 168px; height: 3px;"></div>
-                <div>Programador, criação do site e da estrutura</div>
-                <a href="https://www.linkedin.com/in/matheus-rodrigues-da-silva-30b568267/" class="link-button">Checar Linkedin</a>
-                <br><br><br><br><br>''', unsafe_allow_html=True)
+                <div>Programador, criação do site e da estrutura</div> <br>
+                <a href="https://www.linkedin.com/in/matheus-rodrigues-da-silva-30b568267/" class="link-button">Linkedin</a> <br>
+                <a href="https://github.com/matrodsilver" class="link-button">Github</a> <br>
+                <a href="https://matrodsilver.github.io/WebPortfolioMatheusS/" class="link-button">Portifolio</a> <br>
+                <a href="mailto:matrodsilva@gmail.com" class="link-button">Matrodsilva@gmail.com</a>
+                <br><br><br><br><br><br><br>''', unsafe_allow_html=True)
