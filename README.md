@@ -1,3 +1,1 @@
-Repositório do projeto Penny Prevent
-
-*Site: https://penny-prevent.streamlit.app*
+Repositório do projeto [Penny Prevent](https://penny-prevent.streamlit.app)
