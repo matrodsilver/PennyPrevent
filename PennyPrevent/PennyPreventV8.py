@@ -427,7 +427,7 @@ def EnviarAnalise(info, teste, predito):
 
 # ** Retorna o valor mais atual do banco de dados em formato JSON **
 def PegarUltimosDados():
-    ultimosDados = '''https://console.firebase.google.com/u/0/project/gs-iot-5484a/database/gs-iot-5484a-default-rtdb/Dados/.json'''
+    ultimosDados = '''https://gs-iot-5484a-default-rtdb.firebaseio.com/Dados/.json'''
     
     coletado = requests.get(ultimosDados).json()
 
@@ -625,4 +625,5 @@ with tab_equipe:
                 <a href="https://matrodsilver.github.io/WebPortfolioMatheusS/" class="link-button">Portifolio</a> <br>
                 <a href="mailto:matrodsilva@gmail.com" class="link-button">Matrodsilva@gmail.com</a>
                 <br><br><br><br><br><br><br>''', unsafe_allow_html=True)
+
 
